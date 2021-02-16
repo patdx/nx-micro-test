@@ -48,7 +48,9 @@ the middleware.
 - Experiment with flexible configs, can we support binding the apps as both
   middleware OR proxied apps?
 - Experiment with dev/build modes. Nx can cache build results, can we let the
-  user control what is running in built vs dev for performance?
+  user control what is running in build vs dev for performance?
 - Can we expose a way to restart the apps?
 - Look into serving a root level next.js app that can handle the favicon, error
-  page, etc.
+  page, etc. (Note: See https://github.com/patdx/nx-micro-test/issues/2)
+- Try attaching more admin tools like queue dashboard (bull-board), etc.
+- Figure out the bundle/compile story.
