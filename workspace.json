@@ -9,12 +9,16 @@
       "targets": {
         "build": {
           "executor": "@nrwl/node:build",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/apps/express-app",
             "main": "apps/express-app/src/main.ts",
             "tsConfig": "apps/express-app/tsconfig.app.json",
-            "assets": ["apps/express-app/src/assets"]
+            "assets": [
+              "apps/express-app/src/assets"
+            ]
           },
           "configurations": {
             "production": {
@@ -32,15 +36,23 @@
         },
         "serve": {
           "executor": "@nrwl/node:execute",
-          "options": { "buildTarget": "express-app:build" }
+          "options": {
+            "buildTarget": "express-app:build"
+          }
         },
         "lint": {
           "executor": "@nrwl/linter:eslint",
-          "options": { "lintFilePatterns": ["apps/express-app/**/*.ts"] }
+          "options": {
+            "lintFilePatterns": [
+              "apps/express-app/**/*.ts"
+            ]
+          }
         },
         "test": {
           "executor": "@nrwl/jest:jest",
-          "outputs": ["coverage/apps/express-app"],
+          "outputs": [
+            "coverage/apps/express-app"
+          ],
           "options": {
             "jestConfig": "apps/express-app/jest.config.js",
             "passWithNoTests": true
@@ -55,16 +67,24 @@
       "targets": {
         "build": {
           "executor": "@nrwl/next:build",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "root": "apps/next-app",
             "outputPath": "dist/apps/next-app"
           },
-          "configurations": { "production": {} }
+          "configurations": {
+            "production": {}
+          }
         },
         "serve": {
           "executor": "@nrwl/next:server",
-          "options": { "buildTarget": "next-app:build", "dev": true, "port": 3051 },
+          "options": {
+            "buildTarget": "next-app:build",
+            "dev": true,
+            "port": 3051
+          },
           "configurations": {
             "production": {
               "buildTarget": "next-app:build:production",
@@ -74,17 +94,23 @@
         },
         "export": {
           "executor": "@nrwl/next:export",
-          "options": { "buildTarget": "next-app:build:production" }
+          "options": {
+            "buildTarget": "next-app:build:production"
+          }
         },
         "lint": {
           "executor": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": ["apps/next-app/**/*.{ts,tsx,js,jsx}"]
+            "lintFilePatterns": [
+              "apps/next-app/**/*.{ts,tsx,js,jsx}"
+            ]
           }
         },
         "test": {
           "executor": "@nrwl/jest:jest",
-          "outputs": ["coverage/apps/next-app"],
+          "outputs": [
+            "coverage/apps/next-app"
+          ],
           "options": {
             "jestConfig": "apps/next-app/jest.config.js",
             "passWithNoTests": true
@@ -105,12 +131,18 @@
             "devServerTarget": "next-app:serve"
           },
           "configurations": {
-            "production": { "devServerTarget": "next-app:serve:production" }
+            "production": {
+              "devServerTarget": "next-app:serve:production"
+            }
           }
         },
         "lint": {
           "executor": "@nrwl/linter:eslint",
-          "options": { "lintFilePatterns": ["apps/next-app-e2e/**/*.{js,ts}"] }
+          "options": {
+            "lintFilePatterns": [
+              "apps/next-app-e2e/**/*.{js,ts}"
+            ]
+          }
         }
       }
     },
@@ -122,12 +154,16 @@
       "targets": {
         "build": {
           "executor": "@nrwl/node:build",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/apps/micro-app",
             "main": "apps/micro-app/src/main.ts",
             "tsConfig": "apps/micro-app/tsconfig.app.json",
-            "assets": ["apps/micro-app/src/assets"]
+            "assets": [
+              "apps/micro-app/src/assets"
+            ]
           },
           "configurations": {
             "production": {
@@ -145,15 +181,23 @@
         },
         "serve": {
           "executor": "@nrwl/node:execute",
-          "options": { "buildTarget": "micro-app:build" }
+          "options": {
+            "buildTarget": "micro-app:build"
+          }
         },
         "lint": {
           "executor": "@nrwl/linter:eslint",
-          "options": { "lintFilePatterns": ["apps/micro-app/**/*.ts"] }
+          "options": {
+            "lintFilePatterns": [
+              "apps/micro-app/**/*.ts"
+            ]
+          }
         },
         "test": {
           "executor": "@nrwl/jest:jest",
-          "outputs": ["coverage/apps/micro-app"],
+          "outputs": [
+            "coverage/apps/micro-app"
+          ],
           "options": {
             "jestConfig": "apps/micro-app/jest.config.js",
             "passWithNoTests": true
@@ -168,11 +212,17 @@
       "targets": {
         "lint": {
           "executor": "@nrwl/linter:eslint",
-          "options": { "lintFilePatterns": ["libs/config/**/*.ts"] }
+          "options": {
+            "lintFilePatterns": [
+              "libs/config/**/*.ts"
+            ]
+          }
         },
         "test": {
           "executor": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/config"],
+          "outputs": [
+            "coverage/libs/config"
+          ],
           "options": {
             "jestConfig": "libs/config/jest.config.js",
             "passWithNoTests": true
@@ -181,10 +231,21 @@
       }
     }
   },
-  "cli": { "defaultCollection": "@nrwl/express" },
+  "cli": {
+    "defaultCollection": "@nrwl/express"
+  },
   "defaultProject": "express-app",
   "generators": {
-    "@nrwl/react": { "application": { "babel": true } },
-    "@nrwl/next": { "application": { "style": "css", "linter": "eslint" } }
+    "@nrwl/react": {
+      "application": {
+        "babel": true
+      }
+    },
+    "@nrwl/next": {
+      "application": {
+        "style": "css",
+        "linter": "eslint"
+      }
+    }
   }
 }

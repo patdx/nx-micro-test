@@ -12,7 +12,7 @@ app.get('/*', (req, res) => {
   res.send({ message: 'Welcome to express-app!' });
 });
 
-const port = process.env.port || CONFIG["express-app"];
+const port = process.env.port || CONFIG['express-app'];
 const server = app.listen(port, () => {
   console.log(`Listening at http://localhost:${port}/api`);
 });

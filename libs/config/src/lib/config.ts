@@ -5,5 +5,5 @@ export function config(): string {
 export const CONFIG = {
   'micro-app': 3000,
   'express-app': 3050,
-  'next-app': 3051
-} as const
+  'next-app': 3051,
+} as const;
