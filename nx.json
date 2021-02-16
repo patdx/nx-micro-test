@@ -15,5 +15,11 @@
       "options": { "cacheableOperations": ["build", "lint", "test", "e2e"] }
     }
   },
-  "projects": { "express-app": { "tags": [] } }
+  "projects": {
+    "express-app": { "tags": [] },
+    "next-app": { "tags": [] },
+    "next-app-e2e": { "tags": [], "implicitDependencies": ["next-app"] },
+    "micro-app": { "tags": [] },
+    "config": { "tags": [] }
+  }
 }
