@@ -22,7 +22,7 @@ devDependencies:
   '@babel/preset-env': 7.12.16_@babel+core@7.12.16
   '@babel/preset-react': 7.12.13_@babel+core@7.12.16
   '@babel/preset-typescript': 7.12.16_@babel+core@7.12.16
-  '@nrwl/cli': 11.2.12
+  '@nrwl/cli': 11.3.0
   '@nrwl/cypress': 11.2.12_cypress@6.5.0+typescript@4.1.5
   '@nrwl/eslint-plugin-nx': 11.2.12_dd080f2a8fb4d0ac76cfb4c7062ee728
   '@nrwl/express': 11.2.12_typescript@4.1.5
@@ -2412,6 +2412,17 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-/3c4gxS5tKjNNNgdi8BQ/1fwRkc3HhnkvbiRn9DBRZABpE5PaxOMwCvizcqQYYQQOu1Gf704nBfpI3DaDzEWEQ==
+  /@nrwl/cli/11.3.0:
+    dependencies:
+      '@nrwl/tao': 11.3.0
+      chalk: 4.1.0
+      tmp: 0.0.33
+      yargs: 15.4.1
+      yargs-parser: 20.0.0
+    dev: true
+    hasBin: true
+    resolution:
+      integrity: sha512-yT5xWLS/lmSGvnwRXIEy6U/OzVnD+2lpUKAJFfEqI6y9RNQj6FIGvZqQuxcLo8YrNtLz8VRsm24hPsueSxtmeQ==
   /@nrwl/cypress/11.2.12_70f83c7c6ddb3f7ac838f188c1ebdd47:
     dependencies:
       '@cypress/webpack-preprocessor': 4.1.5_webpack@4.42.0
@@ -2596,6 +2607,23 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-begYux5B080UaRMxGwBB5kixDcTMIEliPm7/1mIQ4DgMTunetN5pXOlZoEiYovVPByVjgLBzwzZfNkGvj7mSzg==
+  /@nrwl/tao/11.3.0:
+    dependencies:
+      chalk: 4.1.0
+      fs-extra: 7.0.1
+      inquirer: 6.5.2
+      minimist: 1.2.5
+      rxjs: 6.6.3
+      rxjs-for-await: 0.0.2_rxjs@6.6.3
+      semver: 6.3.0
+      strip-json-comments: 2.0.1
+      tmp: 0.0.33
+      tslib: 2.1.0
+      yargs-parser: 20.0.0
+    dev: true
+    hasBin: true
+    resolution:
+      integrity: sha512-306Dq8gBPdCQhoHKUSz5XpRQoQwXQNhUWPRs9G+8srOwxdvydXkQijUK5FQqEPOYxRx8K4Xx8Ffcb5k7m9+AHA==
   /@nrwl/web/11.2.12_cypress@6.5.0+typescript@4.1.5:
     dependencies:
       '@angular-devkit/architect': 0.1100.7
@@ -14353,7 +14381,7 @@ specifiers:
   '@babel/preset-env': 7.12.16
   '@babel/preset-react': 7.12.13
   '@babel/preset-typescript': 7.12.16
-  '@nrwl/cli': 11.2.12
+  '@nrwl/cli': 11.3.0
   '@nrwl/cypress': 11.2.12
   '@nrwl/eslint-plugin-nx': 11.2.12
   '@nrwl/express': 11.2.12
