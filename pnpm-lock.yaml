@@ -32,7 +32,7 @@ devDependencies:
   '@nrwl/react': 11.2.12_db5056dd011b3b365b454072f368e38c
   '@nrwl/tao': 11.2.12
   '@nrwl/web': 11.2.12_cypress@6.5.0+typescript@4.1.5
-  '@nrwl/workspace': 11.2.12_prettier@2.2.1
+  '@nrwl/workspace': 11.3.0_prettier@2.2.1
   '@testing-library/react': 11.2.5_react-dom@17.0.1+react@17.0.1
   '@types/express': 4.17.11
   '@types/jest': 26.0.20
@@ -2412,6 +2412,17 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-/3c4gxS5tKjNNNgdi8BQ/1fwRkc3HhnkvbiRn9DBRZABpE5PaxOMwCvizcqQYYQQOu1Gf704nBfpI3DaDzEWEQ==
+  /@nrwl/cli/11.3.0:
+    dependencies:
+      '@nrwl/tao': 11.3.0
+      chalk: 4.1.0
+      tmp: 0.0.33
+      yargs: 15.4.1
+      yargs-parser: 20.0.0
+    dev: true
+    hasBin: true
+    resolution:
+      integrity: sha512-yT5xWLS/lmSGvnwRXIEy6U/OzVnD+2lpUKAJFfEqI6y9RNQj6FIGvZqQuxcLo8YrNtLz8VRsm24hPsueSxtmeQ==
   /@nrwl/cypress/11.2.12_70f83c7c6ddb3f7ac838f188c1ebdd47:
     dependencies:
       '@cypress/webpack-preprocessor': 4.1.5_webpack@4.42.0
@@ -2463,6 +2474,17 @@ packages:
       tslib: 2.1.0
     resolution:
       integrity: sha512-zc8Otk2PmtE5YJ+poUePVonEIAMKE0jo+Iw4Pyx/YMWZ/IzKQLp2/EZgqNqLZeXrtfBc2iqdbnaKQRUADb4s/Q==
+  /@nrwl/devkit/11.3.0:
+    dependencies:
+      '@nrwl/tao': 11.3.0
+      ejs: 3.1.6
+      ignore: 5.1.8
+      semver: 6.3.0
+      strip-json-comments: 2.0.1
+      tslib: 2.1.0
+    dev: true
+    resolution:
+      integrity: sha512-+01nunqs9PZdKK/iERizM9jZ0p+5W3a9+tuA4eT7zIsl9mYaPhxq2cSF3pDWqFZwpkFuxeK4MoLIpFXoP4ZGnA==
   /@nrwl/eslint-plugin-nx/11.2.12_dd080f2a8fb4d0ac76cfb4c7062ee728:
     dependencies:
       '@nrwl/devkit': 11.2.12
@@ -2497,6 +2519,16 @@ packages:
       tslib: 2.1.0
     resolution:
       integrity: sha512-VxOy1prUho01XajIJOtR13KzpwkCZAcWKNJEgDMH7Ed7ZSRZLKNiOCVD6pykC/L9EOOXGMWpOcK8t4rg8BWSWA==
+  /@nrwl/jest/11.3.0:
+    dependencies:
+      '@nrwl/devkit': 11.3.0
+      jest-resolve: 26.6.2
+      rxjs: 6.6.3
+      strip-json-comments: 2.0.1
+      tslib: 2.1.0
+    dev: true
+    resolution:
+      integrity: sha512-U9BN6ZLmpch1641cv8lk/A0mQj+1uAd0iY5AmrK8bUnaZvnAc6UqOVtJ7+kcrTlhffq50xy1i8mPPYpPr0xgmA==
   /@nrwl/linter/11.2.12:
     dependencies:
       '@nrwl/devkit': 11.2.12
@@ -2505,6 +2537,15 @@ packages:
       tslib: 2.1.0
     resolution:
       integrity: sha512-tehygt6vKAu35jgS5dPvAIVhgGw+7Nt8rMOVmehoMXZ+nWP00texD9cuFXCrqZpWU9hcv4xJTR+vr28eUJPcew==
+  /@nrwl/linter/11.3.0:
+    dependencies:
+      '@nrwl/devkit': 11.3.0
+      glob: 7.1.4
+      minimatch: 3.0.4
+      tslib: 2.1.0
+    dev: true
+    resolution:
+      integrity: sha512-fmC/HAZ99MmSdYnvGSv0GYtN6DXOpE9tb/d7NUYYxnrSTfxiG9Ava4EeQPc9FoC+jgCLN55pCEK9Th1PE5bs2Q==
   /@nrwl/next/11.2.12_017fca87f7139da7047295db1ff3f2a3:
     dependencies:
       '@angular-devkit/core': 11.0.7
@@ -2596,6 +2637,23 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-begYux5B080UaRMxGwBB5kixDcTMIEliPm7/1mIQ4DgMTunetN5pXOlZoEiYovVPByVjgLBzwzZfNkGvj7mSzg==
+  /@nrwl/tao/11.3.0:
+    dependencies:
+      chalk: 4.1.0
+      fs-extra: 7.0.1
+      inquirer: 6.5.2
+      minimist: 1.2.5
+      rxjs: 6.6.3
+      rxjs-for-await: 0.0.2_rxjs@6.6.3
+      semver: 6.3.0
+      strip-json-comments: 2.0.1
+      tmp: 0.0.33
+      tslib: 2.1.0
+      yargs-parser: 20.0.0
+    dev: true
+    hasBin: true
+    resolution:
+      integrity: sha512-306Dq8gBPdCQhoHKUSz5XpRQoQwXQNhUWPRs9G+8srOwxdvydXkQijUK5FQqEPOYxRx8K4Xx8Ffcb5k7m9+AHA==
   /@nrwl/web/11.2.12_cypress@6.5.0+typescript@4.1.5:
     dependencies:
       '@angular-devkit/architect': 0.1100.7
@@ -2696,12 +2754,12 @@ packages:
       typescript: '*'
     resolution:
       integrity: sha512-GCsWkXWk8hEMrSHsFGbUA4JPY9Ke4nbstGYyzuWwwZFa79Pwn+uLPNKi5IfHaGRnTGeRbGMvRGFoM/qaXjSiRQ==
-  /@nrwl/workspace/11.2.12_prettier@2.2.1:
+  /@nrwl/workspace/11.3.0_prettier@2.2.1:
     dependencies:
-      '@nrwl/cli': 11.2.12
-      '@nrwl/devkit': 11.2.12
-      '@nrwl/jest': 11.2.12
-      '@nrwl/linter': 11.2.12
+      '@nrwl/cli': 11.3.0
+      '@nrwl/devkit': 11.3.0
+      '@nrwl/jest': 11.3.0
+      '@nrwl/linter': 11.3.0
       axios: 0.21.1
       chalk: 4.1.0
       cosmiconfig: 4.0.0
@@ -2727,7 +2785,7 @@ packages:
     peerDependencies:
       prettier: ^2.0.4
     resolution:
-      integrity: sha512-P5sil2kokVtPaJwqIsKZ9CQdZ8VKYRiZ/J76a0kRFCFTw30FJP4URijPEj25BEvt2pfEgTjUaoxKe/vrSjKG8w==
+      integrity: sha512-fBD27ymPZ7XHEivvbeVhYKzfmnx9YMBol8kMPU5besoYUZe9KiqJjAnSQ+lPK7DBAATMJFv9RRv6GbQpm5J2aQ==
   /@opencensus/core/0.0.8:
     dependencies:
       continuation-local-storage: 3.2.1
@@ -14364,7 +14422,7 @@ specifiers:
   '@nrwl/react': 11.2.12
   '@nrwl/tao': 11.2.12
   '@nrwl/web': 11.2.12
-  '@nrwl/workspace': 11.2.12
+  '@nrwl/workspace': 11.3.0
   '@testing-library/react': 11.2.5
   '@types/express': 4.17.11
   '@types/jest': 26.0.20
