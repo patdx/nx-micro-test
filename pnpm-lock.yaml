@@ -24,7 +24,7 @@ devDependencies:
   '@babel/preset-typescript': 7.13.0_@babel+core@7.13.1
   '@nrwl/cli': 11.3.2
   '@nrwl/cypress': 11.3.2_b40d7233c32ec5aa96f78590bc6d7928
-  '@nrwl/eslint-plugin-nx': 11.3.1_dd080f2a8fb4d0ac76cfb4c7062ee728
+  '@nrwl/eslint-plugin-nx': 11.3.2_dd080f2a8fb4d0ac76cfb4c7062ee728
   '@nrwl/express': 11.3.1_typescript@4.1.5
   '@nrwl/jest': 11.3.1
   '@nrwl/linter': 11.3.1
@@ -2566,10 +2566,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-LEKv76d0Ni6jp9mAv/i5bS9x2cGMM9kht+hUdJLkk1Gl0jfPN3q6t8eegu7Bc0b+dQQG1sNzgU3GlWwTmgLwiQ==
-  /@nrwl/eslint-plugin-nx/11.3.1_dd080f2a8fb4d0ac76cfb4c7062ee728:
+  /@nrwl/eslint-plugin-nx/11.3.2_dd080f2a8fb4d0ac76cfb4c7062ee728:
     dependencies:
-      '@nrwl/devkit': 11.3.1
-      '@typescript-eslint/experimental-utils': 4.15.1_eslint@7.20.0+typescript@4.1.5
+      '@nrwl/devkit': 11.3.2
+      '@typescript-eslint/experimental-utils': 4.15.2_eslint@7.20.0+typescript@4.1.5
       '@typescript-eslint/parser': 4.15.1_eslint@7.20.0+typescript@4.1.5
       confusing-browser-globals: 1.0.10
     dev: true
@@ -2578,7 +2578,7 @@ packages:
       eslint: '*'
       typescript: '*'
     resolution:
-      integrity: sha512-CQ29OFW1z6tHsEkspnOP1687Sbj8RiYfsjvGTE4WDzc552gnf/XUrx0eKPUK5g8kgsVb+jh7SfB071Dlh/zV5Q==
+      integrity: sha512-AKUf3ltL+bbtmS9ZT8GXsAJtjH3UsGYHJ3+V2QSeclyNqRg4PZqZUJto/cm7M0cBbSumTMuqvMiE80Qpw2+Wrg==
   /@nrwl/express/11.3.1_typescript@4.1.5:
     dependencies:
       '@angular-devkit/core': 11.2.1
@@ -3547,23 +3547,6 @@ packages:
         optional: true
     resolution:
       integrity: sha512-uiQQeu9tWl3f1+oK0yoAv9lt/KXO24iafxgQTkIYO/kitruILGx3uH+QtIAHqxFV+yIsdnJH+alel9KuE3J15Q==
-  /@typescript-eslint/experimental-utils/4.15.1_eslint@7.20.0+typescript@4.1.5:
-    dependencies:
-      '@types/json-schema': 7.0.7
-      '@typescript-eslint/scope-manager': 4.15.1
-      '@typescript-eslint/types': 4.15.1
-      '@typescript-eslint/typescript-estree': 4.15.1_typescript@4.1.5
-      eslint: 7.20.0
-      eslint-scope: 5.1.1
-      eslint-utils: 2.1.0
-    dev: true
-    engines:
-      node: ^10.12.0 || >=12.0.0
-    peerDependencies:
-      eslint: '*'
-      typescript: '*'
-    resolution:
-      integrity: sha512-9LQRmOzBRI1iOdJorr4jEnQhadxK4c9R2aEAsm7WE/7dq8wkKD1suaV0S/JucTL8QlYUPU1y2yjqg+aGC0IQBQ==
   /@typescript-eslint/experimental-utils/4.15.2_eslint@7.20.0+typescript@4.1.5:
     dependencies:
       '@types/json-schema': 7.0.7
@@ -14649,7 +14632,7 @@ specifiers:
   '@babel/preset-typescript': 7.13.0
   '@nrwl/cli': 11.3.2
   '@nrwl/cypress': 11.3.2
-  '@nrwl/eslint-plugin-nx': 11.3.1
+  '@nrwl/eslint-plugin-nx': 11.3.2
   '@nrwl/express': 11.3.1
   '@nrwl/jest': 11.3.1
   '@nrwl/linter': 11.3.1
