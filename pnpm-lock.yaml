@@ -28,7 +28,7 @@ devDependencies:
   '@nrwl/express': 11.3.2_typescript@4.1.5
   '@nrwl/jest': 11.3.2
   '@nrwl/linter': 11.3.2
-  '@nrwl/node': 11.3.1_typescript@4.1.5
+  '@nrwl/node': 11.3.2_typescript@4.1.5
   '@nrwl/react': 11.3.1_e80b57438ad4d5b1e0f6c710641da89d
   '@nrwl/tao': 11.3.2
   '@nrwl/web': 11.3.1_b40d7233c32ec5aa96f78590bc6d7928
@@ -2677,36 +2677,6 @@ packages:
       typescript: '*'
     resolution:
       integrity: sha512-VuE0oJ2Davz9OqycJtaBm4MqOJvmi0PLB8ROZ7jsEgMDghwtiPx45rlCUh+kFjlnvY+Rj7q9Eb1/gLO3djeruA==
-  /@nrwl/node/11.3.1_typescript@4.1.5:
-    dependencies:
-      '@angular-devkit/architect': 0.1102.1
-      '@angular-devkit/build-webpack': 0.1102.1_f17e7dc3686dc4072a83e169fb8b83a8
-      '@angular-devkit/core': 11.2.1
-      '@angular-devkit/schematics': 11.2.1
-      '@nrwl/devkit': 11.3.1
-      '@nrwl/jest': 11.3.1
-      '@nrwl/linter': 11.3.1
-      circular-dependency-plugin: 5.2.0_webpack@4.42.0
-      copy-webpack-plugin: 6.0.3_webpack@4.42.0
-      fork-ts-checker-webpack-plugin: 3.1.1
-      fs-extra: 7.0.1
-      glob: 7.1.4
-      license-webpack-plugin: 2.1.2
-      rxjs: 6.6.3
-      source-map-support: 0.5.16
-      tree-kill: 1.2.2
-      ts-loader: 5.4.5_typescript@4.1.5
-      tsconfig-paths-webpack-plugin: 3.2.0
-      tslib: 2.1.0
-      webpack: 4.42.0
-      webpack-dev-server: 3.11.0_webpack@4.42.0
-      webpack-merge: 4.2.1
-      webpack-node-externals: 1.7.2
-    dev: true
-    peerDependencies:
-      typescript: '*'
-    resolution:
-      integrity: sha512-gZlNXBue0XQspBOChIwcqLAfhVEEAQ/z1Yd29ClQNOq0C/+u7srRHgHeThfk5+jfR0v1uHuPlFoynFUVF3GBxg==
   /@nrwl/node/11.3.2_typescript@4.1.5:
     dependencies:
       '@angular-devkit/architect': 0.1102.1
@@ -14838,7 +14808,7 @@ specifiers:
   '@nrwl/jest': 11.3.2
   '@nrwl/linter': 11.3.2
   '@nrwl/next': 11.3.2
-  '@nrwl/node': 11.3.1
+  '@nrwl/node': 11.3.2
   '@nrwl/react': 11.3.1
   '@nrwl/tao': 11.3.2
   '@nrwl/web': 11.3.1
