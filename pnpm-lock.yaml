@@ -46,7 +46,7 @@ devDependencies:
   cypress: 6.5.0
   dotenv: 8.2.0
   eslint: 7.20.0
-  eslint-config-prettier: 8.0.0_eslint@7.20.0
+  eslint-config-prettier: 8.1.0_eslint@7.20.0
   eslint-plugin-cypress: 2.11.2_eslint@7.20.0
   jest: 26.6.3_ts-node@9.1.1
   prettier: 2.2.1
@@ -7201,7 +7201,7 @@ packages:
       source-map: 0.6.1
     resolution:
       integrity: sha512-qFcX0XJkdg+PB3xjZZG/wKSuT1PnQWx57+TVSjIMmILd2yC/6ByYElPwJnslDsuWuSAp4AwJGumarAAmJch5Kw==
-  /eslint-config-prettier/8.0.0_eslint@7.20.0:
+  /eslint-config-prettier/8.1.0_eslint@7.20.0:
     dependencies:
       eslint: 7.20.0
     dev: true
@@ -7209,7 +7209,7 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
     resolution:
-      integrity: sha512-5EaAVPsIHu+grmm5WKjxUia4yHgRrbkd8I0ffqUSwixCPMVBrbS97UnzlEY/Q7OWo584vgixefM0kJnUfo/VjA==
+      integrity: sha512-oKMhGv3ihGbCIimCAjqkdzx2Q+jthoqnXSP+d86M9tptwugycmTFdVR4IpLgq2c4SHifbwO90z2fQ8/Aio73yw==
   /eslint-import-resolver-node/0.3.4:
     dependencies:
       debug: 2.6.9
@@ -15362,7 +15362,7 @@ specifiers:
   document-register-element: 1.14.10
   dotenv: 8.2.0
   eslint: 7.20.0
-  eslint-config-prettier: 8.0.0
+  eslint-config-prettier: 8.1.0
   eslint-plugin-cypress: ^2.10.3
   express: 4.17.1
   http-proxy-middleware: ^1.0.6
