@@ -19,7 +19,7 @@ dependencies:
   wait-on: 5.2.1
 devDependencies:
   '@babel/core': 7.13.8
-  '@babel/preset-env': 7.13.8_@babel+core@7.13.8
+  '@babel/preset-env': 7.13.9_@babel+core@7.13.8
   '@babel/preset-react': 7.12.13_@babel+core@7.13.8
   '@babel/preset-typescript': 7.13.0_@babel+core@7.13.8
   '@nrwl/cli': 11.4.0
@@ -2497,7 +2497,7 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-xUeKBIIcbwxGevyWMSWZOW98W1lp7toITvVsMxSddCEQy932yYiF4fCB+CG3E/MXzFX3KbefgvCqEQ7TDoE6UQ==
-  /@babel/preset-env/7.13.8_@babel+core@7.13.8:
+  /@babel/preset-env/7.13.9_@babel+core@7.13.8:
     dependencies:
       '@babel/compat-data': 7.13.8
       '@babel/core': 7.13.8
@@ -2572,7 +2572,7 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
     resolution:
-      integrity: sha512-Sso1xOpV4S3ofnxW2DsWTE5ziRk62jEAKLGuQ+EJHC+YHTbFG38QUTixO3JVa1cYET9gkJhO1pMu+/+2dDhKvw==
+      integrity: sha512-mcsHUlh2rIhViqMG823JpscLMesRt3QbMsv1+jhopXEb3W2wXvQ9QoiOlZI9ZbR3XqPtaFpZwEZKYqGJnGMZTQ==
   /@babel/preset-env/7.9.6_@babel+core@7.9.6:
     dependencies:
       '@babel/compat-data': 7.13.8
@@ -15434,7 +15434,7 @@ packages:
       integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 specifiers:
   '@babel/core': 7.13.8
-  '@babel/preset-env': 7.13.8
+  '@babel/preset-env': 7.13.9
   '@babel/preset-react': 7.12.13
   '@babel/preset-typescript': 7.13.0
   '@nrwl/cli': 11.4.0
