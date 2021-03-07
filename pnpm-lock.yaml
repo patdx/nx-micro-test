@@ -38,7 +38,7 @@ devDependencies:
   '@types/jest': 26.0.20
   '@types/micro': 7.3.3
   '@types/node': 14.14.32
-  '@types/react': 17.0.2
+  '@types/react': 17.0.3
   '@types/react-dom': 17.0.1
   '@typescript-eslint/eslint-plugin': 4.16.1_4fe32a7126aebc440d3400f14be2b917
   '@typescript-eslint/parser': 4.16.1_eslint@7.21.0+typescript@4.2.2
@@ -4186,11 +4186,23 @@ packages:
     dev: true
     resolution:
       integrity: sha512-Xt40xQsrkdvjn1EyWe1Bc0dJLcil/9x2vAuW7ya+PuQip4UYUaXyhzWmAbwRsdMgwOFHpfp7/FFZebDU6Y8VHA==
+  /@types/react/17.0.3:
+    dependencies:
+      '@types/prop-types': 15.7.3
+      '@types/scheduler': 0.16.1
+      csstype: 3.0.6
+    dev: true
+    resolution:
+      integrity: sha512-wYOUxIgs2HZZ0ACNiIayItyluADNbONl7kt8lkLjVK8IitMH5QMyAh75Fwhmo37r1m7L2JaFj03sIfxBVDvRAg==
   /@types/resolve/0.0.8:
     dependencies:
       '@types/node': 14.14.31
     resolution:
       integrity: sha512-auApPaJf3NPfe18hSoJkp8EbZzer2ISk7o8mCC3M9he/a04+gbMF97NkpD2S8riMGvm4BMRI59/SZQSaLTKpsQ==
+  /@types/scheduler/0.16.1:
+    dev: true
+    resolution:
+      integrity: sha512-EaCxbanVeyxDRTQBkdLb3Bvl/HK7PBK6UJjsSixB0iHKoWxE5uu2Q/DgtpOhPIojN0Zl1whvOd7PoHs2P0s5eA==
   /@types/serve-static/1.13.9:
     dependencies:
       '@types/mime': 1.3.2
@@ -15218,7 +15230,7 @@ specifiers:
   '@types/micro': ^7.3.3
   '@types/node': 14.14.32
   '@types/polka': ^0.5.2
-  '@types/react': 17.0.2
+  '@types/react': 17.0.3
   '@types/react-dom': 17.0.1
   '@typescript-eslint/eslint-plugin': 4.16.1
   '@typescript-eslint/parser': 4.16.1
