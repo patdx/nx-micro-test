@@ -22,7 +22,7 @@ devDependencies:
   '@babel/preset-env': 7.13.10_@babel+core@7.13.10
   '@babel/preset-react': 7.12.13_@babel+core@7.13.10
   '@babel/preset-typescript': 7.13.0_@babel+core@7.13.10
-  '@nrwl/cli': 11.4.0
+  '@nrwl/cli': 11.5.1
   '@nrwl/cypress': 11.4.0_6ae3e74e0eeb01292b6305e675733a08
   '@nrwl/eslint-plugin-nx': 11.4.0_06d3bfee4a357c6ac6f26d5fba2e3f0d
   '@nrwl/express': 11.4.0_typescript@4.2.2
@@ -3327,6 +3327,17 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-iOWnQjeEHDIwhXW+7O9SsE33VkZD7EBB2/93WGebU0ZV0r3yQXA+44ZkqW4fwJHsfE9KijaOCtVUmRe6nFhTLQ==
+  /@nrwl/cli/11.5.1:
+    dependencies:
+      '@nrwl/tao': 11.5.1
+      chalk: 4.1.0
+      tmp: 0.0.33
+      yargs: 15.4.1
+      yargs-parser: 20.0.0
+    dev: true
+    hasBin: true
+    resolution:
+      integrity: sha512-xQNKOSkqoPUP02/d2k8VOfDwqORFy4abNkdCehlZsxkb0sNCPttuuPSnu0tsVNyblQg62VIz2sPul7KXNpyIsg==
   /@nrwl/cypress/11.4.0_6ae3e74e0eeb01292b6305e675733a08:
     dependencies:
       '@cypress/webpack-preprocessor': 4.1.5
@@ -3535,6 +3546,23 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-vQY/xzfAsdCxjXpz2Pob9HdE5HNrfnWbVqdH1z6yC2BdXXB7i3q0WTW167jlBq9ObMfKso+SnkCqbpTDXp1zqw==
+  /@nrwl/tao/11.5.1:
+    dependencies:
+      chalk: 4.1.0
+      fs-extra: 7.0.1
+      inquirer: 6.5.2
+      minimist: 1.2.5
+      rxjs: 6.6.3
+      rxjs-for-await: 0.0.2_rxjs@6.6.3
+      semver: 6.3.0
+      strip-json-comments: 2.0.1
+      tmp: 0.0.33
+      tslib: 2.1.0
+      yargs-parser: 20.0.0
+    dev: true
+    hasBin: true
+    resolution:
+      integrity: sha512-RXQTVDT699vXaRmz5tIKDG/6gY9FfyxRYqS9wVL9B9Qp9ayIRWs2EfYBLww9Wq4irLmRsO2+UoUOLfk6346V9w==
   /@nrwl/web/11.4.0_6ae3e74e0eeb01292b6305e675733a08:
     dependencies:
       '@babel/core': 7.9.6
@@ -15248,7 +15276,7 @@ specifiers:
   '@babel/preset-env': 7.13.10
   '@babel/preset-react': 7.12.13
   '@babel/preset-typescript': 7.13.0
-  '@nrwl/cli': 11.4.0
+  '@nrwl/cli': 11.5.1
   '@nrwl/cypress': 11.4.0
   '@nrwl/eslint-plugin-nx': 11.4.0
   '@nrwl/express': 11.4.0
