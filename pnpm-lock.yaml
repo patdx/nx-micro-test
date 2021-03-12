@@ -30,7 +30,7 @@ devDependencies:
   '@nrwl/linter': 11.5.1
   '@nrwl/node': 11.5.1_typescript@4.2.2
   '@nrwl/react': 11.5.1_b4363ade00109802f98cda2cbdec26d8
-  '@nrwl/tao': 11.4.0
+  '@nrwl/tao': 11.5.1
   '@nrwl/web': 11.4.0_6ae3e74e0eeb01292b6305e675733a08
   '@nrwl/workspace': 11.4.0_prettier@2.2.1
   '@testing-library/react': 11.2.5_react-dom@17.0.1+react@17.0.1
@@ -14613,7 +14613,7 @@ specifiers:
   '@nrwl/next': 11.5.1
   '@nrwl/node': 11.5.1
   '@nrwl/react': 11.5.1
-  '@nrwl/tao': 11.4.0
+  '@nrwl/tao': 11.5.1
   '@nrwl/web': 11.4.0
   '@nrwl/workspace': 11.4.0
   '@testing-library/react': 11.2.5
