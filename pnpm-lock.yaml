@@ -1,5 +1,5 @@
 dependencies:
-  '@nrwl/next': 11.5.1_e80a7af2e04bc2aa9685b4f2b7731d2d
+  '@nrwl/next': 11.5.1_66b09e403f1cc6a5a4aebdaefa328220
   '@types/lodash': 4.14.168
   '@types/polka': 0.5.2
   core-js: 3.9.0
@@ -10,7 +10,7 @@ dependencies:
   micri: 4.3.0
   micro: 9.3.4
   micro-fork: 3.0.0
-  next: 10.0.8_24b12e544cf6ca996debdbfad8b93c93
+  next: 10.0.9_24b12e544cf6ca996debdbfad8b93c93
   pm2: 4.5.4
   polka: 0.5.2
   react: 17.0.1
@@ -2054,7 +2054,7 @@ packages:
   /@babel/types/7.8.3:
     dependencies:
       esutils: 2.0.3
-      lodash: 4.17.20
+      lodash: 4.17.21
       to-fast-properties: 2.0.0
     dev: false
     resolution:
@@ -2385,15 +2385,15 @@ packages:
       node: '>= 10.14.2'
     resolution:
       integrity: sha512-fC6QCp7Sc5sX6g8Tvbmj4XUTbyrik0akgRy03yjXbQaBWWNWGE7SGtJk98m0N8nzegD/7SggrUlivxo5ax4KWQ==
-  /@next/env/10.0.8:
+  /@next/env/10.0.9:
     dev: false
     resolution:
-      integrity: sha512-vWdxAHD6gJn52tN5bxj1VoRgu5lNtRPc/HyYf7V014k2GZ9eKhqoFQGSSMNGHB7WgdUxLVw75+o9Ek9ClOOAjw==
-  /@next/polyfill-module/10.0.8:
+      integrity: sha512-MERX3DY5u0Ed29eAsXeFBCZlFAGBtmjf7+Nht0hfgB25MPKKkIbC/0MRPcX/PQcAgLHsAHO6ay1u9xKzR4Vzjw==
+  /@next/polyfill-module/10.0.9:
     dev: false
     resolution:
-      integrity: sha512-JCUGB4/SKQ4LXniv7LKGrpW+W2DGH/CLkrgXgSo/Ze+EJdMDLxC/VFhiuW+TgAaAWLE4gryoswlZBNyHtkPGQA==
-  /@next/react-dev-overlay/10.0.8_react-dom@17.0.1+react@17.0.1:
+      integrity: sha512-kPOP6ku/e8zdrK8hwxOrjUrPLcdDEj12huLHVz+DZU+20q6VlhMOtR8aKHW1460L4LoLE/DAa7YyIuxtArhDRg==
+  /@next/react-dev-overlay/10.0.9_react-dom@17.0.1+react@17.0.1:
     dependencies:
       '@babel/code-frame': 7.12.11
       anser: 1.4.9
@@ -2413,8 +2413,8 @@ packages:
       react: ^16.9.0 || ^17
       react-dom: ^16.9.0 || ^17
     resolution:
-      integrity: sha512-ygVsvkzYTYIuME+dUUSjCxbNjrJ+Up9Y+CrWEmSSk6HuxajUvrB9vN6RT+PeAzEOQ5er1sWxmVHVdPknQPVWyQ==
-  /@next/react-refresh-utils/10.0.8_react-refresh@0.8.3:
+      integrity: sha512-JsSh2Y004MEuPYqBD9eTl4PVZIjSzSy2GcD7MrW/gQcExYNpeMIJAbh8/OcyO1t+OnQeIHF5s/xTMsDHBGNcew==
+  /@next/react-refresh-utils/10.0.9_react-refresh@0.8.3:
     dependencies:
       react-refresh: 0.8.3
     dev: false
@@ -2425,7 +2425,7 @@ packages:
       webpack:
         optional: true
     resolution:
-      integrity: sha512-ZMO77Xs2ioGV/nZB4GRDHgsNT2jhOp+cZIh6c7wf0xw9o/1KoTWN8nxWzwU/laAtkoSS+E6YdhuR4Mw3Ar3CSg==
+      integrity: sha512-LSoKnM+fI9MHHew+mBg1w2e4/gjwPQsI+mDTzmfwdBwje+j9U2Int6XOZftMqBPXSlL04vjC9SRBkp0+3h8cNA==
   /@nodelib/fs.scandir/2.1.4:
     dependencies:
       '@nodelib/fs.stat': 2.0.4
@@ -2609,7 +2609,7 @@ packages:
       tslib: 2.1.0
     resolution:
       integrity: sha512-zGZSs9VJF3CIbnaOgTINtHPYhEAHZnhlqK34n5vJu4xEFuus+f9piwQMNXOfm6EqlgLBw+qbtuCbsOTuDRrp3g==
-  /@nrwl/next/11.5.1_e80a7af2e04bc2aa9685b4f2b7731d2d:
+  /@nrwl/next/11.5.1_66b09e403f1cc6a5a4aebdaefa328220:
     dependencies:
       '@babel/plugin-proposal-decorators': 7.8.3_@babel+core@7.13.10
       '@nrwl/cypress': 11.5.1_6ae3e74e0eeb01292b6305e675733a08
@@ -2622,7 +2622,7 @@ packages:
       chalk: 4.1.0
       copy-webpack-plugin: 6.0.3
       fs-extra: 7.0.1
-      next: 10.0.8_24b12e544cf6ca996debdbfad8b93c93
+      next: 10.0.9_24b12e544cf6ca996debdbfad8b93c93
       url-loader: 3.0.0
     dev: false
     peerDependencies:
@@ -4698,8 +4698,8 @@ packages:
       integrity: sha512-Z942RysHXmJrhqk88FmKBVq/v5tqmSkDz7p54G/MGyjMnCFFnC79XWNbg+Vta8W6Wb2qtSZTSxIGkJrRpCFEiA==
   /browserslist/4.16.1:
     dependencies:
-      caniuse-lite: 1.0.30001189
-      colorette: 1.2.1
+      caniuse-lite: 1.0.30001198
+      colorette: 1.2.2
       electron-to-chromium: 1.3.669
       escalade: 3.1.1
       node-releases: 1.1.70
@@ -4936,10 +4936,6 @@ packages:
       lodash.uniq: 4.5.0
     resolution:
       integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==
-  /caniuse-lite/1.0.30001189:
-    dev: false
-    resolution:
-      integrity: sha512-BSfxClP/UWCD0RX1h1L+vLDexNSJY7SfOtbJtW10bcnatfj3BcoietUFYNwWreOCk+SNvGUaNapGqUNPiGAiSA==
   /caniuse-lite/1.0.30001198:
     resolution:
       integrity: sha512-r5GGgESqOPZzwvdLVER374FpQu2WluCF1Z2DSiFJ89KSmGjT0LVKjgv4NcAqHmGWF9ihNpqRI9KXO9Ex4sKsgA==
@@ -5275,10 +5271,6 @@ packages:
       color-string: 1.5.4
     resolution:
       integrity: sha512-xgXAcTHa2HeFCGLE9Xs/R82hujGtu9Jd9x4NW3T34+OMs7VoPsjwzRczKHvTAHeJwWFwX5j15+MgAppE8ztObQ==
-  /colorette/1.2.1:
-    dev: false
-    resolution:
-      integrity: sha512-puCDz0CzydiSYOrnXpz/PKd69zRrribezjtE9yd4zvytoRc8+RY/KJPvtPFKZS3E3wP6neGyMe0vOTlHO5L3Pw==
   /colorette/1.2.2:
     resolution:
       integrity: sha512-MKGMzyfeuutC/ZJ1cba9NqcNpfeqMUcYmyF1ZFY6/Cn7CNSAKx6a+s48sqLqyAiZuaP2TcqMhoo+dlwFnVxT9w==
@@ -5717,7 +5709,7 @@ packages:
       integrity: sha512-x0YHHx2h6p0fCl1zY9L9roD7rnlltugGu7zXSKQx6k2rYw0Hi3IqxcoAGF7u9Q5w1nt7vK0ulxV8Lo+EvllGsA==
   /cssnano-preset-simple/1.2.2:
     dependencies:
-      caniuse-lite: 1.0.30001189
+      caniuse-lite: 1.0.30001198
       postcss: 7.0.35
     dev: false
     resolution:
@@ -9397,7 +9389,6 @@ packages:
     resolution:
       integrity: sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
   /lodash/4.17.21:
-    dev: true
     resolution:
       integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
   /log-driver/1.2.7:
@@ -9934,19 +9925,19 @@ packages:
       node: '>= 0.4.0'
     resolution:
       integrity: sha1-ICl+idhvb2QA8lDZ9Pa0wZRfzTU=
-  /next/10.0.8_24b12e544cf6ca996debdbfad8b93c93:
+  /next/10.0.9_24b12e544cf6ca996debdbfad8b93c93:
     dependencies:
       '@babel/runtime': 7.12.5
       '@hapi/accept': 5.0.1
-      '@next/env': 10.0.8
-      '@next/polyfill-module': 10.0.8
-      '@next/react-dev-overlay': 10.0.8_react-dom@17.0.1+react@17.0.1
-      '@next/react-refresh-utils': 10.0.8_react-refresh@0.8.3
+      '@next/env': 10.0.9
+      '@next/polyfill-module': 10.0.9
+      '@next/react-dev-overlay': 10.0.9_react-dom@17.0.1+react@17.0.1
+      '@next/react-refresh-utils': 10.0.9_react-refresh@0.8.3
       '@opentelemetry/api': 0.14.0
       ast-types: 0.13.2
       browserslist: 4.16.1
       buffer: 5.6.0
-      caniuse-lite: 1.0.30001189
+      caniuse-lite: 1.0.30001198
       chalk: 2.4.2
       chokidar: 3.5.1
       crypto-browserify: 3.12.0
@@ -9994,7 +9985,7 @@ packages:
       sass:
         optional: true
     resolution:
-      integrity: sha512-iDY65ce4Prn/9EnQpJGFMb5QJvtGWzZPk6KQqT7vDNu4D+jkivkk9NaAs/k1hR73pXdJHmhHer1s0YxLSghAKQ==
+      integrity: sha512-HyoVjYydcM6LaFAUOHSxVQCcKOsIimVO/IKXCuWUu1rr6DDgXbWNg/8ckH084qD46MOYlLzjViiZ3KCmNQL4Cw==
   /nice-try/1.0.5:
     resolution:
       integrity: sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
@@ -11384,7 +11375,7 @@ packages:
       integrity: sha512-3QT8bBJeX/S5zKTTjTCIjRF3If4avAT6kqxcASlTWEtAFCb9NH0OUxNDfgZSWdP5fJnBYCMEWkIFfWeugjzYMg==
   /postcss/8.1.7:
     dependencies:
-      colorette: 1.2.1
+      colorette: 1.2.2
       line-column: 1.0.2
       nanoid: 3.1.20
       source-map: 0.6.1
@@ -14480,7 +14471,7 @@ specifiers:
   micri: ^4.3.0
   micro: ^9.3.4
   micro-fork: ^3.0.0
-  next: 10.0.8
+  next: 10.0.9
   pm2: ^4.5.4
   polka: ^0.5.2
   prettier: 2.2.1
