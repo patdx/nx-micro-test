@@ -40,7 +40,7 @@
     "@nrwl/linter": "11.5.2",
     "@nrwl/node": "11.5.2",
     "@nrwl/react": "11.5.2",
-    "@nrwl/tao": "11.5.1",
+    "@nrwl/tao": "11.5.2",
     "@nrwl/web": "11.5.1",
     "@nrwl/workspace": "11.5.1",
     "@testing-library/react": "11.2.5",
