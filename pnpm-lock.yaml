@@ -25,7 +25,7 @@ devDependencies:
   '@nrwl/cli': 11.6.0
   '@nrwl/cypress': 11.6.0_6ae3e74e0eeb01292b6305e675733a08
   '@nrwl/eslint-plugin-nx': 11.6.0_7c2e0d08f4c0c356a6efc3ae66480147
-  '@nrwl/express': 11.5.2_typescript@4.2.2
+  '@nrwl/express': 11.6.0_prettier@2.2.1+typescript@4.2.2
   '@nrwl/jest': 11.5.2
   '@nrwl/linter': 11.5.2
   '@nrwl/node': 11.5.2_typescript@4.2.2
@@ -3465,18 +3465,19 @@ packages:
       typescript: '*'
     resolution:
       integrity: sha512-5QDxKvvhN9ausqTA7XU6HOLF/gR//cp43XWol+++EZjylpPdC+mMnJB8WZmKl/g9aU/0mMC2xFY+yprQUYcgJg==
-  /@nrwl/express/11.5.2_typescript@4.2.2:
+  /@nrwl/express/11.6.0_prettier@2.2.1+typescript@4.2.2:
     dependencies:
       '@angular-devkit/core': 11.2.1
       '@angular-devkit/schematics': 11.2.1
-      '@nrwl/devkit': 11.5.2
-      '@nrwl/jest': 11.5.2
-      '@nrwl/node': 11.5.2_typescript@4.2.2
+      '@nrwl/devkit': 11.6.0
+      '@nrwl/jest': 11.6.0
+      '@nrwl/node': 11.6.0_prettier@2.2.1+typescript@4.2.2
     dev: true
     peerDependencies:
+      prettier: '*'
       typescript: '*'
     resolution:
-      integrity: sha512-pRrKaFY5ntM6+kG+r17mAdVESSFD4W0QoPlV5R+A02PyHNZ/tEwz7LhmNhwbHaI58c5wSiVjGmY0Fes3ivjUAw==
+      integrity: sha512-T0THD7losUWbNaB+6dsTCh4Zcibc+VTeeADQgJ/pwE/QX1BiVeVwGci+xcLJQffxuFKAlJU3TPOvNb5lTD1zxA==
   /@nrwl/jest/11.5.2:
     dependencies:
       '@nrwl/devkit': 11.5.2
@@ -3569,6 +3570,35 @@ packages:
       typescript: '*'
     resolution:
       integrity: sha512-h8n8XRdjsELHBBCruKSGjViUlCSup/HVS1YUaup1LpZezL5XwjAWsYM/AVS+G1C9UoIlK6LhVKE7sCPWB8eNrA==
+  /@nrwl/node/11.6.0_prettier@2.2.1+typescript@4.2.2:
+    dependencies:
+      '@nrwl/devkit': 11.6.0
+      '@nrwl/jest': 11.6.0
+      '@nrwl/linter': 11.6.0
+      '@nrwl/workspace': 11.6.0_prettier@2.2.1
+      circular-dependency-plugin: 5.2.0_webpack@4.42.0
+      copy-webpack-plugin: 6.0.3_webpack@4.42.0
+      fork-ts-checker-webpack-plugin: 3.1.1
+      fs-extra: 7.0.1
+      glob: 7.1.4
+      license-webpack-plugin: 2.1.2
+      rxjs: 6.6.3
+      rxjs-for-await: 0.0.2_rxjs@6.6.3
+      source-map-support: 0.5.16
+      tree-kill: 1.2.2
+      ts-loader: 5.4.5_typescript@4.2.2
+      tsconfig-paths-webpack-plugin: 3.2.0
+      tslib: 2.1.0
+      webpack: 4.42.0
+      webpack-dev-server: 3.11.0_webpack@4.42.0
+      webpack-merge: 4.2.1
+      webpack-node-externals: 1.7.2
+    dev: true
+    peerDependencies:
+      prettier: '*'
+      typescript: '*'
+    resolution:
+      integrity: sha512-xLALQIvtR7nD68Q8eU2vMbYHQRH/wEACDH/yZJ518vJzWeO+mrnAEOhTPkoJzZ+WE75fvfKxV9xcIaRK5Y/vyQ==
   /@nrwl/react/11.5.2_5aae99c5cd749fc208c6cf8687635931:
     dependencies:
       '@babel/core': 7.9.6
@@ -15350,7 +15380,7 @@ specifiers:
   '@nrwl/cli': 11.6.0
   '@nrwl/cypress': 11.6.0
   '@nrwl/eslint-plugin-nx': 11.6.0
-  '@nrwl/express': 11.5.2
+  '@nrwl/express': 11.6.0
   '@nrwl/jest': 11.5.2
   '@nrwl/linter': 11.5.2
   '@nrwl/next': 11.5.2
