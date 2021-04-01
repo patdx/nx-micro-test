@@ -24,7 +24,7 @@ devDependencies:
   '@babel/preset-typescript': 7.13.0_@babel+core@7.13.14
   '@nrwl/cli': 11.6.1
   '@nrwl/cypress': 11.6.1_6ae3e74e0eeb01292b6305e675733a08
-  '@nrwl/eslint-plugin-nx': 11.6.0_7c2e0d08f4c0c356a6efc3ae66480147
+  '@nrwl/eslint-plugin-nx': 11.6.1_7c2e0d08f4c0c356a6efc3ae66480147
   '@nrwl/express': 11.6.0_prettier@2.2.1+typescript@4.2.2
   '@nrwl/jest': 11.5.2
   '@nrwl/linter': 11.5.2
@@ -3470,10 +3470,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-kzZoKEAmxrTcXhb0B/lH662DYj/GINjP3leL09fUMA1qnNgNuf78YE3dIEopT30qMHUA3X5sXJbuVs4dPDIk+Q==
-  /@nrwl/eslint-plugin-nx/11.6.0_7c2e0d08f4c0c356a6efc3ae66480147:
+  /@nrwl/eslint-plugin-nx/11.6.1_7c2e0d08f4c0c356a6efc3ae66480147:
     dependencies:
-      '@nrwl/devkit': 11.6.0
-      '@nrwl/workspace': 11.6.0_prettier@2.2.1
+      '@nrwl/devkit': 11.6.1
+      '@nrwl/workspace': 11.6.1_prettier@2.2.1
       '@typescript-eslint/experimental-utils': 4.19.0_eslint@7.23.0+typescript@4.2.2
       '@typescript-eslint/parser': 4.19.0_eslint@7.23.0+typescript@4.2.2
       confusing-browser-globals: 1.0.10
@@ -3486,7 +3486,7 @@ packages:
       prettier: '*'
       typescript: '*'
     resolution:
-      integrity: sha512-5QDxKvvhN9ausqTA7XU6HOLF/gR//cp43XWol+++EZjylpPdC+mMnJB8WZmKl/g9aU/0mMC2xFY+yprQUYcgJg==
+      integrity: sha512-PGaNq9BBc9C9fDSBoqtEYts2IcCHzuHWuHYNKoRRI4u/rLLUkNt6yRtFWZ5jgNzYgvx4xCEiSnOPbDSl1gmHgw==
   /@nrwl/express/11.6.0_prettier@2.2.1+typescript@4.2.2:
     dependencies:
       '@angular-devkit/core': 11.2.1
@@ -15470,7 +15470,7 @@ specifiers:
   '@babel/preset-typescript': 7.13.0
   '@nrwl/cli': 11.6.1
   '@nrwl/cypress': 11.6.1
-  '@nrwl/eslint-plugin-nx': 11.6.0
+  '@nrwl/eslint-plugin-nx': 11.6.1
   '@nrwl/express': 11.6.0
   '@nrwl/jest': 11.5.2
   '@nrwl/linter': 11.5.2
