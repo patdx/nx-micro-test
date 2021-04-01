@@ -25,7 +25,7 @@ devDependencies:
   '@nrwl/cli': 11.6.1
   '@nrwl/cypress': 11.6.1_6ae3e74e0eeb01292b6305e675733a08
   '@nrwl/eslint-plugin-nx': 11.6.1_7c2e0d08f4c0c356a6efc3ae66480147
-  '@nrwl/express': 11.6.0_prettier@2.2.1+typescript@4.2.2
+  '@nrwl/express': 11.6.1_prettier@2.2.1+typescript@4.2.2
   '@nrwl/jest': 11.5.2
   '@nrwl/linter': 11.5.2
   '@nrwl/node': 11.5.2_typescript@4.2.2
@@ -3348,17 +3348,6 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-apImu6BPWcB1k9SvzCUPLSh3bT628tW6f1xUXJ8H078VUUb4uykiamTVpTP3+l/99hjgPT45QJqKcnzyPeCa4Q==
-  /@nrwl/cli/11.6.0:
-    dependencies:
-      '@nrwl/tao': 11.6.0
-      chalk: 4.1.0
-      tmp: 0.0.33
-      yargs: 15.4.1
-      yargs-parser: 20.0.0
-    dev: true
-    hasBin: true
-    resolution:
-      integrity: sha512-dFnPrKuCFDmFyQtqE509UkG44aKT/NRuljDETaM2KPPuu5056KkvziHG7IQurYFTkuo52EKNMmttRu8HJ1nT0A==
   /@nrwl/cli/11.6.1:
     dependencies:
       '@nrwl/tao': 11.6.1
@@ -3448,17 +3437,6 @@ packages:
       tslib: 2.1.0
     resolution:
       integrity: sha512-MuuKIKV8eMLEG6dyXwkC7LaIhBWi7Ee11GkMKTxUiHfqMtl9eAr56Ia/v6XSN4csljSgKdSeYPdAa6PTckRMQA==
-  /@nrwl/devkit/11.6.0:
-    dependencies:
-      '@nrwl/tao': 11.6.0
-      ejs: 3.1.6
-      ignore: 5.1.8
-      semver: 7.3.4
-      strip-json-comments: 2.0.1
-      tslib: 2.1.0
-    dev: true
-    resolution:
-      integrity: sha512-T5j0ojocWkTDZg9gN6gZ8xdz7BHbLhU51C9zOTEMtkb4AK1MVI01jNCcJS204t9/dFuFynJbPK1tFodTBeBkBw==
   /@nrwl/devkit/11.6.1:
     dependencies:
       '@nrwl/tao': 11.6.1
@@ -3487,19 +3465,19 @@ packages:
       typescript: '*'
     resolution:
       integrity: sha512-PGaNq9BBc9C9fDSBoqtEYts2IcCHzuHWuHYNKoRRI4u/rLLUkNt6yRtFWZ5jgNzYgvx4xCEiSnOPbDSl1gmHgw==
-  /@nrwl/express/11.6.0_prettier@2.2.1+typescript@4.2.2:
+  /@nrwl/express/11.6.1_prettier@2.2.1+typescript@4.2.2:
     dependencies:
       '@angular-devkit/core': 11.2.1
       '@angular-devkit/schematics': 11.2.1
-      '@nrwl/devkit': 11.6.0
-      '@nrwl/jest': 11.6.0
-      '@nrwl/node': 11.6.0_prettier@2.2.1+typescript@4.2.2
+      '@nrwl/devkit': 11.6.1
+      '@nrwl/jest': 11.6.1
+      '@nrwl/node': 11.6.1_prettier@2.2.1+typescript@4.2.2
     dev: true
     peerDependencies:
       prettier: '*'
       typescript: '*'
     resolution:
-      integrity: sha512-T0THD7losUWbNaB+6dsTCh4Zcibc+VTeeADQgJ/pwE/QX1BiVeVwGci+xcLJQffxuFKAlJU3TPOvNb5lTD1zxA==
+      integrity: sha512-jasjBNgS4yqhmhp8Swm/KxM/L4ByRGrCfzjanmsoVSN5f5WEmMoHz/F6y9+Rwp4XgAljD3+AxmWYrqS2vZ8bSg==
   /@nrwl/jest/11.5.2:
     dependencies:
       '@nrwl/devkit': 11.5.2
@@ -3509,16 +3487,6 @@ packages:
       tslib: 2.1.0
     resolution:
       integrity: sha512-XXJboEUHiL25NGh3pHa1WIruSjIhYicsGG/vQHc+NB6BJKoWAsqzuldcC04uAq1baIefpU30oi38ya4zsb0grw==
-  /@nrwl/jest/11.6.0:
-    dependencies:
-      '@nrwl/devkit': 11.6.0
-      jest-resolve: 26.6.2
-      rxjs: 6.6.3
-      strip-json-comments: 2.0.1
-      tslib: 2.1.0
-    dev: true
-    resolution:
-      integrity: sha512-CWvQEXyEeZZ+5a6oB/Sb4YvxDxaGVrQW2mF/nJDlwMOzeQUeCUR/slsJg07QCgc8GAKMl9Tl+MPNvoNylkBLaw==
   /@nrwl/jest/11.6.1:
     dependencies:
       '@nrwl/devkit': 11.6.1
@@ -3537,16 +3505,6 @@ packages:
       tslib: 2.1.0
     resolution:
       integrity: sha512-qQOmReukQfhSA2jNwzQtQA5ztLvdS332rtobygQuT3NFZgKkHW1QjbsNrlQ8PgsC3r67A6lypTmj0noiGwY7TQ==
-  /@nrwl/linter/11.6.0:
-    dependencies:
-      '@nrwl/devkit': 11.6.0
-      glob: 7.1.4
-      minimatch: 3.0.4
-      tmp: 0.0.33
-      tslib: 2.1.0
-    dev: true
-    resolution:
-      integrity: sha512-Rik7ItPbU+ezTONGDpnNyW6POBgUlaiF34jCix9Xp2n6ih48zLKLZXkHHPgoDRRw0UxkEBsyy+lOtst5840VqA==
   /@nrwl/linter/11.6.1:
     dependencies:
       '@nrwl/devkit': 11.6.1
@@ -3612,12 +3570,12 @@ packages:
       typescript: '*'
     resolution:
       integrity: sha512-h8n8XRdjsELHBBCruKSGjViUlCSup/HVS1YUaup1LpZezL5XwjAWsYM/AVS+G1C9UoIlK6LhVKE7sCPWB8eNrA==
-  /@nrwl/node/11.6.0_prettier@2.2.1+typescript@4.2.2:
+  /@nrwl/node/11.6.1_prettier@2.2.1+typescript@4.2.2:
     dependencies:
-      '@nrwl/devkit': 11.6.0
-      '@nrwl/jest': 11.6.0
-      '@nrwl/linter': 11.6.0
-      '@nrwl/workspace': 11.6.0_prettier@2.2.1
+      '@nrwl/devkit': 11.6.1
+      '@nrwl/jest': 11.6.1
+      '@nrwl/linter': 11.6.1
+      '@nrwl/workspace': 11.6.1_prettier@2.2.1
       circular-dependency-plugin: 5.2.0_webpack@4.42.0
       copy-webpack-plugin: 6.0.3_webpack@4.42.0
       fork-ts-checker-webpack-plugin: 3.1.1
@@ -3640,7 +3598,7 @@ packages:
       prettier: '*'
       typescript: '*'
     resolution:
-      integrity: sha512-xLALQIvtR7nD68Q8eU2vMbYHQRH/wEACDH/yZJ518vJzWeO+mrnAEOhTPkoJzZ+WE75fvfKxV9xcIaRK5Y/vyQ==
+      integrity: sha512-+RFYwyRKNJcMquLIQfmRmNP7hL01EWVYmuUe3jtptpigordZe7dlXslplXHpchQl+91wVZb8dmdlen0UvofOFA==
   /@nrwl/react/11.5.2_5aae99c5cd749fc208c6cf8687635931:
     dependencies:
       '@babel/core': 7.9.6
@@ -3699,23 +3657,6 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-k3VooSHWM4xhQf0Hw5L6clMsP23MTuU/rycxNGuVYPPex6jOAQ/igf57ACHEQwoBfoFxozjBU30X0kr6bP4dEA==
-  /@nrwl/tao/11.6.0:
-    dependencies:
-      chalk: 4.1.0
-      fs-extra: 7.0.1
-      inquirer: 6.5.2
-      minimist: 1.2.5
-      rxjs: 6.6.3
-      rxjs-for-await: 0.0.2_rxjs@6.6.3
-      semver: 7.3.4
-      strip-json-comments: 2.0.1
-      tmp: 0.0.33
-      tslib: 2.1.0
-      yargs-parser: 20.0.0
-    dev: true
-    hasBin: true
-    resolution:
-      integrity: sha512-Z0kKPzfa0UBB9fVKBZSFvwI1hnoXvV13LH+/5CRlZ+uPUKqPDG3GaxKwQeXJfmXNgpg6oaNfs6ToeEPJwTPQxw==
   /@nrwl/tao/11.6.1:
     dependencies:
       chalk: 4.1.0
@@ -3863,38 +3804,6 @@ packages:
       prettier: ^2.0.4
     resolution:
       integrity: sha512-dQzENR49CQ1PUAuViyO0ObR9F7zIQGw+YecjTtYN7/pcUQ5Xb3Dwh+GhQUd/L42GhKqGjI3xClNyUbl5Nt4iNQ==
-  /@nrwl/workspace/11.6.0_prettier@2.2.1:
-    dependencies:
-      '@nrwl/cli': 11.6.0
-      '@nrwl/devkit': 11.6.0
-      '@nrwl/jest': 11.6.0
-      '@nrwl/linter': 11.6.0
-      axios: 0.21.1
-      chalk: 4.1.0
-      cosmiconfig: 4.0.0
-      dotenv: 8.2.0
-      flat: 5.0.2
-      fs-extra: 7.0.1
-      ignore: 5.1.8
-      inquirer: 6.5.2
-      lodash: 4.17.21
-      minimatch: 3.0.4
-      npm-run-all: 4.1.5
-      opn: 5.5.0
-      prettier: 2.2.1
-      resolve: 1.17.0
-      rxjs: 6.6.3
-      semver: 7.3.4
-      strip-json-comments: 2.0.1
-      tmp: 0.0.33
-      tslib: 2.1.0
-      yargs: 15.4.1
-      yargs-parser: 20.0.0
-    dev: true
-    peerDependencies:
-      prettier: ^2.0.4
-    resolution:
-      integrity: sha512-RZ1kPL/w9Te2L+tvhfAZTnA+5tCUAvv6NUqTRUDZOMlKY+J0kwuKGnV64P1f5yiXMY5PSA3+H8HkLxPFnu5SjA==
   /@nrwl/workspace/11.6.1_prettier@2.2.1:
     dependencies:
       '@nrwl/cli': 11.6.1
@@ -15471,7 +15380,7 @@ specifiers:
   '@nrwl/cli': 11.6.1
   '@nrwl/cypress': 11.6.1
   '@nrwl/eslint-plugin-nx': 11.6.1
-  '@nrwl/express': 11.6.0
+  '@nrwl/express': 11.6.1
   '@nrwl/jest': 11.5.2
   '@nrwl/linter': 11.5.2
   '@nrwl/next': 11.5.2
