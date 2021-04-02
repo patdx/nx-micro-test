@@ -33,7 +33,7 @@ devDependencies:
   '@nrwl/tao': 11.6.1
   '@nrwl/web': 11.6.1_6ae3e74e0eeb01292b6305e675733a08
   '@nrwl/workspace': 11.6.1_prettier@2.2.1
-  '@testing-library/react': 11.2.5_react-dom@17.0.1+react@17.0.1
+  '@testing-library/react': 11.2.6_react-dom@17.0.1+react@17.0.1
   '@types/express': 4.17.11
   '@types/jest': 26.0.22
   '@types/micro': 7.3.3
@@ -2016,11 +2016,6 @@ packages:
       regenerator-runtime: 0.13.7
     resolution:
       integrity: sha512-8fSpqYRETHATtNitsCXq8QQbKJP31/KnDl2Wz2Vtui9nKzjss2ysuZtyVsWjBtvkeEFo346gkwjYPab1hvrXkQ==
-  /@babel/runtime/7.12.13:
-    dependencies:
-      regenerator-runtime: 0.13.7
-    resolution:
-      integrity: sha512-8+3UMPBrjFa/6TtKi/7sehPKqfAm4g6K+YQjyyFOLUTxzOngcRZTlAVY8sc2CORJYqdHQY8gRPHmn+qo15rCBw==
   /@babel/runtime/7.12.18:
     dependencies:
       regenerator-runtime: 0.13.7
@@ -3271,7 +3266,7 @@ packages:
   /@testing-library/dom/7.29.4:
     dependencies:
       '@babel/code-frame': 7.12.13
-      '@babel/runtime': 7.12.13
+      '@babel/runtime': 7.12.18
       '@types/aria-query': 4.2.1
       aria-query: 4.2.2
       chalk: 4.1.0
@@ -3283,9 +3278,9 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-CtrJRiSYEfbtNGtEsd78mk1n1v2TUbeABlNIcOCJdDfkN5/JTOwQEbbQpoSRxGqzcWPgStMvJ4mNolSuBRv1NA==
-  /@testing-library/react/11.2.5_react-dom@17.0.1+react@17.0.1:
+  /@testing-library/react/11.2.6_react-dom@17.0.1+react@17.0.1:
     dependencies:
-      '@babel/runtime': 7.12.13
+      '@babel/runtime': 7.12.18
       '@testing-library/dom': 7.29.4
       react: 17.0.1
       react-dom: 17.0.1_react@17.0.1
@@ -3296,7 +3291,7 @@ packages:
       react: '*'
       react-dom: '*'
     resolution:
-      integrity: sha512-yEx7oIa/UWLe2F2dqK0FtMF9sJWNXD+2PPtp39BvE0Kh9MJ9Kl0HrZAgEuhUJR+Lx8Di6Xz+rKwSdEPY2UV8ZQ==
+      integrity: sha512-TXMCg0jT8xmuU8BkKMtp8l7Z50Ykew5WNX8UoIKTaLFwKkP2+1YDhOLA2Ga3wY4x29jyntk7EWfum0kjlYiSjQ==
   /@tootallnate/once/1.1.2:
     engines:
       node: '>= 6'
@@ -4046,7 +4041,7 @@ packages:
       integrity: sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==
   /aria-query/4.2.2:
     dependencies:
-      '@babel/runtime': 7.12.13
+      '@babel/runtime': 7.12.18
       '@babel/runtime-corejs3': 7.12.13
     engines:
       node: '>=6.0'
@@ -14579,7 +14574,7 @@ specifiers:
   '@nrwl/tao': 11.6.1
   '@nrwl/web': 11.6.1
   '@nrwl/workspace': 11.6.1
-  '@testing-library/react': 11.2.5
+  '@testing-library/react': 11.2.6
   '@types/express': 4.17.11
   '@types/jest': 26.0.22
   '@types/lodash': ^4.14.168
