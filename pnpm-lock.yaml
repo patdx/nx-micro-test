@@ -9,7 +9,7 @@ specifiers:
   '@babel/preset-env': 7.13.15
   '@babel/preset-react': 7.13.13
   '@babel/preset-typescript': 7.13.0
-  '@nrwl/cli': 11.6.1
+  '@nrwl/cli': 12.0.0
   '@nrwl/cypress': 11.6.1
   '@nrwl/eslint-plugin-nx': 11.6.1
   '@nrwl/express': 11.6.1
@@ -84,7 +84,7 @@ devDependencies:
   '@babel/preset-env': 7.13.15_@babel+core@7.13.15
   '@babel/preset-react': 7.13.13_@babel+core@7.13.15
   '@babel/preset-typescript': 7.13.0_@babel+core@7.13.15
-  '@nrwl/cli': 11.6.1
+  '@nrwl/cli': 12.0.0
   '@nrwl/cypress': 11.6.1_6ae3e74e0eeb01292b6305e675733a08
   '@nrwl/eslint-plugin-nx': 11.6.1_12d4e43a8dce76012b6d8cc6ab26b575
   '@nrwl/express': 11.6.1_prettier@2.2.1+typescript@4.2.2
@@ -3540,6 +3540,18 @@ packages:
       yargs: 15.4.1
       yargs-parser: 20.0.0
 
+  /@nrwl/cli/12.0.0:
+    resolution: {integrity: sha512-517nrw+S//Mm7bzvPGp5KG6bHVoMJzNCkueqnV5bQ0TCYt1vobgT7UVj3szKL11yLy0J9Sev3iL+Uthth5UbFw==}
+    hasBin: true
+    dependencies:
+      '@nrwl/tao': 12.0.0-rc.5
+      chalk: 4.1.0
+      tmp: 0.0.33
+      v8-compile-cache: 2.3.0
+      yargs: 15.4.1
+      yargs-parser: 20.0.0
+    dev: true
+
   /@nrwl/cypress/11.6.1_6ae3e74e0eeb01292b6305e675733a08:
     resolution: {integrity: sha512-o7CpcIrL/Mu9qfI3BD2LFqsco1VigK3kmYv0P4Jz+ZKhlGX8uMHjBEatdHucdDfyhQBz2n79dwp2y6SHoKCuLA==}
     peerDependencies:
@@ -3788,6 +3800,23 @@ packages:
       tmp: 0.0.33
       tslib: 2.1.0
       yargs-parser: 20.0.0
+
+  /@nrwl/tao/12.0.0-rc.5:
+    resolution: {integrity: sha512-pZTYIXWCAZo8A+mZP32i20PWoxPvfZwaYYrSmASEcIOeIp3WxVAFdCHku8sQqYXIMOZEoejkRjl0Gpz8JTozoA==}
+    hasBin: true
+    dependencies:
+      chalk: 4.1.0
+      enquirer: 2.3.6
+      fs-extra: 7.0.1
+      minimist: 1.2.5
+      rxjs: 6.6.3
+      rxjs-for-await: 0.0.2_rxjs@6.6.3
+      semver: 7.3.4
+      strip-json-comments: 2.0.1
+      tmp: 0.0.33
+      tslib: 2.1.0
+      yargs-parser: 20.0.0
+    dev: true
 
   /@nrwl/web/11.6.1_6ae3e74e0eeb01292b6305e675733a08:
     resolution: {integrity: sha512-2ji9fwUs1XtzFzbrFahgJ0N9tMVxMcbCBLu1ibrMlDnOKwLxYUWkhRAw69kDuwdWS48tVmXfEBTgGoFOLrTN+Q==}
@@ -14309,6 +14338,10 @@ packages:
 
   /v8-compile-cache/2.2.0:
     resolution: {integrity: sha512-gTpR5XQNKFwOd4clxfnhaqvfqMpqEwr4tOtCyz4MtYZX2JYhfr1JvBFKdS+7K/9rfpZR3VLX+YWBbKoxCgS43Q==}
+    dev: true
+
+  /v8-compile-cache/2.3.0:
+    resolution: {integrity: sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==}
     dev: true
 
   /v8-to-istanbul/7.1.0:
