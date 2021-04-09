@@ -16,7 +16,7 @@ specifiers:
   '@nrwl/jest': 12.0.0
   '@nrwl/linter': 11.6.2
   '@nrwl/next': 11.6.2
-  '@nrwl/node': 11.6.1
+  '@nrwl/node': 11.6.2
   '@nrwl/react': 11.6.1
   '@nrwl/tao': 11.6.1
   '@nrwl/web': 11.6.1
@@ -90,7 +90,7 @@ devDependencies:
   '@nrwl/express': 12.0.0_prettier@2.2.1+typescript@4.2.2
   '@nrwl/jest': 12.0.0
   '@nrwl/linter': 11.6.2
-  '@nrwl/node': 11.6.1_prettier@2.2.1+typescript@4.2.2
+  '@nrwl/node': 11.6.2_prettier@2.2.1+typescript@4.2.2
   '@nrwl/react': 11.6.1_5aae99c5cd749fc208c6cf8687635931
   '@nrwl/tao': 11.6.1
   '@nrwl/web': 11.6.1_6ae3e74e0eeb01292b6305e675733a08
@@ -2707,7 +2707,6 @@ packages:
       tmp: 0.0.33
       yargs: 15.4.1
       yargs-parser: 20.0.0
-    dev: false
 
   /@nrwl/cli/12.0.0:
     resolution: {integrity: sha512-517nrw+S//Mm7bzvPGp5KG6bHVoMJzNCkueqnV5bQ0TCYt1vobgT7UVj3szKL11yLy0J9Sev3iL+Uthth5UbFw==}
@@ -2941,7 +2940,6 @@ packages:
       rxjs: 6.6.3
       strip-json-comments: 2.0.1
       tslib: 2.1.0
-    dev: false
 
   /@nrwl/jest/12.0.0:
     resolution: {integrity: sha512-By+THr8gEzfuPaF3azm1QJi9SBIFZsiO6yr9ocGZa1VpX4v1iOpjrsHCW+hiRJjb/J4j9fW0rZgH5vO8aZPoXA==}
@@ -3016,13 +3014,13 @@ packages:
       - webpack-cli
     dev: false
 
-  /@nrwl/node/11.6.1_prettier@2.2.1+typescript@4.2.2:
-    resolution: {integrity: sha512-+RFYwyRKNJcMquLIQfmRmNP7hL01EWVYmuUe3jtptpigordZe7dlXslplXHpchQl+91wVZb8dmdlen0UvofOFA==}
+  /@nrwl/node/11.6.2_prettier@2.2.1+typescript@4.2.2:
+    resolution: {integrity: sha512-d3UbVsw4MnhnXggmNHAYZbs2mUIBAgEcoVXWo+oauOkQEQmAccF7uRwasnyINKeqlT2rbjMwNgug5ISbNpGCzQ==}
     dependencies:
-      '@nrwl/devkit': 11.6.1
-      '@nrwl/jest': 11.6.1
-      '@nrwl/linter': 11.6.1
-      '@nrwl/workspace': 11.6.1_prettier@2.2.1
+      '@nrwl/devkit': 11.6.2
+      '@nrwl/jest': 11.6.2
+      '@nrwl/linter': 11.6.2
+      '@nrwl/workspace': 11.6.2_prettier@2.2.1
       circular-dependency-plugin: 5.2.0_webpack@4.42.0
       copy-webpack-plugin: 6.0.3_webpack@4.42.0
       fork-ts-checker-webpack-plugin: 3.1.1
@@ -3533,7 +3531,6 @@ packages:
       yargs-parser: 20.0.0
     transitivePeerDependencies:
       - debug
-    dev: false
 
   /@nrwl/workspace/12.0.0_prettier@2.2.1:
     resolution: {integrity: sha512-S4sSgc7eMhc4Ee3pS0PLdEMQG4NcqRZ3ZpNz5C8+kEsvEZUK37UngWWM2hVosFGhoGcvAxosQSvuvizSAZF26Q==}
