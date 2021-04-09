@@ -14,7 +14,7 @@ specifiers:
   '@nrwl/eslint-plugin-nx': 12.0.0
   '@nrwl/express': 12.0.0
   '@nrwl/jest': 12.0.0
-  '@nrwl/linter': 11.6.1
+  '@nrwl/linter': 11.6.2
   '@nrwl/next': 11.6.1
   '@nrwl/node': 11.6.1
   '@nrwl/react': 11.6.1
@@ -89,7 +89,7 @@ devDependencies:
   '@nrwl/eslint-plugin-nx': 12.0.0_12d4e43a8dce76012b6d8cc6ab26b575
   '@nrwl/express': 12.0.0_prettier@2.2.1+typescript@4.2.2
   '@nrwl/jest': 12.0.0
-  '@nrwl/linter': 11.6.1
+  '@nrwl/linter': 11.6.2
   '@nrwl/node': 11.6.1_prettier@2.2.1+typescript@4.2.2
   '@nrwl/react': 11.6.1_5aae99c5cd749fc208c6cf8687635931
   '@nrwl/tao': 11.6.1
@@ -3577,6 +3577,17 @@ packages:
       strip-json-comments: 2.0.1
       tslib: 2.1.0
 
+  /@nrwl/devkit/11.6.2:
+    resolution: {integrity: sha512-DALxYAk2Q5XtFSVVKgsXGkpjB4KKGcNa7LvD96dF2wiTl6jDFK8KqMmW3aVaoBHH4cMPtpt2+X/1e8zXFhkrtQ==}
+    dependencies:
+      '@nrwl/tao': 11.6.2
+      ejs: 3.1.6
+      ignore: 5.1.8
+      semver: 7.3.4
+      strip-json-comments: 2.0.1
+      tslib: 2.1.0
+    dev: true
+
   /@nrwl/devkit/12.0.0:
     resolution: {integrity: sha512-ZJIaq8XpLzQwC9kRI5x19sTu3zCpoByVunylTgP/vLGWro5tiGXXcv2EMYwcXCRNOryavV7drB7FGwgZ3h6Zug==}
     dependencies:
@@ -3650,6 +3661,16 @@ packages:
       minimatch: 3.0.4
       tmp: 0.0.33
       tslib: 2.1.0
+
+  /@nrwl/linter/11.6.2:
+    resolution: {integrity: sha512-hNecwI71GfaLHTiaunyg0C7rPQSrGxqA2rbmHT4mOoPMbA+fnsGpNJEeHGeQgnXQBOwIJcWyvoQFWBAsCmKJcg==}
+    dependencies:
+      '@nrwl/devkit': 11.6.2
+      glob: 7.1.4
+      minimatch: 3.0.4
+      tmp: 0.0.33
+      tslib: 2.1.0
+    dev: true
 
   /@nrwl/linter/12.0.0:
     resolution: {integrity: sha512-DBfcIXF7P1nQI7e7Ui7rNjxbVE1iZOVSjax+Q/FGfHj4Jg7IQwiXAaFroR0vN+04QRANAB7kcZEBrKhSzyTSYg==}
@@ -3825,6 +3846,23 @@ packages:
       tmp: 0.0.33
       tslib: 2.1.0
       yargs-parser: 20.0.0
+
+  /@nrwl/tao/11.6.2:
+    resolution: {integrity: sha512-zn36VpbTShaMUsB9cgCKgWjIAiZTJJqFV1MtG+gfH4Dv8m/jSZM/MrH/NRDquqLq/OmDhbR/kueYzEAGF4AiPg==}
+    hasBin: true
+    dependencies:
+      chalk: 4.1.0
+      fs-extra: 7.0.1
+      inquirer: 6.5.2
+      minimist: 1.2.5
+      rxjs: 6.6.3
+      rxjs-for-await: 0.0.2_rxjs@6.6.3
+      semver: 7.3.4
+      strip-json-comments: 2.0.1
+      tmp: 0.0.33
+      tslib: 2.1.0
+      yargs-parser: 20.0.0
+    dev: true
 
   /@nrwl/tao/12.0.0:
     resolution: {integrity: sha512-g2MDk9nVQld60OJpK3kRz18UP3Y4L6PelnOgWSeXK5N37oc1wZ7FX33yHcNRHS3kiDfKIzBVTdcRiq0Zbxp62g==}
