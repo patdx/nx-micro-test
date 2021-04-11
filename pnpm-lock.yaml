@@ -12,7 +12,7 @@ specifiers:
   '@nrwl/cli': 12.0.1
   '@nrwl/cypress': 12.0.1
   '@nrwl/eslint-plugin-nx': 12.0.1
-  '@nrwl/express': 12.0.0
+  '@nrwl/express': 12.0.1
   '@nrwl/jest': 12.0.0
   '@nrwl/linter': 12.0.0
   '@nrwl/next': 12.0.0
@@ -87,7 +87,7 @@ devDependencies:
   '@nrwl/cli': 12.0.1
   '@nrwl/cypress': 12.0.1_6ae3e74e0eeb01292b6305e675733a08
   '@nrwl/eslint-plugin-nx': 12.0.1_f5c50313c726de08e3c45686915ce5f9
-  '@nrwl/express': 12.0.0_prettier@2.2.1+typescript@4.2.2
+  '@nrwl/express': 12.0.1_prettier@2.2.1+typescript@4.2.2
   '@nrwl/jest': 12.0.0
   '@nrwl/linter': 12.0.0
   '@nrwl/node': 11.6.2_prettier@2.2.1+typescript@4.2.2
@@ -3717,14 +3717,14 @@ packages:
       - typescript
     dev: true
 
-  /@nrwl/express/12.0.0_prettier@2.2.1+typescript@4.2.2:
-    resolution: {integrity: sha512-Dp9QEZeMTXmJ5egNUwq/h/e0S+n1au5i8xzHTKI/sB+F/Ll3Pub9EExKNKpdcqxUST83EzbSntbze8Y7UsIB8A==}
+  /@nrwl/express/12.0.1_prettier@2.2.1+typescript@4.2.2:
+    resolution: {integrity: sha512-gdi87ZGUthIqZ5gYlcwhjJ4AyRFMxAwgMOfWCubxi70NR567J8StFVK6In/Y0z0mhxTYDoVdh8YqekfEfjdoyw==}
     dependencies:
       '@angular-devkit/core': 11.2.1
       '@angular-devkit/schematics': 11.2.1
-      '@nrwl/devkit': 12.0.0
-      '@nrwl/jest': 12.0.0
-      '@nrwl/node': 12.0.0_prettier@2.2.1+typescript@4.2.2
+      '@nrwl/devkit': 12.0.1
+      '@nrwl/jest': 12.0.1
+      '@nrwl/node': 12.0.1_prettier@2.2.1+typescript@4.2.2
     transitivePeerDependencies:
       - debug
       - prettier
@@ -3855,13 +3855,13 @@ packages:
       - webpack-cli
     dev: true
 
-  /@nrwl/node/12.0.0_prettier@2.2.1+typescript@4.2.2:
-    resolution: {integrity: sha512-ogh5/cXTdcIdvVNmp9GQeJd9HkYIUlmgvjeFnMOMX5oOGu+v0WkvKOfPaGF9l6xl5k3/5F9CC5H7c4IUec44Jw==}
+  /@nrwl/node/12.0.1_prettier@2.2.1+typescript@4.2.2:
+    resolution: {integrity: sha512-fOUhSv+/bkI7aaTqfWsbuN3cyq+YqVnfUV4RfN93hu1PCSA7Ct1fQPAxhnIh26QPBJSIrNdDA5P72JdFQrl3Ow==}
     dependencies:
-      '@nrwl/devkit': 12.0.0
-      '@nrwl/jest': 12.0.0
-      '@nrwl/linter': 12.0.0
-      '@nrwl/workspace': 12.0.0_prettier@2.2.1
+      '@nrwl/devkit': 12.0.1
+      '@nrwl/jest': 12.0.1
+      '@nrwl/linter': 12.0.1
+      '@nrwl/workspace': 12.0.1_prettier@2.2.1
       circular-dependency-plugin: 5.2.0_webpack@4.42.0
       copy-webpack-plugin: 6.0.3_webpack@4.42.0
       fork-ts-checker-webpack-plugin: 3.1.1
