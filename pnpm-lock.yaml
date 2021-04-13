@@ -10,7 +10,7 @@ specifiers:
   '@babel/preset-react': 7.13.13
   '@babel/preset-typescript': 7.13.0
   '@nrwl/cli': 12.0.3
-  '@nrwl/cypress': 12.0.1
+  '@nrwl/cypress': 12.0.3
   '@nrwl/eslint-plugin-nx': 12.0.1
   '@nrwl/express': 12.0.1
   '@nrwl/jest': 12.0.1
@@ -85,7 +85,7 @@ devDependencies:
   '@babel/preset-react': 7.13.13_@babel+core@7.13.15
   '@babel/preset-typescript': 7.13.0_@babel+core@7.13.15
   '@nrwl/cli': 12.0.3
-  '@nrwl/cypress': 12.0.1_6ae3e74e0eeb01292b6305e675733a08
+  '@nrwl/cypress': 12.0.3_6ae3e74e0eeb01292b6305e675733a08
   '@nrwl/eslint-plugin-nx': 12.0.1_c113673161ce7889f5abc6871899862c
   '@nrwl/express': 12.0.1_prettier@2.2.1+typescript@4.2.2
   '@nrwl/jest': 12.0.1
@@ -3610,6 +3610,7 @@ packages:
       - supports-color
       - typescript
       - webpack
+    dev: false
 
   /@nrwl/cypress/12.0.1_964ff4dcd77e251c475f6f45f3feacbb:
     resolution: {integrity: sha512-6+MAj66/E7tpmmmpWtItV1mCI8VI6zsmGrvbJxOJf+DPVfT6kQwb/IcF/MwNEzZEtvORwEhY+T3JeEDPqudOHw==}
@@ -3637,6 +3638,33 @@ packages:
       - typescript
       - webpack
 
+  /@nrwl/cypress/12.0.3_6ae3e74e0eeb01292b6305e675733a08:
+    resolution: {integrity: sha512-D7jdLrtAAD8KyJiqEYXDrljwNJSWxXwGBAsOJflWEYPndO44ry8pUmBFwEo6LAbBLJ1tjXnLvdQ6NY4BVgFU7A==}
+    peerDependencies:
+      cypress: '>= 3 < 7'
+    dependencies:
+      '@cypress/webpack-preprocessor': 4.1.5
+      '@nrwl/devkit': 12.0.3
+      '@nrwl/linter': 12.0.3
+      '@nrwl/workspace': 12.0.3_prettier@2.2.1
+      cypress: 6.5.0
+      fork-ts-checker-webpack-plugin: 3.1.1
+      fs-extra: 7.0.1
+      rxjs: 6.6.3
+      tree-kill: 1.2.2
+      ts-loader: 5.4.5_typescript@4.2.2
+      tsconfig-paths-webpack-plugin: 3.2.0
+      tslib: 2.1.0
+      webpack-node-externals: 1.7.2
+      yargs-parser: 20.0.0
+    transitivePeerDependencies:
+      - debug
+      - prettier
+      - supports-color
+      - typescript
+      - webpack
+    dev: true
+
   /@nrwl/devkit/11.6.2:
     resolution: {integrity: sha512-DALxYAk2Q5XtFSVVKgsXGkpjB4KKGcNa7LvD96dF2wiTl6jDFK8KqMmW3aVaoBHH4cMPtpt2+X/1e8zXFhkrtQ==}
     dependencies:
@@ -3657,6 +3685,17 @@ packages:
       semver: 7.3.4
       strip-json-comments: 2.0.1
       tslib: 2.1.0
+
+  /@nrwl/devkit/12.0.3:
+    resolution: {integrity: sha512-nYRIK+ijFh2s7xXtEJZ5bRhro8KtdVamv7+lw6Lo1beVOPGwHZwXuO8zOKycwkdZm/XxXlhLDWkWod5PKyrY+A==}
+    dependencies:
+      '@nrwl/tao': 12.0.3
+      ejs: 3.1.6
+      ignore: 5.1.8
+      semver: 7.3.4
+      strip-json-comments: 2.0.1
+      tslib: 2.1.0
+    dev: true
 
   /@nrwl/eslint-plugin-nx/12.0.1_c113673161ce7889f5abc6871899862c:
     resolution: {integrity: sha512-Dj7lRqaJRUGcnW2TqX7WUBn4/bK7DKaJigsGAJPv4RWVxQWeZGi1PPPLbgVx8kWnYm47QwOgRg4FFKPvY26ZsA==}
@@ -3712,6 +3751,16 @@ packages:
       strip-json-comments: 2.0.1
       tslib: 2.1.0
 
+  /@nrwl/jest/12.0.3:
+    resolution: {integrity: sha512-6GRemUdgeUxtb7BPuGCnOo5z1bWgsOwOD2UqTRN/uiUs0Ez2CH71JCniR77W65+8oWt2Y8VGMgzg0B/koKAU0A==}
+    dependencies:
+      '@nrwl/devkit': 12.0.3
+      jest-resolve: 26.6.2
+      rxjs: 6.6.3
+      strip-json-comments: 2.0.1
+      tslib: 2.1.0
+    dev: true
+
   /@nrwl/linter/11.6.2:
     resolution: {integrity: sha512-hNecwI71GfaLHTiaunyg0C7rPQSrGxqA2rbmHT4mOoPMbA+fnsGpNJEeHGeQgnXQBOwIJcWyvoQFWBAsCmKJcg==}
     dependencies:
@@ -3730,6 +3779,16 @@ packages:
       minimatch: 3.0.4
       tmp: 0.0.33
       tslib: 2.1.0
+
+  /@nrwl/linter/12.0.3:
+    resolution: {integrity: sha512-WdcUozUBxLDMuChIKjEbGHoA2Uc6um7m7y2V6axb7tdfIQ/fcFr+aqKZx+fsZ+XN8vfrEGTNBdQsopOxwx1Y+w==}
+    dependencies:
+      '@nrwl/devkit': 12.0.3
+      glob: 7.1.4
+      minimatch: 3.0.4
+      tmp: 0.0.33
+      tslib: 2.1.0
+    dev: true
 
   /@nrwl/next/12.0.1_c5c55865174bd326bdd39d69005b6728:
     resolution: {integrity: sha512-isW4g3AttqGkbvOCqaMyEsCAP27DZbmy//trvqNgDp+gGRfDNNqgXu7P0WXwr4jgyxZZV3XIgfWnHa3KZyXDFw==}
@@ -4283,6 +4342,40 @@ packages:
       yargs-parser: 20.0.0
     transitivePeerDependencies:
       - debug
+
+  /@nrwl/workspace/12.0.3_prettier@2.2.1:
+    resolution: {integrity: sha512-Up60VAUT4k/85bEt6YHovQXgmDAW92sgpe6G5ropejLnwoDa/sc7/rALPbLrcEvTIhv1u3elR7Kg7nHsGTslZQ==}
+    peerDependencies:
+      prettier: ^2.0.4
+    dependencies:
+      '@nrwl/cli': 12.0.3
+      '@nrwl/devkit': 12.0.3
+      '@nrwl/jest': 12.0.3
+      '@nrwl/linter': 12.0.3
+      axios: 0.21.1
+      chalk: 4.1.0
+      cosmiconfig: 4.0.0
+      dotenv: 8.2.0
+      enquirer: 2.3.6
+      flat: 5.0.2
+      fs-extra: 7.0.1
+      ignore: 5.1.8
+      lodash.template: 4.5.0
+      minimatch: 3.0.4
+      npm-run-all: 4.1.5
+      opn: 5.5.0
+      prettier: 2.2.1
+      resolve: 1.17.0
+      rxjs: 6.6.3
+      semver: 7.3.4
+      strip-json-comments: 2.0.1
+      tmp: 0.0.33
+      tslib: 2.1.0
+      yargs: 15.4.1
+      yargs-parser: 20.0.0
+    transitivePeerDependencies:
+      - debug
+    dev: true
 
   /@opencensus/core/0.0.8:
     resolution: {integrity: sha512-yUFT59SFhGMYQgX0PhoTR0LBff2BEhPrD9io1jWfF/VDbakRfs6Pq60rjv0Z7iaTav5gQlttJCX2+VPxFWCuoQ==}
