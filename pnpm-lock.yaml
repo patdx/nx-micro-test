@@ -13,7 +13,7 @@ specifiers:
   '@nrwl/cypress': 12.0.7
   '@nrwl/eslint-plugin-nx': 12.0.7
   '@nrwl/express': 12.0.7
-  '@nrwl/jest': 12.0.3
+  '@nrwl/jest': 12.0.7
   '@nrwl/linter': 12.0.3
   '@nrwl/next': 12.0.1
   '@nrwl/node': 11.6.2
@@ -88,7 +88,7 @@ devDependencies:
   '@nrwl/cypress': 12.0.7_6ae3e74e0eeb01292b6305e675733a08
   '@nrwl/eslint-plugin-nx': 12.0.7_96a1ccb10ff53e579323a3953d981bf4
   '@nrwl/express': 12.0.7_prettier@2.2.1+typescript@4.2.2
-  '@nrwl/jest': 12.0.3
+  '@nrwl/jest': 12.0.7
   '@nrwl/linter': 12.0.3
   '@nrwl/node': 11.6.2_prettier@2.2.1+typescript@4.2.2
   '@nrwl/react': 11.6.2_f779aa6b9c6756c2920aa99212a126c3
@@ -3758,16 +3758,6 @@ packages:
       rxjs: 6.6.3
       strip-json-comments: 2.0.1
       tslib: 2.1.0
-
-  /@nrwl/jest/12.0.3:
-    resolution: {integrity: sha512-6GRemUdgeUxtb7BPuGCnOo5z1bWgsOwOD2UqTRN/uiUs0Ez2CH71JCniR77W65+8oWt2Y8VGMgzg0B/koKAU0A==}
-    dependencies:
-      '@nrwl/devkit': 12.0.3
-      jest-resolve: 26.6.2
-      rxjs: 6.6.3
-      strip-json-comments: 2.0.1
-      tslib: 2.1.0
-    dev: true
 
   /@nrwl/jest/12.0.7:
     resolution: {integrity: sha512-QpPjEEVbtPLYLglJE8PVi403gWjAd0JepibVkLD7YXum8TsuCrY/0IvDbMC70n3RiJElP4ECAIHarhzv9J+u6Q==}
