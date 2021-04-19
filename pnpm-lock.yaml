@@ -18,7 +18,7 @@ specifiers:
   '@nrwl/next': 12.0.7
   '@nrwl/node': 11.6.2
   '@nrwl/react': 11.6.2
-  '@nrwl/tao': 12.0.2
+  '@nrwl/tao': 12.0.7
   '@nrwl/web': 12.0.1
   '@nrwl/workspace': 11.6.2
   '@testing-library/react': 11.2.6
@@ -92,7 +92,7 @@ devDependencies:
   '@nrwl/linter': 12.0.7
   '@nrwl/node': 11.6.2_prettier@2.2.1+typescript@4.2.2
   '@nrwl/react': 11.6.2_f779aa6b9c6756c2920aa99212a126c3
-  '@nrwl/tao': 12.0.2
+  '@nrwl/tao': 12.0.7
   '@nrwl/web': 12.0.1_6ae3e74e0eeb01292b6305e675733a08
   '@nrwl/workspace': 11.6.2_prettier@2.2.1
   '@testing-library/react': 11.2.6_react-dom@17.0.2+react@17.0.2
@@ -4007,23 +4007,6 @@ packages:
 
   /@nrwl/tao/12.0.1:
     resolution: {integrity: sha512-j/ODmu+rENxWHCFWnVEJPH+1bhepmo3jnyedAz+7drZZ2cRPJn1E/HBFOCcDhUeG8ipymPoQwA/uLCgc+Ej48g==}
-    hasBin: true
-    dependencies:
-      chalk: 4.1.0
-      enquirer: 2.3.6
-      fs-extra: 7.0.1
-      minimist: 1.2.5
-      rxjs: 6.6.3
-      rxjs-for-await: 0.0.2_rxjs@6.6.3
-      semver: 7.3.4
-      strip-json-comments: 2.0.1
-      tmp: 0.0.33
-      tslib: 2.1.0
-      yargs-parser: 20.0.0
-    dev: true
-
-  /@nrwl/tao/12.0.2:
-    resolution: {integrity: sha512-6QmZKTloA95kfDoeKvnU/V0Ds6VGI+UkRDDoJWwSuX8r2MFRrLSZVQvRcEPjoFqIJVfeLrPfOsZXXXl9lzxEDA==}
     hasBin: true
     dependencies:
       chalk: 4.1.0
