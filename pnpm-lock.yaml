@@ -16,7 +16,7 @@ specifiers:
   '@nrwl/jest': 12.0.8
   '@nrwl/linter': 12.0.8
   '@nrwl/next': 12.0.8
-  '@nrwl/node': 12.0.7
+  '@nrwl/node': 12.0.8
   '@nrwl/react': 12.0.7
   '@nrwl/tao': 12.0.7
   '@nrwl/web': 12.0.7
@@ -90,7 +90,7 @@ devDependencies:
   '@nrwl/express': 12.0.8_prettier@2.2.1+typescript@4.2.2
   '@nrwl/jest': 12.0.8
   '@nrwl/linter': 12.0.8
-  '@nrwl/node': 12.0.7_prettier@2.2.1+typescript@4.2.2
+  '@nrwl/node': 12.0.8_prettier@2.2.1+typescript@4.2.2
   '@nrwl/react': 12.0.7_f779aa6b9c6756c2920aa99212a126c3
   '@nrwl/tao': 12.0.7
   '@nrwl/web': 12.0.7_6ae3e74e0eeb01292b6305e675733a08
@@ -2990,35 +2990,6 @@ packages:
       - webpack
       - webpack-cli
     dev: false
-
-  /@nrwl/node/12.0.7_prettier@2.2.1+typescript@4.2.2:
-    resolution: {integrity: sha512-IQTRpnamBrF21q7FaxmbcLZy741cEnIg5CQyFLbFhjlxRhiOFHcxUSgk3Np63e1hxH6Op7Jj7H7ZnK+8JkCLbQ==}
-    dependencies:
-      '@nrwl/devkit': 12.0.7
-      '@nrwl/jest': 12.0.7
-      '@nrwl/linter': 12.0.7
-      '@nrwl/workspace': 12.0.7_prettier@2.2.1
-      circular-dependency-plugin: 5.2.0_webpack@4.42.0
-      copy-webpack-plugin: 6.0.3_webpack@4.42.0
-      fork-ts-checker-webpack-plugin: 3.1.1
-      fs-extra: 7.0.1
-      glob: 7.1.4
-      license-webpack-plugin: 2.1.2
-      rxjs: 6.6.3
-      rxjs-for-await: 0.0.2_rxjs@6.6.3
-      source-map-support: 0.5.16
-      tree-kill: 1.2.2
-      ts-loader: 5.4.5_typescript@4.2.2
-      tsconfig-paths-webpack-plugin: 3.2.0
-      tslib: 2.1.0
-      webpack: 4.42.0
-      webpack-merge: 4.2.1
-      webpack-node-externals: 1.7.2
-    transitivePeerDependencies:
-      - debug
-      - prettier
-      - typescript
-    dev: true
 
   /@nrwl/node/12.0.8_prettier@2.2.1+typescript@4.2.2:
     resolution: {integrity: sha512-7rK4N0dzYV7McyahbF4lXTSsZzgK/eR4LkAXQbt4C9qyKHSogErNaT3YImPDmHUfsLO3DutapQ6293Fi5yVf1Q==}
