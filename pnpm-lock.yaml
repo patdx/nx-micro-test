@@ -11,7 +11,7 @@ specifiers:
   '@babel/preset-typescript': 7.13.0
   '@nrwl/cli': 12.1.0
   '@nrwl/cypress': 12.1.0
-  '@nrwl/eslint-plugin-nx': 12.0.8
+  '@nrwl/eslint-plugin-nx': 12.1.0
   '@nrwl/express': 12.0.8
   '@nrwl/jest': 12.0.8
   '@nrwl/linter': 12.0.8
@@ -86,7 +86,7 @@ devDependencies:
   '@babel/preset-typescript': 7.13.0_@babel+core@7.14.0
   '@nrwl/cli': 12.1.0
   '@nrwl/cypress': 12.1.0_6ae3e74e0eeb01292b6305e675733a08
-  '@nrwl/eslint-plugin-nx': 12.0.8_61e6debacef634d0fcb24383052d151f
+  '@nrwl/eslint-plugin-nx': 12.1.0_61e6debacef634d0fcb24383052d151f
   '@nrwl/express': 12.0.8_prettier@2.2.1+typescript@4.2.2
   '@nrwl/jest': 12.0.8
   '@nrwl/linter': 12.0.8
@@ -3732,14 +3732,14 @@ packages:
       tslib: 2.1.0
     dev: true
 
-  /@nrwl/eslint-plugin-nx/12.0.8_61e6debacef634d0fcb24383052d151f:
-    resolution: {integrity: sha512-c2eR0X/4PdWn8XUbgkOJX3JPcTMwTMhcPa5L/62nncQ5+HJWWZwYljEDVbe3h2CNMUGJsVh7BxlhmF9MvPWIOA==}
+  /@nrwl/eslint-plugin-nx/12.1.0_61e6debacef634d0fcb24383052d151f:
+    resolution: {integrity: sha512-2t1I/ojLiKy27H44Tryurc2tTZRzhZxIHdQSv1ikUgnB70S0+QUUlKmoJNS+vgv+zs5Sd6sIbMresPI7fjNBzA==}
     peerDependencies:
       '@typescript-eslint/parser': ^4.3.0
       eslint-config-prettier: ^8.1.0
     dependencies:
-      '@nrwl/devkit': 12.0.8
-      '@nrwl/workspace': 12.0.8_prettier@2.2.1
+      '@nrwl/devkit': 12.1.0
+      '@nrwl/workspace': 12.1.0_prettier@2.2.1
       '@typescript-eslint/experimental-utils': 4.22.0_eslint@7.25.0+typescript@4.2.2
       '@typescript-eslint/parser': 4.22.0_eslint@7.25.0+typescript@4.2.2
       confusing-browser-globals: 1.0.10
