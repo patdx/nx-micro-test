@@ -232,7 +232,8 @@
     }
   },
   "cli": {
-    "defaultCollection": "@nrwl/express"
+    "defaultCollection": "@nrwl/express",
+    "packageManager": "pnpm"
   },
   "defaultProject": "express-app",
   "generators": {
