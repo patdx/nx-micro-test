@@ -9,7 +9,7 @@ specifiers:
   '@babel/preset-env': 7.14.1
   '@babel/preset-react': 7.13.13
   '@babel/preset-typescript': 7.13.0
-  '@nrwl/cli': 12.1.1
+  '@nrwl/cli': 12.2.0
   '@nrwl/cypress': 12.1.1
   '@nrwl/eslint-plugin-nx': 12.1.1
   '@nrwl/express': 12.1.1
@@ -84,7 +84,7 @@ devDependencies:
   '@babel/preset-env': 7.14.1_@babel+core@7.14.0
   '@babel/preset-react': 7.13.13_@babel+core@7.14.0
   '@babel/preset-typescript': 7.13.0_@babel+core@7.14.0
-  '@nrwl/cli': 12.1.1
+  '@nrwl/cli': 12.2.0
   '@nrwl/cypress': 12.1.1_5addac3428edc21f573752ec615594c4
   '@nrwl/eslint-plugin-nx': 12.1.1_26cf8a70be289c844acc55d8f12ba62d
   '@nrwl/express': 12.1.1_prettier@2.3.0+typescript@4.2.4
@@ -2814,6 +2814,17 @@ packages:
       yargs: 15.4.1
       yargs-parser: 20.0.0
 
+  /@nrwl/cli/12.2.0:
+    resolution: {integrity: sha512-gP217KUwY0er9yFh0LZdCzjng86qNzdChoSsPC1nou10hslwafFmcOZf1JI6B0L5CIDSy5pAWnAd7uyVkA1BJg==}
+    hasBin: true
+    dependencies:
+      '@nrwl/tao': 12.2.0
+      chalk: 4.1.0
+      v8-compile-cache: 2.3.0
+      yargs: 15.4.1
+      yargs-parser: 20.0.0
+    dev: true
+
   /@nrwl/cypress/12.1.1_5addac3428edc21f573752ec615594c4:
     resolution: {integrity: sha512-zCfin0Z505pX0cFa9aiox3xHTFOO7QHfKaI0QcWPShazJJSjJWQ7f8AV2R/U9x/drysrL6UpF6GroJZJiGy2nQ==}
     peerDependencies:
@@ -3052,6 +3063,22 @@ packages:
       tmp: 0.2.1
       tslib: 2.1.0
       yargs-parser: 20.0.0
+
+  /@nrwl/tao/12.2.0:
+    resolution: {integrity: sha512-oK+6mWQzzGRSeQ5KkgGHInv5ZvzVRDCcs8yXHwmnTI32sCD5mWtPqZy/5BPeZOZsnLKI2AQ/BtYLoWtpVuMWuA==}
+    hasBin: true
+    dependencies:
+      chalk: 4.1.0
+      enquirer: 2.3.6
+      fs-extra: 9.1.0
+      rxjs: 6.6.7
+      rxjs-for-await: 0.0.2_rxjs@6.6.7
+      semver: 7.3.4
+      strip-json-comments: 3.1.1
+      tmp: 0.2.1
+      tslib: 2.2.0
+      yargs-parser: 20.0.0
+    dev: true
 
   /@nrwl/web/12.1.1_5addac3428edc21f573752ec615594c4:
     resolution: {integrity: sha512-VZh+tkdh/Vx3hhxLP2+ilLSDZse3sn/08ptX/uCcP1klG8Gb2Oys8gdnJ1oslB3fjUAIba8+CeuEYblEYUoDjg==}
@@ -11806,6 +11833,14 @@ packages:
     dependencies:
       rxjs: 6.6.3
 
+  /rxjs-for-await/0.0.2_rxjs@6.6.7:
+    resolution: {integrity: sha512-IJ8R/ZCFMHOcDIqoABs82jal00VrZx8Xkgfe7TOKoaRPAW5nH/VFlG23bXpeGdrmtqI9UobFPgUKgCuFc7Lncw==}
+    peerDependencies:
+      rxjs: ^6.0.0
+    dependencies:
+      rxjs: 6.6.7
+    dev: true
+
   /rxjs/6.6.3:
     resolution: {integrity: sha512-trsQc+xYYXZ3urjOiJOuCOa5N3jAZ3eiSpQB5hIT8zGlL2QfnHLJ2r7GMkBGuIausdJN1OneaI6gQlsqNHHmZQ==}
     engines: {npm: '>=2.0.0'}
@@ -13034,7 +13069,6 @@ packages:
 
   /tslib/2.2.0:
     resolution: {integrity: sha512-gS9GVHRU+RGn5KQM2rllAlR3dU6m7AcpJKdtH8gFvQiC4Otgk98XnmMU+nZenHt/+VhnBPWwgrJsyrdcw6i23w==}
-    dev: false
 
   /tsutils/3.20.0_typescript@4.2.4:
     resolution: {integrity: sha512-RYbuQuvkhuqVeXweWT3tJLKOEJ/UUw9GjNEZGWdrLLlM+611o1gwLHBpxoFJKKl25fLprp2eVthtKs5JOrNeXg==}
