@@ -38,7 +38,7 @@
     "@nrwl/express": "12.3.1",
     "@nrwl/jest": "12.3.1",
     "@nrwl/linter": "12.3.1",
-    "@nrwl/node": "12.2.0",
+    "@nrwl/node": "12.3.1",
     "@nrwl/react": "12.2.0",
     "@nrwl/tao": "12.2.0",
     "@nrwl/web": "12.1.1",
