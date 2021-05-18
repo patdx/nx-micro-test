@@ -18,7 +18,7 @@ specifiers:
   '@nrwl/next': 12.3.3
   '@nrwl/node': 12.3.3
   '@nrwl/react': 12.3.3
-  '@nrwl/tao': 12.3.1
+  '@nrwl/tao': 12.3.3
   '@nrwl/web': 12.1.1
   '@nrwl/workspace': 12.1.1
   '@testing-library/react': 11.2.7
@@ -92,7 +92,7 @@ devDependencies:
   '@nrwl/linter': 12.3.3
   '@nrwl/node': 12.3.3_prettier@2.3.0+typescript@4.2.4
   '@nrwl/react': 12.3.3_8ed5c13f1b6954c5fb943d726bf90469
-  '@nrwl/tao': 12.3.1
+  '@nrwl/tao': 12.3.3
   '@nrwl/web': 12.1.1_5addac3428edc21f573752ec615594c4
   '@nrwl/workspace': 12.1.1_prettier@2.3.0
   '@testing-library/react': 11.2.7_react-dom@17.0.2+react@17.0.2
@@ -3978,22 +3978,6 @@ packages:
       strip-json-comments: 3.1.1
       tmp: 0.2.1
       tslib: 2.1.0
-      yargs-parser: 20.0.0
-    dev: true
-
-  /@nrwl/tao/12.3.1:
-    resolution: {integrity: sha512-OrAivmOIVjuUTO1I5XZtFjKFPLqUdlhBgLGKnZ8mW614CIMksFLuLKLTzgBG7JScFK0vRE8oruRei+ntqaCLYQ==}
-    hasBin: true
-    dependencies:
-      chalk: 4.1.0
-      enquirer: 2.3.6
-      fs-extra: 9.1.0
-      rxjs: 6.6.7
-      rxjs-for-await: 0.0.2_rxjs@6.6.7
-      semver: 7.3.4
-      strip-json-comments: 3.1.1
-      tmp: 0.2.1
-      tslib: 2.2.0
       yargs-parser: 20.0.0
     dev: true
 
