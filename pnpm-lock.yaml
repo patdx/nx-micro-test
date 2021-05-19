@@ -12,7 +12,7 @@ specifiers:
   '@nrwl/cli': 12.3.4
   '@nrwl/cypress': 12.3.4
   '@nrwl/eslint-plugin-nx': 12.3.4
-  '@nrwl/express': 12.3.3
+  '@nrwl/express': 12.3.4
   '@nrwl/jest': 12.3.3
   '@nrwl/linter': 12.3.3
   '@nrwl/next': 12.3.3
@@ -87,7 +87,7 @@ devDependencies:
   '@nrwl/cli': 12.3.4
   '@nrwl/cypress': 12.3.4_5addac3428edc21f573752ec615594c4
   '@nrwl/eslint-plugin-nx': 12.3.4_708a889f968acda46d7a2eba564f6226
-  '@nrwl/express': 12.3.3_prettier@2.3.0+typescript@4.2.4
+  '@nrwl/express': 12.3.4_prettier@2.3.0+typescript@4.2.4
   '@nrwl/jest': 12.3.3
   '@nrwl/linter': 12.3.3
   '@nrwl/node': 12.3.3_prettier@2.3.0+typescript@4.2.4
@@ -3445,7 +3445,7 @@ packages:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.3
       '@types/istanbul-reports': 3.0.0
-      '@types/node': 15.0.2
+      '@types/node': 15.3.0
       '@types/yargs': 15.0.13
       chalk: 4.1.0
 
@@ -3690,15 +3690,14 @@ packages:
       - typescript
     dev: true
 
-  /@nrwl/express/12.3.3_prettier@2.3.0+typescript@4.2.4:
-    resolution: {integrity: sha512-2y1xp2G96vclRPBSdSRrf45AZ7Y3A5J0th2gGo345L/I1a0DTyNoZ04dW8Uh5VR4lqy5DJhmxhSV5c9EuY2orw==}
+  /@nrwl/express/12.3.4_prettier@2.3.0+typescript@4.2.4:
+    resolution: {integrity: sha512-foMOFo/6mN/ybZjL8IkYdjKt7kVWIQCtHukuzJRuBnWtWwA/XBndT+wn7xx5lfnAdlbD7Fbj2VL5z9Gf/F60kw==}
     dependencies:
-      '@nrwl/devkit': 12.3.3
-      '@nrwl/jest': 12.3.3
-      '@nrwl/node': 12.3.3_prettier@2.3.0+typescript@4.2.4
-      '@nrwl/workspace': 12.3.3_prettier@2.3.0
+      '@nrwl/devkit': 12.3.4
+      '@nrwl/jest': 12.3.4
+      '@nrwl/node': 12.3.4_prettier@2.3.0+typescript@4.2.4
+      '@nrwl/workspace': 12.3.4_prettier@2.3.0
     transitivePeerDependencies:
-      - debug
       - prettier
       - typescript
     dev: true
@@ -3800,6 +3799,34 @@ packages:
       webpack-node-externals: 1.7.2
     transitivePeerDependencies:
       - debug
+      - prettier
+      - typescript
+    dev: true
+
+  /@nrwl/node/12.3.4_prettier@2.3.0+typescript@4.2.4:
+    resolution: {integrity: sha512-PgVG9SFsLgWhXXCYP17wMTAQMruW66Nn8sS6V6VZM7QHJzDFplkwOl7v+GEL/H0k5KPE6ItoHdrKR2f60GYkfQ==}
+    dependencies:
+      '@nrwl/devkit': 12.3.4
+      '@nrwl/jest': 12.3.4
+      '@nrwl/linter': 12.3.4
+      '@nrwl/workspace': 12.3.4_prettier@2.3.0
+      circular-dependency-plugin: 5.2.0_webpack@4.42.0
+      copy-webpack-plugin: 6.0.3_webpack@4.42.0
+      fork-ts-checker-webpack-plugin: 3.1.1
+      fs-extra: 9.1.0
+      glob: 7.1.4
+      license-webpack-plugin: 2.1.2
+      rxjs: 6.6.7
+      rxjs-for-await: 0.0.2_rxjs@6.6.7
+      source-map-support: 0.5.16
+      tree-kill: 1.2.2
+      ts-loader: 5.4.5_typescript@4.2.4
+      tsconfig-paths-webpack-plugin: 3.2.0
+      tslib: 2.2.0
+      webpack: 4.42.0
+      webpack-merge: 4.2.1
+      webpack-node-externals: 1.7.2
+    transitivePeerDependencies:
       - prettier
       - typescript
     dev: true
@@ -4547,7 +4574,6 @@ packages:
 
   /@types/node/15.3.0:
     resolution: {integrity: sha512-8/bnjSZD86ZfpBsDlCIkNXIvm+h6wi9g7IqL+kmFkQ+Wvu3JrasgLElfiPgoo8V8vVfnEi0QVS12gbl94h9YsQ==}
-    dev: true
 
   /@types/normalize-package-data/2.4.0:
     resolution: {integrity: sha512-f5j5b/Gf71L+dbqxIpQ4Z2WlmI/mPJ0fOkGGmFgtb6sAu97EPczzbS3/tJKxmcYDj55OX6ssqwDAWOHIYDRDGA==}
