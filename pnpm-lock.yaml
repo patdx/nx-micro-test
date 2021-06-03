@@ -13,7 +13,7 @@ specifiers:
   '@nrwl/cypress': 12.3.6
   '@nrwl/eslint-plugin-nx': 12.3.6
   '@nrwl/express': 12.3.6
-  '@nrwl/jest': 12.3.5
+  '@nrwl/jest': 12.3.6
   '@nrwl/linter': 12.3.5
   '@nrwl/next': 12.3.5
   '@nrwl/node': 12.3.5
@@ -88,7 +88,7 @@ devDependencies:
   '@nrwl/cypress': 12.3.6_46b3a206f965f4911090aff9df132d95
   '@nrwl/eslint-plugin-nx': 12.3.6_3fd26a7b33d30983c7782c42cb1c172a
   '@nrwl/express': 12.3.6_prettier@2.3.0+typescript@4.3.2
-  '@nrwl/jest': 12.3.5
+  '@nrwl/jest': 12.3.6
   '@nrwl/linter': 12.3.5
   '@nrwl/node': 12.3.5_prettier@2.3.0+typescript@4.3.2
   '@nrwl/react': 12.3.5_d5c180cd0c69012bc361d5a643231fe8
@@ -3617,7 +3617,6 @@ packages:
 
   /@types/node/15.9.0:
     resolution: {integrity: sha512-AR1Vq1Ei1GaA5FjKL5PBqblTZsL5M+monvGSZwe6sSIdGiuu7Xr/pNwWJY+0ZQuN8AapD/XMB5IzBAyYRFbocA==}
-    dev: true
 
   /@types/normalize-package-data/2.4.0:
     resolution: {integrity: sha512-f5j5b/Gf71L+dbqxIpQ4Z2WlmI/mPJ0fOkGGmFgtb6sAu97EPczzbS3/tJKxmcYDj55OX6ssqwDAWOHIYDRDGA==}
@@ -8733,7 +8732,7 @@ packages:
     engines: {node: '>= 10.14.2'}
     dependencies:
       '@jest/types': 26.6.2
-      '@types/node': 15.6.1
+      '@types/node': 15.9.0
       chalk: 4.1.0
       graceful-fs: 4.2.6
       is-ci: 2.0.0
