@@ -29,7 +29,7 @@ specifiers:
   '@types/node': 15.12.2
   '@types/polka': ^0.5.2
   '@types/react': 17.0.10
-  '@types/react-dom': 17.0.6
+  '@types/react-dom': 17.0.7
   '@typescript-eslint/eslint-plugin': 4.26.1
   '@typescript-eslint/parser': 4.26.1
   babel-jest: 27.0.2
@@ -101,7 +101,7 @@ devDependencies:
   '@types/micro': 7.3.4
   '@types/node': 15.12.2
   '@types/react': 17.0.10
-  '@types/react-dom': 17.0.6
+  '@types/react-dom': 17.0.7
   '@typescript-eslint/eslint-plugin': 4.26.1_c8cbd5e7f5f92609ec78d991aced454b
   '@typescript-eslint/parser': 4.26.1_eslint@7.28.0+typescript@4.3.2
   babel-jest: 27.0.2_@babel+core@7.14.3
@@ -3518,22 +3518,14 @@ packages:
   /@types/range-parser/1.2.3:
     resolution: {integrity: sha512-ewFXqrQHlFsgc09MK5jP5iR7vumV/BYayNC6PgJO2LPe8vrnNFyjQjSppfEngITi0qvfKtzFvgKymGheFM9UOA==}
 
-  /@types/react-dom/17.0.6:
-    resolution: {integrity: sha512-MGTI+TudxAnGTj8aco8mogaPSJGK2Whje7OZh1CxNLRyhJpTZg/pGQpIbCT0eCVFQyH7UFpdvCqQEThHIp/gsA==}
+  /@types/react-dom/17.0.7:
+    resolution: {integrity: sha512-Wd5xvZRlccOrCTej8jZkoFZuZRKHzanDDv1xglI33oBNFMWrqOSzrvWFw7ngSiZjrpJAzPKFtX7JvuXpkNmQHA==}
     dependencies:
-      '@types/react': 17.0.9
+      '@types/react': 17.0.10
     dev: true
 
   /@types/react/17.0.10:
     resolution: {integrity: sha512-+Tc5aGO49L/cjFBfpIPB398ztmAUChglc+a+EYlvphMOMvwUEzmLiyfmnEseGE7inMO6XiSffHmXVPC8GonksQ==}
-    dependencies:
-      '@types/prop-types': 15.7.3
-      '@types/scheduler': 0.16.1
-      csstype: 3.0.8
-    dev: true
-
-  /@types/react/17.0.9:
-    resolution: {integrity: sha512-2Cw7FvevpJxQrCb+k5t6GH1KIvmadj5uBbjPaLlJB/nZWUj56e1ZqcD6zsoMFB47MsJUTFl9RJ132A7hb3QFJA==}
     dependencies:
       '@types/prop-types': 15.7.3
       '@types/scheduler': 0.16.1
