@@ -9,7 +9,7 @@ specifiers:
   '@babel/preset-env': 7.14.5
   '@babel/preset-react': 7.14.5
   '@babel/preset-typescript': 7.14.5
-  '@nrwl/cli': 12.3.6
+  '@nrwl/cli': 12.4.0
   '@nrwl/cypress': 12.3.6
   '@nrwl/eslint-plugin-nx': 12.3.6
   '@nrwl/express': 12.3.6
@@ -84,7 +84,7 @@ devDependencies:
   '@babel/preset-env': 7.14.5_@babel+core@7.14.6
   '@babel/preset-react': 7.14.5_@babel+core@7.14.6
   '@babel/preset-typescript': 7.14.5_@babel+core@7.14.6
-  '@nrwl/cli': 12.3.6
+  '@nrwl/cli': 12.4.0
   '@nrwl/cypress': 12.3.6_d83f79d91befdf716a97d84e3515b58f
   '@nrwl/eslint-plugin-nx': 12.3.6_1511f2b0b3292c8823871f87a3c517a5
   '@nrwl/express': 12.3.6_prettier@2.3.1+typescript@4.3.2
@@ -3804,6 +3804,17 @@ packages:
       yargs: 15.4.1
       yargs-parser: 20.0.0
 
+  /@nrwl/cli/12.4.0:
+    resolution: {integrity: sha512-ZU1NAjxEa9iMRRhUCYmD0ZLlK1j5l+zDseDE1a0A3KdgMVGh2eOchREnf6R75skQJHl4v9hKFweqiy0Xl14ZRQ==}
+    hasBin: true
+    dependencies:
+      '@nrwl/tao': 12.4.0
+      chalk: 4.1.0
+      v8-compile-cache: 2.3.0
+      yargs: 15.4.1
+      yargs-parser: 20.0.0
+    dev: true
+
   /@nrwl/cypress/12.3.6_c3dfd12bdb6a2676676103f75bf6cb5e:
     resolution: {integrity: sha512-iZJ03qepMr8RvtMkaO68qxSK0klZFn8NUzN+VlELqbePj7fqUAZvpOjLsiGWwib+3vjYzxqq9m+a7HvEhgeCYg==}
     peerDependencies:
@@ -4051,6 +4062,22 @@ packages:
       tmp: 0.2.1
       tslib: 2.2.0
       yargs-parser: 20.0.0
+
+  /@nrwl/tao/12.4.0:
+    resolution: {integrity: sha512-WH8SqOuJuuBwXpLX9vIVVWEovDqfLmiyFQS4Ebz35KWXNoIv9MS3QgItXKCu7X463hiJnxjAA3RqVYIt8U1vXg==}
+    hasBin: true
+    dependencies:
+      chalk: 4.1.0
+      enquirer: 2.3.6
+      fs-extra: 9.1.0
+      jsonc-parser: 3.0.0
+      rxjs: 6.6.7
+      rxjs-for-await: 0.0.2_rxjs@6.6.7
+      semver: 7.3.4
+      tmp: 0.2.1
+      tslib: 2.2.0
+      yargs-parser: 20.0.0
+    dev: true
 
   /@nrwl/web/12.3.6_d83f79d91befdf716a97d84e3515b58f:
     resolution: {integrity: sha512-3BClTMre+FSmNfYXKfDvLk5yaQ2IBge3ug30yGCC3umDeJW7uQYnwL3ajYhYUk7gIEJs55imhf6eqMXfZy+cXg==}
@@ -10223,6 +10250,10 @@ packages:
     hasBin: true
     dependencies:
       minimist: 1.2.5
+
+  /jsonc-parser/3.0.0:
+    resolution: {integrity: sha512-fQzRfAbIBnR0IQvftw9FJveWiHp72Fg20giDrHz6TdfB12UH/uue0D3hm57UB5KgAVuniLMCaS8P1IMj9NR7cA==}
+    dev: true
 
   /jsonfile/4.0.0:
     resolution: {integrity: sha1-h3Gq4HmbZAdrdmQPygWPnBDjPss=}
