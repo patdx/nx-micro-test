@@ -10,7 +10,7 @@ specifiers:
   '@babel/preset-react': 7.14.5
   '@babel/preset-typescript': 7.14.5
   '@nrwl/cli': 12.5.2
-  '@nrwl/cypress': 12.5.1
+  '@nrwl/cypress': 12.5.2
   '@nrwl/eslint-plugin-nx': 12.5.1
   '@nrwl/express': 12.5.1
   '@nrwl/jest': 12.5.1
@@ -85,7 +85,7 @@ devDependencies:
   '@babel/preset-react': 7.14.5_@babel+core@7.14.6
   '@babel/preset-typescript': 7.14.5_@babel+core@7.14.6
   '@nrwl/cli': 12.5.2
-  '@nrwl/cypress': 12.5.1_883e835d04cb20bb318ba307ebe2c109
+  '@nrwl/cypress': 12.5.2_883e835d04cb20bb318ba307ebe2c109
   '@nrwl/eslint-plugin-nx': 12.5.1_1df9dc2c6537fa711d072e85be2ebadf
   '@nrwl/express': 12.5.1_prettier@2.3.2+typescript@4.3.2
   '@nrwl/jest': 12.5.1
@@ -2681,6 +2681,30 @@ packages:
       - typescript
       - webpack
 
+  /@nrwl/cypress/12.5.2_883e835d04cb20bb318ba307ebe2c109:
+    resolution: {integrity: sha512-G94A9aT0YpjXfsFLUsqPUOBiHWE7woIogzHipB933odvBGF9VrLQ2utbU5iLceFSFW6Qifx0tzq0d1ll396ZgA==}
+    peerDependencies:
+      cypress: '>= 3 < 8'
+    dependencies:
+      '@cypress/webpack-preprocessor': 4.1.5
+      '@nrwl/devkit': 12.5.2
+      '@nrwl/linter': 12.5.2
+      '@nrwl/workspace': 12.5.2_prettier@2.3.2
+      cypress: 7.2.0
+      fork-ts-checker-webpack-plugin: 3.1.1
+      rxjs: 6.6.7
+      ts-loader: 5.4.5_typescript@4.3.2
+      tsconfig-paths-webpack-plugin: 3.2.0
+      tslib: 2.2.0
+      webpack-node-externals: 1.7.2
+      yargs-parser: 20.0.0
+    transitivePeerDependencies:
+      - prettier
+      - supports-color
+      - typescript
+      - webpack
+    dev: true
+
   /@nrwl/devkit/12.5.1:
     resolution: {integrity: sha512-YajjVhXInB2qygSM7736M/GJNNNim1eqGFNdVjEOBQmGXInPNnAzWG0u0Gywx7ac40pm9Gwqpsrq7FT3IXw6JA==}
     dependencies:
@@ -2689,6 +2713,16 @@ packages:
       ignore: 5.1.8
       semver: 7.3.4
       tslib: 2.2.0
+
+  /@nrwl/devkit/12.5.2:
+    resolution: {integrity: sha512-Fo8nkXiYm7+3ddIMWmdR0+K1ug0lAfAnYu9vhl3ASgL8gyx3TgGXqffR1/LY9+2miSDQ+RkVxdffmxIzoWhyuQ==}
+    dependencies:
+      '@nrwl/tao': 12.5.2
+      ejs: 3.1.6
+      ignore: 5.1.8
+      semver: 7.3.4
+      tslib: 2.2.0
+    dev: true
 
   /@nrwl/eslint-plugin-nx/12.5.1_1df9dc2c6537fa711d072e85be2ebadf:
     resolution: {integrity: sha512-JVrZemesTrEVfRWEuIhQyDJgjvqCBr0erF8vBiPh4tNCBO0vgq7wWugcS+9YCbLLZNmUKYY0mXxABkd6LEDUqQ==}
@@ -2729,6 +2763,15 @@ packages:
       rxjs: 6.6.7
       tslib: 2.2.0
 
+  /@nrwl/jest/12.5.2:
+    resolution: {integrity: sha512-zHIlNGP1T8raWEGMYO5U++kISnGo2I52XzBCnP6MjWRiZtyOweudGGYmPxQ0TrSh/uVs5xrkGFrvFJ0fNQOIEw==}
+    dependencies:
+      '@nrwl/devkit': 12.5.2
+      jest-resolve: 26.6.2
+      rxjs: 6.6.7
+      tslib: 2.2.0
+    dev: true
+
   /@nrwl/linter/12.5.1:
     resolution: {integrity: sha512-DAobN8tqje6rs6yBfFVaoht0LCSSt5NZZm6YeB7oyHbe9A6v7z5Ezyt5ngEw7agiReGkcK/eXBgmEMEcxEs/Tw==}
     dependencies:
@@ -2737,6 +2780,16 @@ packages:
       minimatch: 3.0.4
       tmp: 0.2.1
       tslib: 2.2.0
+
+  /@nrwl/linter/12.5.2:
+    resolution: {integrity: sha512-zXxJ3gH5rRn4rOsVzcB32CxThDrLqChomzc1vwzVw/CTuZumz2Z19ejG0kLSVfLmyp0/ljjXXH7JULACHe7qLw==}
+    dependencies:
+      '@nrwl/devkit': 12.5.2
+      glob: 7.1.4
+      minimatch: 3.0.4
+      tmp: 0.2.1
+      tslib: 2.2.0
+    dev: true
 
   /@nrwl/next/12.5.1_949b5366f9a9162218dd13e19c092730:
     resolution: {integrity: sha512-gbJX8+5ojriMwQGPmfQ0imq6V7VI8Nw3O9QNiPagLBOA4wlPDEmbmYElVuSFGtB21DW21u95c89407Kmb1s5tw==}
@@ -3018,6 +3071,36 @@ packages:
       tslib: 2.2.0
       yargs: 15.4.1
       yargs-parser: 20.0.0
+
+  /@nrwl/workspace/12.5.2_prettier@2.3.2:
+    resolution: {integrity: sha512-TvX17h+Bf1MAVzpLhqWs9ilpvaBElX4sU/o2sFtoXUbzU7xjfEgE6QVfyvLC7p2YeKlSLHOFB4OXmbbHSY6dlw==}
+    peerDependencies:
+      prettier: ^2.3.0
+    dependencies:
+      '@nrwl/cli': 12.5.2
+      '@nrwl/devkit': 12.5.2
+      '@nrwl/jest': 12.5.2
+      '@nrwl/linter': 12.5.2
+      chalk: 4.1.0
+      chokidar: 3.5.1
+      cosmiconfig: 4.0.0
+      dotenv: 8.2.0
+      enquirer: 2.3.6
+      flat: 5.0.2
+      fs-extra: 9.1.0
+      glob: 7.1.4
+      ignore: 5.1.8
+      minimatch: 3.0.4
+      npm-run-all: 4.1.5
+      open: 7.4.2
+      prettier: 2.3.2
+      rxjs: 6.6.7
+      semver: 7.3.4
+      tmp: 0.2.1
+      tslib: 2.2.0
+      yargs: 15.4.1
+      yargs-parser: 20.0.0
+    dev: true
 
   /@opencensus/core/0.0.8:
     resolution: {integrity: sha512-yUFT59SFhGMYQgX0PhoTR0LBff2BEhPrD9io1jWfF/VDbakRfs6Pq60rjv0Z7iaTav5gQlttJCX2+VPxFWCuoQ==}
