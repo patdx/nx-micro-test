@@ -14,7 +14,7 @@ specifiers:
   '@nrwl/eslint-plugin-nx': 12.5.4
   '@nrwl/express': 12.5.4
   '@nrwl/jest': 12.5.4
-  '@nrwl/linter': 12.5.2
+  '@nrwl/linter': 12.5.4
   '@nrwl/next': 12.5.2
   '@nrwl/node': 12.5.1
   '@nrwl/react': 12.5.1
@@ -89,7 +89,7 @@ devDependencies:
   '@nrwl/eslint-plugin-nx': 12.5.4_73e617bc48c80b3405c2a26a5592d752
   '@nrwl/express': 12.5.4_prettier@2.3.2+typescript@4.3.2
   '@nrwl/jest': 12.5.4
-  '@nrwl/linter': 12.5.2
+  '@nrwl/linter': 12.5.4
   '@nrwl/node': 12.5.1_prettier@2.3.2+typescript@4.3.2
   '@nrwl/react': 12.5.1_064d75c82d2a1c7e058e1be43ded79d3
   '@nrwl/tao': 12.5.1
@@ -2800,6 +2800,7 @@ packages:
       ignore: 5.1.8
       semver: 7.3.4
       tslib: 2.2.0
+    dev: false
 
   /@nrwl/devkit/12.5.4:
     resolution: {integrity: sha512-TcM0okbmZf2YuINC2Am6B2WJe7Ki/qN8VXT7x9Cw9xdv/7nIkWB0ksZHdKZINXgL3Kw+mB9qnRKI+q3VDp6VCQ==}
@@ -2887,6 +2888,7 @@ packages:
       minimatch: 3.0.4
       tmp: 0.2.1
       tslib: 2.2.0
+    dev: false
 
   /@nrwl/linter/12.5.4:
     resolution: {integrity: sha512-2Pf4a2vuF63cUV0X78CQMGISd6duVupKIszXsDegyq5ZWZfL6tXj3zYRGd2d3prsCISPROenlPSM1WFJ0r/stw==}
@@ -3146,6 +3148,7 @@ packages:
       tmp: 0.2.1
       tslib: 2.2.0
       yargs-parser: 20.0.0
+    dev: false
 
   /@nrwl/tao/12.5.4:
     resolution: {integrity: sha512-JHzF8cMUcXC+7vNfXqwdo7aIqTqd5gDS8rRCpl8aZaAPmKUjNs2or9ADlJK5hFho+UXUY2XcthZJFPJSMI0dzg==}
