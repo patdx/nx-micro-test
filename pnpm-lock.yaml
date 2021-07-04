@@ -12,7 +12,7 @@ specifiers:
   '@nrwl/cli': 12.5.4
   '@nrwl/cypress': 12.5.4
   '@nrwl/eslint-plugin-nx': 12.5.4
-  '@nrwl/express': 12.5.2
+  '@nrwl/express': 12.5.4
   '@nrwl/jest': 12.5.2
   '@nrwl/linter': 12.5.2
   '@nrwl/next': 12.5.2
@@ -87,7 +87,7 @@ devDependencies:
   '@nrwl/cli': 12.5.4
   '@nrwl/cypress': 12.5.4_883e835d04cb20bb318ba307ebe2c109
   '@nrwl/eslint-plugin-nx': 12.5.4_73e617bc48c80b3405c2a26a5592d752
-  '@nrwl/express': 12.5.2_prettier@2.3.2+typescript@4.3.2
+  '@nrwl/express': 12.5.4_prettier@2.3.2+typescript@4.3.2
   '@nrwl/jest': 12.5.2
   '@nrwl/linter': 12.5.2
   '@nrwl/node': 12.5.1_prettier@2.3.2+typescript@4.3.2
@@ -2649,6 +2649,7 @@ packages:
       v8-compile-cache: 2.3.0
       yargs: 15.4.1
       yargs-parser: 20.0.0
+    dev: false
 
   /@nrwl/cli/12.5.4:
     resolution: {integrity: sha512-KA1s3rlJiEdnrrAa2ZUHi5U5STOU7YsaVl55n3kDQZdGPcGme40HJUoLNvvUtSO8+Yv7xyc0gG0BP9B2zwBmDQ==}
@@ -2829,13 +2830,13 @@ packages:
       - typescript
     dev: true
 
-  /@nrwl/express/12.5.2_prettier@2.3.2+typescript@4.3.2:
-    resolution: {integrity: sha512-iZEsiQ37TeiOO+zy1g0w/aPHJ+aa5S6uZzMdoBoThElKBABo2SyENuiNneKYquvsVsb1tux1UFWDOszvPe62wg==}
+  /@nrwl/express/12.5.4_prettier@2.3.2+typescript@4.3.2:
+    resolution: {integrity: sha512-tStkSr9enfuT0g4EKntMuJDggeFp4OSiVX6RppAJkAmyFAQes07fN3rRHhJ099FAmYY9E5FLKNkwpn/vs1CC4Q==}
     dependencies:
-      '@nrwl/devkit': 12.5.2
-      '@nrwl/jest': 12.5.2
-      '@nrwl/node': 12.5.2_prettier@2.3.2+typescript@4.3.2
-      '@nrwl/workspace': 12.5.2_prettier@2.3.2
+      '@nrwl/devkit': 12.5.4
+      '@nrwl/jest': 12.5.4
+      '@nrwl/node': 12.5.4_prettier@2.3.2+typescript@4.3.2
+      '@nrwl/workspace': 12.5.4_prettier@2.3.2
     transitivePeerDependencies:
       - prettier
       - typescript
@@ -2966,13 +2967,13 @@ packages:
       - typescript
     dev: true
 
-  /@nrwl/node/12.5.2_prettier@2.3.2+typescript@4.3.2:
-    resolution: {integrity: sha512-/BCSl+urn/zsfB1xmDaHwjo6IEW+FINYAYy6iYlhWTcrgVYp0BOQ/wVfzCR9uj25MRmVO4GnO3xW9vUyqx64Jg==}
+  /@nrwl/node/12.5.4_prettier@2.3.2+typescript@4.3.2:
+    resolution: {integrity: sha512-Cw1oqxo/gd7ahfmlohOOrNc3gxfyJgnaWO5SWuuXnfCPFv9CGEJd+NtVMIsDzcQtS+LoP2sxLXazqxYhgLK5jg==}
     dependencies:
-      '@nrwl/devkit': 12.5.2
-      '@nrwl/jest': 12.5.2
-      '@nrwl/linter': 12.5.2
-      '@nrwl/workspace': 12.5.2_prettier@2.3.2
+      '@nrwl/devkit': 12.5.4
+      '@nrwl/jest': 12.5.4
+      '@nrwl/linter': 12.5.4
+      '@nrwl/workspace': 12.5.4_prettier@2.3.2
       circular-dependency-plugin: 5.2.0_webpack@4.42.0
       copy-webpack-plugin: 6.0.3_webpack@4.42.0
       fork-ts-checker-webpack-plugin: 3.1.1
@@ -3407,6 +3408,7 @@ packages:
       tslib: 2.2.0
       yargs: 15.4.1
       yargs-parser: 20.0.0
+    dev: false
 
   /@nrwl/workspace/12.5.4_prettier@2.3.2:
     resolution: {integrity: sha512-vEILTyFrq+Dzlz2vnMe+YVtK8EPaBOLyDjRQx9ONMS3/JUmyv4Gk2iYMy/244pVvzRhq105foor51YX/DSkTzw==}
