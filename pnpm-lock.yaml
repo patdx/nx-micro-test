@@ -10,7 +10,7 @@ specifiers:
   '@babel/preset-react': 7.14.5
   '@babel/preset-typescript': 7.14.5
   '@nrwl/cli': 12.5.6
-  '@nrwl/cypress': 12.5.5
+  '@nrwl/cypress': 12.5.6
   '@nrwl/eslint-plugin-nx': 12.5.5
   '@nrwl/express': 12.5.4
   '@nrwl/jest': 12.5.4
@@ -85,7 +85,7 @@ devDependencies:
   '@babel/preset-react': 7.14.5_@babel+core@7.14.6
   '@babel/preset-typescript': 7.14.5_@babel+core@7.14.6
   '@nrwl/cli': 12.5.6
-  '@nrwl/cypress': 12.5.5_883e835d04cb20bb318ba307ebe2c109
+  '@nrwl/cypress': 12.5.6_883e835d04cb20bb318ba307ebe2c109
   '@nrwl/eslint-plugin-nx': 12.5.5_73e617bc48c80b3405c2a26a5592d752
   '@nrwl/express': 12.5.4_prettier@2.3.2+typescript@4.3.2
   '@nrwl/jest': 12.5.4
@@ -2768,15 +2768,15 @@ packages:
       - webpack
     dev: false
 
-  /@nrwl/cypress/12.5.5_883e835d04cb20bb318ba307ebe2c109:
-    resolution: {integrity: sha512-PgenTHY11DKb9ErugGpsaxMzMI128rgf6h3hRQglY5tTqxw7n7Txi8Zl3KkuF88TM0JoY8yuPCGSZlxhnwd9yA==}
+  /@nrwl/cypress/12.5.6_883e835d04cb20bb318ba307ebe2c109:
+    resolution: {integrity: sha512-R69ZanNhngMuro+lrS2iadFLOX6t/wwQ3oKnwqDOIlbCDicqrRWPxQ5FJPUnj/w9Qf1d4Cyms5OJF4/2SoK1kQ==}
     peerDependencies:
       cypress: '>= 3 < 8'
     dependencies:
       '@cypress/webpack-preprocessor': 4.1.5
-      '@nrwl/devkit': 12.5.5
-      '@nrwl/linter': 12.5.5
-      '@nrwl/workspace': 12.5.5_prettier@2.3.2
+      '@nrwl/devkit': 12.5.6
+      '@nrwl/linter': 12.5.6
+      '@nrwl/workspace': 12.5.6_prettier@2.3.2
       cypress: 7.2.0
       fork-ts-checker-webpack-plugin: 3.1.1
       rxjs: 6.6.7
@@ -2815,6 +2815,16 @@ packages:
     resolution: {integrity: sha512-OSUA0FRfyxDfKouP9DJ9IA7sbRAE8hUeF6AuWjVtoO/RrMhtOlVcMM9evTfgrYRqFPPH7VjeHCAb3JMeUY3yig==}
     dependencies:
       '@nrwl/tao': 12.5.5
+      ejs: 3.1.6
+      ignore: 5.1.8
+      semver: 7.3.4
+      tslib: 2.2.0
+    dev: true
+
+  /@nrwl/devkit/12.5.6:
+    resolution: {integrity: sha512-TKX60PJv7iXpBDejyIdDzOvsrnoAYg0CunkRgwSa9GoaAUrbPeZDCmjCzDR571DlD2uoLlCkHNjABd83gTtFug==}
+    dependencies:
+      '@nrwl/tao': 12.5.6
       ejs: 3.1.6
       ignore: 5.1.8
       semver: 7.3.4
@@ -2878,6 +2888,15 @@ packages:
       tslib: 2.2.0
     dev: true
 
+  /@nrwl/jest/12.5.6:
+    resolution: {integrity: sha512-4a4tul/eg7rLbxGgetVN0xUeqFlID30QoAwY1KNTT6XxSu0snVF+YS7M+4iUFzWGgdyfhBCA1Us1YT3c6pgMVg==}
+    dependencies:
+      '@nrwl/devkit': 12.5.6
+      jest-resolve: 26.6.2
+      rxjs: 6.6.7
+      tslib: 2.2.0
+    dev: true
+
   /@nrwl/linter/12.5.1:
     resolution: {integrity: sha512-DAobN8tqje6rs6yBfFVaoht0LCSSt5NZZm6YeB7oyHbe9A6v7z5Ezyt5ngEw7agiReGkcK/eXBgmEMEcxEs/Tw==}
     dependencies:
@@ -2901,6 +2920,16 @@ packages:
     resolution: {integrity: sha512-wPFFtKwGuWMC/+/gUvy0ttMG6LVmX/u0/pMEj159imj+9qH/NMgYZ+Tng9Qygn3Q0+qO6So5RMYxEMXL99wK6g==}
     dependencies:
       '@nrwl/devkit': 12.5.5
+      glob: 7.1.4
+      minimatch: 3.0.4
+      tmp: 0.2.1
+      tslib: 2.2.0
+    dev: true
+
+  /@nrwl/linter/12.5.6:
+    resolution: {integrity: sha512-r4RdjE8Q75jbC/30OTG9Pgoib6Yu5wMlVxub9i5/lXlQhYEsl4ZnyE7NBET7NHSNDeXYdclx3oSTcPE38d5HHA==}
+    dependencies:
+      '@nrwl/devkit': 12.5.6
       glob: 7.1.4
       minimatch: 3.0.4
       tmp: 0.2.1
@@ -3416,6 +3445,36 @@ packages:
       '@nrwl/devkit': 12.5.5
       '@nrwl/jest': 12.5.5
       '@nrwl/linter': 12.5.5
+      chalk: 4.1.0
+      chokidar: 3.5.1
+      cosmiconfig: 4.0.0
+      dotenv: 8.2.0
+      enquirer: 2.3.6
+      flat: 5.0.2
+      fs-extra: 9.1.0
+      glob: 7.1.4
+      ignore: 5.1.8
+      minimatch: 3.0.4
+      npm-run-all: 4.1.5
+      open: 7.4.2
+      prettier: 2.3.2
+      rxjs: 6.6.7
+      semver: 7.3.4
+      tmp: 0.2.1
+      tslib: 2.2.0
+      yargs: 15.4.1
+      yargs-parser: 20.0.0
+    dev: true
+
+  /@nrwl/workspace/12.5.6_prettier@2.3.2:
+    resolution: {integrity: sha512-Ozy/XcHdE7IhYoUH9uUd565ReWjqFqqcFNuzSpjJmVHWAZZLf8Yla5bUPv4F7llKPsuKwV6/iYhTqnkkHrjxpg==}
+    peerDependencies:
+      prettier: ^2.3.0
+    dependencies:
+      '@nrwl/cli': 12.5.6
+      '@nrwl/devkit': 12.5.6
+      '@nrwl/jest': 12.5.6
+      '@nrwl/linter': 12.5.6
       chalk: 4.1.0
       chokidar: 3.5.1
       cosmiconfig: 4.0.0
