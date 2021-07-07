@@ -23,7 +23,7 @@ specifiers:
   '@nrwl/workspace': 12.5.7
   '@testing-library/react': 12.0.0
   '@types/express': 4.17.13
-  '@types/jest': 26.0.23
+  '@types/jest': 26.0.24
   '@types/lodash': ^4.14.168
   '@types/micro': ^7.3.4
   '@types/node': 16.0.1
@@ -97,7 +97,7 @@ devDependencies:
   '@nrwl/workspace': 12.5.7_prettier@2.3.2
   '@testing-library/react': 12.0.0_react-dom@17.0.2+react@17.0.2
   '@types/express': 4.17.13
-  '@types/jest': 26.0.23
+  '@types/jest': 26.0.24
   '@types/micro': 7.3.4
   '@types/node': 16.0.1
   '@types/react': 17.0.13
@@ -2495,7 +2495,7 @@ packages:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.3
       '@types/istanbul-reports': 3.0.0
-      '@types/node': 15.6.1
+      '@types/node': 16.0.1
       '@types/yargs': 15.0.13
       chalk: 4.1.0
 
@@ -3509,8 +3509,8 @@ packages:
     dependencies:
       '@types/istanbul-lib-report': 3.0.0
 
-  /@types/jest/26.0.23:
-    resolution: {integrity: sha512-ZHLmWMJ9jJ9PTiT58juykZpL7KjwJywFN3Rr2pTSkyQfydf/rk22yS7W8p5DaVUMQ2BQC7oYiU3FjbTM/mYrOA==}
+  /@types/jest/26.0.24:
+    resolution: {integrity: sha512-E/X5Vib8BWqZNRlDxj9vYXhsDwPYbPINqKF9BsnSoon4RQ0D9moEuLD8txgyypFLH7J4+Lho9Nr/c8H0Fi+17w==}
     dependencies:
       jest-diff: 26.6.2
       pretty-format: 26.6.2
@@ -3562,9 +3562,6 @@ packages:
 
   /@types/node/15.14.0:
     resolution: {integrity: sha512-um/+/ip3QZmwLfIkWZSNtQIJNVAqrJ92OkLMeuZrjZMTAJniI7fh8N8OICyDhAJ2mzgk/fmYFo72jRr5HyZ1EQ==}
-
-  /@types/node/15.6.1:
-    resolution: {integrity: sha512-7EIraBEyRHEe7CH+Fm1XvgqU6uwZN8Q7jppJGcqjROMT29qhAuuOxYB1uEY5UMYQKEmA5D+5tBnhdaPXSsLONA==}
 
   /@types/node/16.0.1:
     resolution: {integrity: sha512-hBOx4SUlEPKwRi6PrXuTGw1z6lz0fjsibcWCM378YxsSu/6+C30L6CR49zIBKHiwNWCYIcOLjg4OHKZaFeLAug==}
@@ -11053,7 +11050,7 @@ packages:
       '@jest/types': 26.6.2
       ansi-regex: 5.0.0
       ansi-styles: 4.3.0
-      react-is: 17.0.1
+      react-is: 17.0.2
     dev: true
 
   /pretty-format/27.0.2:
@@ -11319,10 +11316,6 @@ packages:
 
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
-
-  /react-is/17.0.1:
-    resolution: {integrity: sha512-NAnt2iGDXohE5LI7uBnLnqvLQMtzhkiAOLXTmv+qnF9Ky7xAPcX8Up/xWIhxvLVGJvuLiNc4xQLtuqDRzb4fSA==}
-    dev: true
 
   /react-is/17.0.2:
     resolution: {integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==}
