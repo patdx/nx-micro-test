@@ -13,7 +13,7 @@ specifiers:
   '@nrwl/cypress': 12.5.8
   '@nrwl/eslint-plugin-nx': 12.5.8
   '@nrwl/express': 12.5.8
-  '@nrwl/jest': 12.5.7
+  '@nrwl/jest': 12.5.8
   '@nrwl/linter': 12.5.7
   '@nrwl/next': 12.5.7
   '@nrwl/node': 12.5.7
@@ -88,7 +88,7 @@ devDependencies:
   '@nrwl/cypress': 12.5.8_883e835d04cb20bb318ba307ebe2c109
   '@nrwl/eslint-plugin-nx': 12.5.8_39a0cf1dc865529d0a4607fcff875e36
   '@nrwl/express': 12.5.8_prettier@2.3.2+typescript@4.3.2
-  '@nrwl/jest': 12.5.7
+  '@nrwl/jest': 12.5.8
   '@nrwl/linter': 12.5.7
   '@nrwl/node': 12.5.7_prettier@2.3.2+typescript@4.3.2
   '@nrwl/react': 12.5.7_064d75c82d2a1c7e058e1be43ded79d3
@@ -2495,7 +2495,7 @@ packages:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.3
       '@types/istanbul-reports': 3.0.0
-      '@types/node': 16.0.1
+      '@types/node': 16.3.1
       '@types/yargs': 15.0.13
       chalk: 4.1.0
 
@@ -3698,15 +3698,11 @@ packages:
     resolution: {integrity: sha512-se3yX7UHv5Bscf8f1ERKvQOD6sTyycH3hdaoozvaLxgUiY5lIGEeH37AD0G0Qi9kPqihPn0HOfd2yaIEN9VwEg==}
     dev: true
 
-  /@types/node/15.14.0:
-    resolution: {integrity: sha512-um/+/ip3QZmwLfIkWZSNtQIJNVAqrJ92OkLMeuZrjZMTAJniI7fh8N8OICyDhAJ2mzgk/fmYFo72jRr5HyZ1EQ==}
-
   /@types/node/16.0.1:
     resolution: {integrity: sha512-hBOx4SUlEPKwRi6PrXuTGw1z6lz0fjsibcWCM378YxsSu/6+C30L6CR49zIBKHiwNWCYIcOLjg4OHKZaFeLAug==}
 
   /@types/node/16.3.1:
     resolution: {integrity: sha512-N87VuQi7HEeRJkhzovao/JviiqKjDKMVKxKMfUvSKw+MbkbW8R0nA3fi/MQhhlxV2fQ+2ReM+/Nt4efdrJx3zA==}
-    dev: true
 
   /@types/normalize-package-data/2.4.0:
     resolution: {integrity: sha512-f5j5b/Gf71L+dbqxIpQ4Z2WlmI/mPJ0fOkGGmFgtb6sAu97EPczzbS3/tJKxmcYDj55OX6ssqwDAWOHIYDRDGA==}
@@ -8817,7 +8813,7 @@ packages:
     engines: {node: '>= 10.14.2'}
     dependencies:
       '@jest/types': 26.6.2
-      '@types/node': 15.14.0
+      '@types/node': 16.3.1
       chalk: 4.1.0
       graceful-fs: 4.2.6
       is-ci: 2.0.0
