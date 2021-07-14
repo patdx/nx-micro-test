@@ -40,7 +40,7 @@
     "@nrwl/linter": "12.5.8",
     "@nrwl/node": "12.5.8",
     "@nrwl/react": "12.5.8",
-    "@nrwl/tao": "12.5.7",
+    "@nrwl/tao": "12.5.8",
     "@nrwl/web": "12.5.7",
     "@nrwl/workspace": "12.5.7",
     "@testing-library/react": "12.0.0",
