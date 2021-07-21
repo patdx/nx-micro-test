@@ -12,7 +12,7 @@ specifiers:
   '@nrwl/cli': 12.5.9
   '@nrwl/cypress': 12.5.9
   '@nrwl/eslint-plugin-nx': 12.5.9
-  '@nrwl/express': 12.5.8
+  '@nrwl/express': 12.5.9
   '@nrwl/jest': 12.5.8
   '@nrwl/linter': 12.5.8
   '@nrwl/next': 12.5.8
@@ -87,7 +87,7 @@ devDependencies:
   '@nrwl/cli': 12.5.9
   '@nrwl/cypress': 12.5.9_e30f32f921f84d52b3b74977ae6f0d75
   '@nrwl/eslint-plugin-nx': 12.5.9_f7ea8675c0f23eb4a0f792f25dd9deb8
-  '@nrwl/express': 12.5.8_prettier@2.3.2+typescript@4.3.2
+  '@nrwl/express': 12.5.9_prettier@2.3.2+typescript@4.3.2
   '@nrwl/jest': 12.5.8
   '@nrwl/linter': 12.5.8
   '@nrwl/node': 12.5.8_prettier@2.3.2+typescript@4.3.2
@@ -3709,13 +3709,13 @@ packages:
       - typescript
     dev: true
 
-  /@nrwl/express/12.5.8_prettier@2.3.2+typescript@4.3.2:
-    resolution: {integrity: sha512-bpTt/2WPmjZaoJEd0r1PclnxITISipMMvsAVot6M0KaRevYvlvKcH+WniUZsmHi261wvqWNlvNxB/ZYao3A/Nw==}
+  /@nrwl/express/12.5.9_prettier@2.3.2+typescript@4.3.2:
+    resolution: {integrity: sha512-biCeNznMepmOOd6GaulpdYphitB7wVBjApv2miac6iBaYGlx7tsJKlnI6eyYWlqG9K0iE6m/cKArCKVF/AhDBA==}
     dependencies:
-      '@nrwl/devkit': 12.5.8
-      '@nrwl/jest': 12.5.8
-      '@nrwl/node': 12.5.8_prettier@2.3.2+typescript@4.3.2
-      '@nrwl/workspace': 12.5.8_prettier@2.3.2
+      '@nrwl/devkit': 12.5.9
+      '@nrwl/jest': 12.5.9
+      '@nrwl/node': 12.5.9_prettier@2.3.2+typescript@4.3.2
+      '@nrwl/workspace': 12.5.9_prettier@2.3.2
     transitivePeerDependencies:
       - prettier
       - typescript
@@ -3806,6 +3806,34 @@ packages:
       '@nrwl/jest': 12.5.8
       '@nrwl/linter': 12.5.8
       '@nrwl/workspace': 12.5.8_prettier@2.3.2
+      circular-dependency-plugin: 5.2.0_webpack@4.42.0
+      copy-webpack-plugin: 6.0.3_webpack@4.42.0
+      fork-ts-checker-webpack-plugin: 3.1.1
+      fs-extra: 9.1.0
+      glob: 7.1.4
+      license-webpack-plugin: 2.1.2
+      rxjs: 6.6.7
+      rxjs-for-await: 0.0.2_rxjs@6.6.7
+      source-map-support: 0.5.16
+      tree-kill: 1.2.2
+      ts-loader: 5.4.5_typescript@4.3.2
+      tsconfig-paths-webpack-plugin: 3.2.0
+      tslib: 2.2.0
+      webpack: 4.42.0
+      webpack-merge: 4.2.1
+      webpack-node-externals: 1.7.2
+    transitivePeerDependencies:
+      - prettier
+      - typescript
+    dev: true
+
+  /@nrwl/node/12.5.9_prettier@2.3.2+typescript@4.3.2:
+    resolution: {integrity: sha512-OUpdlGrqkBNbK1TCucGjgYVnjR/+85cInRCXPJQULWPrNOB3Z5/vgP3uqAfBuhfqd9Ge1tz98HH1EbRB+lOKSw==}
+    dependencies:
+      '@nrwl/devkit': 12.5.9
+      '@nrwl/jest': 12.5.9
+      '@nrwl/linter': 12.5.9
+      '@nrwl/workspace': 12.5.9_prettier@2.3.2
       circular-dependency-plugin: 5.2.0_webpack@4.42.0
       copy-webpack-plugin: 6.0.3_webpack@4.42.0
       fork-ts-checker-webpack-plugin: 3.1.1
