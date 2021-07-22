@@ -16,7 +16,7 @@ specifiers:
   '@nrwl/jest': 12.6.0
   '@nrwl/linter': 12.6.0
   '@nrwl/next': 12.6.0
-  '@nrwl/node': 12.5.9
+  '@nrwl/node': 12.6.0
   '@nrwl/react': 12.5.9
   '@nrwl/tao': 12.5.9
   '@nrwl/web': 12.5.9
@@ -90,7 +90,7 @@ devDependencies:
   '@nrwl/express': 12.6.0_c804088914aaae69cc49ac4609d59d97
   '@nrwl/jest': 12.6.0_ts-node@10.1.0
   '@nrwl/linter': 12.6.0
-  '@nrwl/node': 12.5.9_prettier@2.3.2+typescript@4.3.2
+  '@nrwl/node': 12.6.0_c804088914aaae69cc49ac4609d59d97
   '@nrwl/react': 12.5.9_284fcadd6974e0816183b3edc094ccd0
   '@nrwl/tao': 12.5.9
   '@nrwl/web': 12.5.9_e30f32f921f84d52b3b74977ae6f0d75
@@ -3152,34 +3152,6 @@ packages:
       - webpack-hot-middleware
       - webpack-plugin-serve
     dev: false
-
-  /@nrwl/node/12.5.9_prettier@2.3.2+typescript@4.3.2:
-    resolution: {integrity: sha512-OUpdlGrqkBNbK1TCucGjgYVnjR/+85cInRCXPJQULWPrNOB3Z5/vgP3uqAfBuhfqd9Ge1tz98HH1EbRB+lOKSw==}
-    dependencies:
-      '@nrwl/devkit': 12.5.9
-      '@nrwl/jest': 12.5.9
-      '@nrwl/linter': 12.5.9
-      '@nrwl/workspace': 12.5.9_prettier@2.3.2
-      circular-dependency-plugin: 5.2.0_webpack@4.42.0
-      copy-webpack-plugin: 6.0.3_webpack@4.42.0
-      fork-ts-checker-webpack-plugin: 3.1.1
-      fs-extra: 9.1.0
-      glob: 7.1.4
-      license-webpack-plugin: 2.1.2
-      rxjs: 6.6.7
-      rxjs-for-await: 0.0.2_rxjs@6.6.7
-      source-map-support: 0.5.16
-      tree-kill: 1.2.2
-      ts-loader: 5.4.5_typescript@4.3.2
-      tsconfig-paths-webpack-plugin: 3.2.0
-      tslib: 2.2.0
-      webpack: 4.42.0
-      webpack-merge: 4.2.1
-      webpack-node-externals: 1.7.2
-    transitivePeerDependencies:
-      - prettier
-      - typescript
-    dev: true
 
   /@nrwl/node/12.6.0_c804088914aaae69cc49ac4609d59d97:
     resolution: {integrity: sha512-ZrK6vrTWCql8W8lgkCkdH6Tg1sSgc6h5zjSoxrrMgsUlKtHH1TJif4lsnyJOeqX5deNNWe6hJhbPKh0bwaLAwg==}
@@ -13114,13 +13086,6 @@ packages:
       resolve-url: 0.2.1
       source-map-url: 0.4.1
       urix: 0.1.0
-
-  /source-map-support/0.5.16:
-    resolution: {integrity: sha512-efyLRJDr68D9hBBNIPWFjhpFzURh+KJykQwvMyW5UiZzYwoF6l4YMMDIJJEyFWxWCqfyxLzz6tSfUFR+kXXsVQ==}
-    dependencies:
-      buffer-from: 1.1.1
-      source-map: 0.6.1
-    dev: true
 
   /source-map-support/0.5.19:
     resolution: {integrity: sha512-Wonm7zOCIJzBGQdB+thsPar0kYuCIzYvxZwlBa87yi/Mdjv7Tip2cyVbLj5o0cFPN4EVkuTwb3GDDyUx2DGnGw==}
