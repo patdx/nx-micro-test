@@ -9,7 +9,7 @@ specifiers:
   '@babel/preset-env': 7.14.8
   '@babel/preset-react': 7.14.5
   '@babel/preset-typescript': 7.14.5
-  '@nrwl/cli': 12.6.0
+  '@nrwl/cli': 12.6.2
   '@nrwl/cypress': 12.6.0
   '@nrwl/eslint-plugin-nx': 12.6.0
   '@nrwl/express': 12.6.0
@@ -84,7 +84,7 @@ devDependencies:
   '@babel/preset-env': 7.14.8_@babel+core@7.14.8
   '@babel/preset-react': 7.14.5_@babel+core@7.14.8
   '@babel/preset-typescript': 7.14.5_@babel+core@7.14.8
-  '@nrwl/cli': 12.6.0
+  '@nrwl/cli': 12.6.2
   '@nrwl/cypress': 12.6.0_31a6cbdc418ee4a56d87914a55a4b524
   '@nrwl/eslint-plugin-nx': 12.6.0_59be5af04bfa45189d6e1a2186fe3541
   '@nrwl/express': 12.6.0_c804088914aaae69cc49ac4609d59d97
@@ -2816,6 +2816,17 @@ packages:
       yargs: 15.4.1
       yargs-parser: 20.0.0
 
+  /@nrwl/cli/12.6.2:
+    resolution: {integrity: sha512-Aw2l9jxw0S2kf+z0w4hsse/1+GyqRL/GWixSaedY8HHC+GL0n/FZGTj+40hrvp0bfcP1af0fbRkilNPMqSuLiA==}
+    hasBin: true
+    dependencies:
+      '@nrwl/tao': 12.6.2
+      chalk: 4.1.0
+      v8-compile-cache: 2.3.0
+      yargs: 15.4.1
+      yargs-parser: 20.0.0
+    dev: true
+
   /@nrwl/cypress/12.6.0_31a6cbdc418ee4a56d87914a55a4b524:
     resolution: {integrity: sha512-fn4Uy6faRaV9qU5iLZEDSUTT0aMezB87gaQvnlEPNiOO1z/dUzazV9gaPqG6tz7UdfdMe3Axxi67UU9//DJvrQ==}
     peerDependencies:
@@ -3229,6 +3240,22 @@ packages:
       tmp: 0.2.1
       tslib: 2.2.0
       yargs-parser: 20.0.0
+
+  /@nrwl/tao/12.6.2:
+    resolution: {integrity: sha512-4w24g4Wv0+5E7cgfYQkNLJbOu0qIIcNpySuDGylzbrlFs+mj/qWIL9XiMHpZnO6P62MpH+9tWB1/BbCD+UQ/rg==}
+    hasBin: true
+    dependencies:
+      chalk: 4.1.0
+      enquirer: 2.3.6
+      fs-extra: 9.1.0
+      jsonc-parser: 3.0.0
+      rxjs: 6.6.7
+      rxjs-for-await: 0.0.2_rxjs@6.6.7
+      semver: 7.3.4
+      tmp: 0.2.1
+      tslib: 2.2.0
+      yargs-parser: 20.0.0
+    dev: true
 
   /@nrwl/web/12.6.0_31a6cbdc418ee4a56d87914a55a4b524:
     resolution: {integrity: sha512-FIiVvkJkFtnFV+yBHR46J4H2lx2lsNeTEmtYwaJdnhAXVhd514jGZ7wLM7OgD/lfVbR36q0DHaTgEWPTnzTe8A==}
