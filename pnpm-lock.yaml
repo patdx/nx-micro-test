@@ -14,7 +14,7 @@ specifiers:
   '@nrwl/eslint-plugin-nx': 12.6.2
   '@nrwl/express': 12.6.2
   '@nrwl/jest': 12.6.2
-  '@nrwl/linter': 12.6.0
+  '@nrwl/linter': 12.6.2
   '@nrwl/next': 12.6.0
   '@nrwl/node': 12.6.0
   '@nrwl/react': 12.6.0
@@ -89,7 +89,7 @@ devDependencies:
   '@nrwl/eslint-plugin-nx': 12.6.2_59be5af04bfa45189d6e1a2186fe3541
   '@nrwl/express': 12.6.2_c804088914aaae69cc49ac4609d59d97
   '@nrwl/jest': 12.6.2_ts-node@10.1.0
-  '@nrwl/linter': 12.6.0
+  '@nrwl/linter': 12.6.2
   '@nrwl/node': 12.6.0_c804088914aaae69cc49ac4609d59d97
   '@nrwl/react': 12.6.0_6208bf08092bedadd844096d352f4455
   '@nrwl/tao': 12.6.0
