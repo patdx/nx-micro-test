@@ -16,7 +16,7 @@ specifiers:
   '@nrwl/jest': 12.6.3
   '@nrwl/linter': 12.6.3
   '@nrwl/next': 12.6.3
-  '@nrwl/node': 12.6.2
+  '@nrwl/node': 12.6.3
   '@nrwl/react': 12.6.2
   '@nrwl/tao': 12.6.2
   '@nrwl/web': 12.6.2
@@ -90,7 +90,7 @@ devDependencies:
   '@nrwl/express': 12.6.3_c804088914aaae69cc49ac4609d59d97
   '@nrwl/jest': 12.6.3_ts-node@10.1.0
   '@nrwl/linter': 12.6.3
-  '@nrwl/node': 12.6.2_c804088914aaae69cc49ac4609d59d97
+  '@nrwl/node': 12.6.3_c804088914aaae69cc49ac4609d59d97
   '@nrwl/react': 12.6.2_6208bf08092bedadd844096d352f4455
   '@nrwl/tao': 12.6.2
   '@nrwl/web': 12.6.2_31a6cbdc418ee4a56d87914a55a4b524
@@ -3119,43 +3119,6 @@ packages:
       - webpack-hot-middleware
       - webpack-plugin-serve
     dev: false
-
-  /@nrwl/node/12.6.2_c804088914aaae69cc49ac4609d59d97:
-    resolution: {integrity: sha512-oIz0TiUE0Htoz72AEufMS1zMonQsIefFCUf12q3Ipk35E3S7fQDfHvJr0V+2pFb2R7NtjJHJXM6Y+FQSpcj+Bw==}
-    dependencies:
-      '@nrwl/devkit': 12.6.2
-      '@nrwl/jest': 12.6.2_ts-node@10.1.0
-      '@nrwl/linter': 12.6.2
-      '@nrwl/workspace': 12.6.2_prettier@2.3.2+ts-node@10.1.0
-      chalk: 4.1.0
-      circular-dependency-plugin: 5.2.0_webpack@4.46.0
-      copy-webpack-plugin: 6.4.1_webpack@4.46.0
-      fork-ts-checker-webpack-plugin: 6.2.10
-      fs-extra: 9.1.0
-      glob: 7.1.4
-      license-webpack-plugin: 2.3.15
-      rxjs: 6.6.7
-      rxjs-for-await: 0.0.2_rxjs@6.6.7
-      source-map-support: 0.5.19
-      tree-kill: 1.2.2
-      ts-loader: 5.4.5_typescript@4.3.2
-      tsconfig-paths-webpack-plugin: 3.4.1
-      tslib: 2.2.0
-      webpack: 4.46.0
-      webpack-merge: 4.2.1
-      webpack-node-externals: 1.7.2
-    transitivePeerDependencies:
-      - bufferutil
-      - canvas
-      - node-notifier
-      - prettier
-      - supports-color
-      - ts-node
-      - typescript
-      - utf-8-validate
-      - webpack-cli
-      - webpack-command
-    dev: true
 
   /@nrwl/node/12.6.3_c804088914aaae69cc49ac4609d59d97:
     resolution: {integrity: sha512-PFt2hEE3vtXwHeNvjPMrMQxAXl6vZpZnliPcWnCNgWj+nPUKBNAP8gqWnmipKb4TjJC8kM4dLW0iyooGuCRuMQ==}
