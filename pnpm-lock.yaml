@@ -11,7 +11,7 @@ specifiers:
   '@babel/preset-typescript': 7.14.5
   '@nrwl/cli': 12.6.3
   '@nrwl/cypress': 12.6.3
-  '@nrwl/eslint-plugin-nx': 12.6.2
+  '@nrwl/eslint-plugin-nx': 12.6.3
   '@nrwl/express': 12.6.2
   '@nrwl/jest': 12.6.2
   '@nrwl/linter': 12.6.2
@@ -86,7 +86,7 @@ devDependencies:
   '@babel/preset-typescript': 7.14.5_@babel+core@7.14.8
   '@nrwl/cli': 12.6.3
   '@nrwl/cypress': 12.6.3_31a6cbdc418ee4a56d87914a55a4b524
-  '@nrwl/eslint-plugin-nx': 12.6.2_e085fa5326555642af04af394d70e415
+  '@nrwl/eslint-plugin-nx': 12.6.3_e085fa5326555642af04af394d70e415
   '@nrwl/express': 12.6.2_c804088914aaae69cc49ac4609d59d97
   '@nrwl/jest': 12.6.2_ts-node@10.1.0
   '@nrwl/linter': 12.6.2
@@ -2944,15 +2944,15 @@ packages:
       tslib: 2.2.0
     dev: true
 
-  /@nrwl/eslint-plugin-nx/12.6.2_e085fa5326555642af04af394d70e415:
-    resolution: {integrity: sha512-XWDSO3kwXYQ8un7kJ1i9wwGFSlpVLfQTPkCJVLVc7kdyHyb47s28coavsOwKgSypzUwRVXtWKt/8QaEB5Wuazg==}
+  /@nrwl/eslint-plugin-nx/12.6.3_e085fa5326555642af04af394d70e415:
+    resolution: {integrity: sha512-PJV9v5fu2IUxOpGHCekI41SpT1d98W9X//VTY3N9z4CQU+C6j6rc/onH1ttNsTYa5ugbawy4BKUCbpLCfUyCSw==}
     peerDependencies:
       '@typescript-eslint/parser': ~4.28.3
       eslint-config-prettier: ^8.1.0
     dependencies:
-      '@nrwl/devkit': 12.6.2
-      '@nrwl/workspace': 12.6.2_prettier@2.3.2+ts-node@10.1.0
-      '@typescript-eslint/experimental-utils': 4.28.4_eslint@7.31.0+typescript@4.3.2
+      '@nrwl/devkit': 12.6.3
+      '@nrwl/workspace': 12.6.3_prettier@2.3.2+ts-node@10.1.0
+      '@typescript-eslint/experimental-utils': 4.28.5_eslint@7.31.0+typescript@4.3.2
       '@typescript-eslint/parser': 4.28.5_eslint@7.31.0+typescript@4.3.2
       confusing-browser-globals: 1.0.10
       eslint-config-prettier: 8.3.0_eslint@7.31.0
@@ -4329,24 +4329,6 @@ packages:
       - supports-color
     dev: true
 
-  /@typescript-eslint/experimental-utils/4.28.4_eslint@7.31.0+typescript@4.3.2:
-    resolution: {integrity: sha512-OglKWOQRWTCoqMSy6pm/kpinEIgdcXYceIcH3EKWUl4S8xhFtN34GQRaAvTIZB9DD94rW7d/U7tUg3SYeDFNHA==}
-    engines: {node: ^10.12.0 || >=12.0.0}
-    peerDependencies:
-      eslint: '*'
-    dependencies:
-      '@types/json-schema': 7.0.7
-      '@typescript-eslint/scope-manager': 4.28.4
-      '@typescript-eslint/types': 4.28.4
-      '@typescript-eslint/typescript-estree': 4.28.4_typescript@4.3.2
-      eslint: 7.31.0
-      eslint-scope: 5.1.1
-      eslint-utils: 3.0.0_eslint@7.31.0
-    transitivePeerDependencies:
-      - supports-color
-      - typescript
-    dev: true
-
   /@typescript-eslint/experimental-utils/4.28.5_eslint@7.31.0+typescript@4.3.2:
     resolution: {integrity: sha512-bGPLCOJAa+j49hsynTaAtQIWg6uZd8VLiPcyDe4QPULsvQwLHGLSGKKcBN8/lBxIX14F74UEMK2zNDI8r0okwA==}
     engines: {node: ^10.12.0 || >=12.0.0}
@@ -4411,6 +4393,7 @@ packages:
     dependencies:
       '@typescript-eslint/types': 4.28.4
       '@typescript-eslint/visitor-keys': 4.28.4
+    dev: false
 
   /@typescript-eslint/scope-manager/4.28.5:
     resolution: {integrity: sha512-PHLq6n9nTMrLYcVcIZ7v0VY1X7dK309NM8ya9oL/yG8syFINIMHxyr2GzGoBYUdv3NUfCOqtuqps0ZmcgnZTfQ==}
@@ -4423,6 +4406,7 @@ packages:
   /@typescript-eslint/types/4.28.4:
     resolution: {integrity: sha512-3eap4QWxGqkYuEmVebUGULMskR6Cuoc/Wii0oSOddleP4EGx1tjLnZQ0ZP33YRoMDCs5O3j56RBV4g14T4jvww==}
     engines: {node: ^8.10.0 || ^10.13.0 || >=11.10.1}
+    dev: false
 
   /@typescript-eslint/types/4.28.5:
     resolution: {integrity: sha512-MruOu4ZaDOLOhw4f/6iudyks/obuvvZUAHBDSW80Trnc5+ovmViLT2ZMDXhUV66ozcl6z0LJfKs1Usldgi/WCA==}
@@ -4448,6 +4432,7 @@ packages:
       typescript: 4.3.2
     transitivePeerDependencies:
       - supports-color
+    dev: false
 
   /@typescript-eslint/typescript-estree/4.28.5_typescript@4.3.2:
     resolution: {integrity: sha512-FzJUKsBX8poCCdve7iV7ShirP8V+ys2t1fvamVeD1rWpiAnIm550a+BX/fmTHrjEpQJ7ZAn+Z7ZZwJjytk9rZw==}
@@ -4476,6 +4461,7 @@ packages:
     dependencies:
       '@typescript-eslint/types': 4.28.4
       eslint-visitor-keys: 2.0.0
+    dev: false
 
   /@typescript-eslint/visitor-keys/4.28.5:
     resolution: {integrity: sha512-dva/7Rr+EkxNWdJWau26xU/0slnFlkh88v3TsyTgRS/IIYFi5iIfpCFM4ikw0vQTFUR9FYSSyqgK4w64gsgxhg==}
