@@ -13,7 +13,7 @@ specifiers:
   '@nrwl/cypress': 12.6.3
   '@nrwl/eslint-plugin-nx': 12.6.3
   '@nrwl/express': 12.6.3
-  '@nrwl/jest': 12.6.2
+  '@nrwl/jest': 12.6.3
   '@nrwl/linter': 12.6.2
   '@nrwl/next': 12.6.2
   '@nrwl/node': 12.6.2
@@ -88,7 +88,7 @@ devDependencies:
   '@nrwl/cypress': 12.6.3_31a6cbdc418ee4a56d87914a55a4b524
   '@nrwl/eslint-plugin-nx': 12.6.3_e085fa5326555642af04af394d70e415
   '@nrwl/express': 12.6.3_c804088914aaae69cc49ac4609d59d97
-  '@nrwl/jest': 12.6.2_ts-node@10.1.0
+  '@nrwl/jest': 12.6.3_ts-node@10.1.0
   '@nrwl/linter': 12.6.2
   '@nrwl/node': 12.6.2_c804088914aaae69cc49ac4609d59d97
   '@nrwl/react': 12.6.2_6208bf08092bedadd844096d352f4455
@@ -4228,7 +4228,6 @@ packages:
 
   /@types/node/16.4.7:
     resolution: {integrity: sha512-aDDY54sst8sx47CWT6QQqIZp45yURq4dic0+HCYfYNcY5Ejlb/CLmFnRLfy3wQuYafOeh3lB/DAKaqRKBtcZmA==}
-    dev: true
 
   /@types/parse-json/4.0.0:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
@@ -8889,7 +8888,7 @@ packages:
       '@jest/environment': 27.0.6
       '@jest/test-result': 27.0.6
       '@jest/types': 27.0.6
-      '@types/node': 16.4.1
+      '@types/node': 16.4.7
       chalk: 4.1.0
       co: 4.6.0
       dedent: 0.7.0
@@ -9056,7 +9055,7 @@ packages:
       '@jest/environment': 27.0.6
       '@jest/fake-timers': 27.0.6
       '@jest/types': 27.0.6
-      '@types/node': 16.4.1
+      '@types/node': 16.4.7
       jest-mock: 27.0.6
       jest-util: 27.0.6
       jsdom: 16.6.0
@@ -9114,7 +9113,7 @@ packages:
       '@jest/source-map': 27.0.6
       '@jest/test-result': 27.0.6
       '@jest/types': 27.0.6
-      '@types/node': 16.4.1
+      '@types/node': 16.4.7
       chalk: 4.1.0
       co: 4.6.0
       expect: 27.0.6
