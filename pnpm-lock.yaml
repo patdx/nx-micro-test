@@ -13,7 +13,7 @@ specifiers:
   '@nrwl/cypress': 12.6.4
   '@nrwl/eslint-plugin-nx': 12.6.4
   '@nrwl/express': 12.6.4
-  '@nrwl/jest': 12.6.3
+  '@nrwl/jest': 12.6.4
   '@nrwl/linter': 12.6.3
   '@nrwl/next': 12.6.3
   '@nrwl/node': 12.6.3
@@ -88,7 +88,7 @@ devDependencies:
   '@nrwl/cypress': 12.6.4_31a6cbdc418ee4a56d87914a55a4b524
   '@nrwl/eslint-plugin-nx': 12.6.4_af5b8ef7ef26987f921d2f3d322294e2
   '@nrwl/express': 12.6.4_c804088914aaae69cc49ac4609d59d97
-  '@nrwl/jest': 12.6.3_ts-node@10.1.0
+  '@nrwl/jest': 12.6.4_ts-node@10.1.0
   '@nrwl/linter': 12.6.3
   '@nrwl/node': 12.6.3_c804088914aaae69cc49ac4609d59d97
   '@nrwl/react': 12.6.3_a3e8303aa18a87de07d05cf2f4706ea7
@@ -2691,7 +2691,7 @@ packages:
     dependencies:
       '@jest/fake-timers': 27.0.6
       '@jest/types': 27.0.6
-      '@types/node': 16.4.1
+      '@types/node': 16.4.11
       jest-mock: 27.0.6
 
   /@jest/fake-timers/27.0.6:
@@ -2700,7 +2700,7 @@ packages:
     dependencies:
       '@jest/types': 27.0.6
       '@sinonjs/fake-timers': 7.1.0
-      '@types/node': 16.4.1
+      '@types/node': 16.4.11
       jest-message-util: 27.0.6
       jest-mock: 27.0.6
       jest-util: 27.0.6
@@ -4367,7 +4367,6 @@ packages:
 
   /@types/node/16.4.11:
     resolution: {integrity: sha512-nWSFUbuNiPKJEe1IViuodSI+9cM+vpM8SWF/O6dJK7wmGRNq55U7XavJHrlRrPkSMuUZUFzg1xaZ1B+ZZCrRWw==}
-    dev: true
 
   /@types/node/16.4.7:
     resolution: {integrity: sha512-aDDY54sst8sx47CWT6QQqIZp45yURq4dic0+HCYfYNcY5Ejlb/CLmFnRLfy3wQuYafOeh3lB/DAKaqRKBtcZmA==}
@@ -9046,7 +9045,7 @@ packages:
       '@jest/environment': 27.0.6
       '@jest/test-result': 27.0.6
       '@jest/types': 27.0.6
-      '@types/node': 16.4.7
+      '@types/node': 16.4.11
       chalk: 4.1.0
       co: 4.6.0
       dedent: 0.7.0
@@ -9213,7 +9212,7 @@ packages:
       '@jest/environment': 27.0.6
       '@jest/fake-timers': 27.0.6
       '@jest/types': 27.0.6
-      '@types/node': 16.4.7
+      '@types/node': 16.4.11
       jest-mock: 27.0.6
       jest-util: 27.0.6
       jsdom: 16.6.0
@@ -9230,7 +9229,7 @@ packages:
       '@jest/environment': 27.0.6
       '@jest/fake-timers': 27.0.6
       '@jest/types': 27.0.6
-      '@types/node': 16.4.1
+      '@types/node': 16.4.11
       jest-mock: 27.0.6
       jest-util: 27.0.6
 
@@ -9271,7 +9270,7 @@ packages:
       '@jest/source-map': 27.0.6
       '@jest/test-result': 27.0.6
       '@jest/types': 27.0.6
-      '@types/node': 16.4.7
+      '@types/node': 16.4.11
       chalk: 4.1.0
       co: 4.6.0
       expect: 27.0.6
@@ -9322,7 +9321,7 @@ packages:
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     dependencies:
       '@jest/types': 27.0.6
-      '@types/node': 16.4.1
+      '@types/node': 16.4.11
 
   /jest-pnp-resolver/1.2.2_jest-resolve@27.0.6:
     resolution: {integrity: sha512-olV41bKSMm8BdnuMsewT4jqlZ8+3TCARAXjZGT9jcoSnrfUnRCqnMoF9XEeoWjbzObpqF9dRhHQj0Xb9QdF6/w==}
