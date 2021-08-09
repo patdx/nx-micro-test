@@ -28,7 +28,7 @@ specifiers:
   '@types/micro': ^7.3.4
   '@types/node': 16.4.13
   '@types/polka': ^0.5.2
-  '@types/react': 17.0.15
+  '@types/react': 17.0.16
   '@types/react-dom': 17.0.9
   '@typescript-eslint/eslint-plugin': 4.29.0
   '@typescript-eslint/parser': 4.29.0
@@ -100,7 +100,7 @@ devDependencies:
   '@types/jest': 26.0.24
   '@types/micro': 7.3.4
   '@types/node': 16.4.13
-  '@types/react': 17.0.15
+  '@types/react': 17.0.16
   '@types/react-dom': 17.0.9
   '@typescript-eslint/eslint-plugin': 4.29.0_28d0831247eaaba7da31a5a0562aa4fd
   '@typescript-eslint/parser': 4.29.0_eslint@7.32.0+typescript@4.3.2
@@ -4018,8 +4018,8 @@ packages:
       csstype: 3.0.8
     dev: true
 
-  /@types/react/17.0.15:
-    resolution: {integrity: sha512-uTKHDK9STXFHLaKv6IMnwp52fm0hwU+N89w/p9grdUqcFA6WuqDyPhaWopbNyE1k/VhgzmHl8pu1L4wITtmlLw==}
+  /@types/react/17.0.16:
+    resolution: {integrity: sha512-3kCUiOOlQTwUUvjNFkbBTWMTxdTGybz/PfjCw9JmaRGcEDBQh+nGMg7/E9P2rklhJuYVd25IYLNcvqgSPCPksg==}
     dependencies:
       '@types/prop-types': 15.7.3
       '@types/scheduler': 0.16.1
