@@ -23,7 +23,7 @@ specifiers:
   '@nrwl/workspace': 12.6.5
   '@testing-library/react': 12.0.0
   '@types/express': 4.17.13
-  '@types/jest': 26.0.24
+  '@types/jest': 27.0.0
   '@types/lodash': ^4.14.168
   '@types/micro': ^7.3.4
   '@types/node': 16.4.13
@@ -97,7 +97,7 @@ devDependencies:
   '@nrwl/workspace': 12.6.5_prettier@2.3.2+ts-node@10.2.0
   '@testing-library/react': 12.0.0_react-dom@17.0.2+react@17.0.2
   '@types/express': 4.17.13
-  '@types/jest': 26.0.24
+  '@types/jest': 27.0.0
   '@types/micro': 7.3.4
   '@types/node': 16.4.13
   '@types/react': 17.0.16
@@ -112,7 +112,7 @@ devDependencies:
   eslint-plugin-cypress: 2.11.2_eslint@7.32.0
   jest: 27.0.6_ts-node@10.2.0
   prettier: 2.3.2
-  ts-jest: 27.0.4_e6931c5cc9cab6470f37b50e2fb88b72
+  ts-jest: 27.0.4_19d6cd9cb876b3d32d9b804f16a0fd4f
   ts-node: 10.2.0_efdd4a7b2de6faa643ce2c61faf59d35
   typescript: 4.3.2
 
@@ -3655,7 +3655,7 @@ packages:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.3
       '@types/istanbul-reports': 3.0.0
-      '@types/node': 16.4.0
+      '@types/node': 16.4.13
       '@types/yargs': 15.0.13
       chalk: 4.1.0
     dev: true
@@ -4979,8 +4979,8 @@ packages:
     dependencies:
       '@types/istanbul-lib-report': 3.0.0
 
-  /@types/jest/26.0.24:
-    resolution: {integrity: sha512-E/X5Vib8BWqZNRlDxj9vYXhsDwPYbPINqKF9BsnSoon4RQ0D9moEuLD8txgyypFLH7J4+Lho9Nr/c8H0Fi+17w==}
+  /@types/jest/27.0.0:
+    resolution: {integrity: sha512-IlpQZVpxufe+3qPaAqEoSPHVSxnJh1cf0BqqWHJeKiAUbwnHdmNzjP3ZCWSZSTbmAGXQPNk9QmM3Bif0pR54rg==}
     dependencies:
       jest-diff: 26.6.2
       pretty-format: 26.6.2
@@ -5032,10 +5032,6 @@ packages:
     resolution: {integrity: sha512-8h7k1YgQKxKXWckzFCMfsIwn0Y61UK6tlD6y2lOb3hTOIMlK3t9/QwHOhc81TwU+RMf0As5fj7NPjroERCnejQ==}
     dev: true
     optional: true
-
-  /@types/node/16.4.0:
-    resolution: {integrity: sha512-HrJuE7Mlqcjj+00JqMWpZ3tY8w7EUd+S0U3L1+PQSWiXZbOgyQDvi+ogoUxaHApPJq5diKxYBQwA3iIlNcPqOg==}
-    dev: true
 
   /@types/node/16.4.1:
     resolution: {integrity: sha512-UW7cbLqf/Wu5XH2RKKY1cHwUNLicIDRLMraYKz+HHAerJ0ZffUEk+fMnd8qU2JaS6cAy0r8tsaf7yqHASf/Y0Q==}
@@ -14351,7 +14347,7 @@ packages:
       matchit: 1.1.0
     dev: false
 
-  /ts-jest/27.0.4_e6931c5cc9cab6470f37b50e2fb88b72:
+  /ts-jest/27.0.4_19d6cd9cb876b3d32d9b804f16a0fd4f:
     resolution: {integrity: sha512-c4E1ECy9Xz2WGfTMyHbSaArlIva7Wi2p43QOMmCqjSSjHP06KXv+aT+eSY+yZMuqsMi3k7pyGsGj2q5oSl5WfQ==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     hasBin: true
@@ -14370,7 +14366,7 @@ packages:
         optional: true
     dependencies:
       '@babel/core': 7.15.0
-      '@types/jest': 26.0.24
+      '@types/jest': 27.0.0
       babel-jest: 27.0.6_@babel+core@7.15.0
       bs-logger: 0.2.6
       buffer-from: 1.1.1
