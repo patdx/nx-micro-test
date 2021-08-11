@@ -13,7 +13,7 @@ specifiers:
   '@nrwl/cypress': 12.6.6
   '@nrwl/eslint-plugin-nx': 12.6.6
   '@nrwl/express': 12.6.6
-  '@nrwl/jest': 12.6.5
+  '@nrwl/jest': 12.6.6
   '@nrwl/linter': 12.6.5
   '@nrwl/next': 12.6.5
   '@nrwl/node': 12.6.5
@@ -88,7 +88,7 @@ devDependencies:
   '@nrwl/cypress': 12.6.6_9d52ddc148798efde55b93460e49b9bc
   '@nrwl/eslint-plugin-nx': 12.6.6_eabbad63d269e42b8e95593347708bcb
   '@nrwl/express': 12.6.6_a841de5b17bffcbcb7a2b5676fe1e222
-  '@nrwl/jest': 12.6.5_ts-node@10.2.0
+  '@nrwl/jest': 12.6.6_ts-node@10.2.0
   '@nrwl/linter': 12.6.5
   '@nrwl/node': 12.6.5_a841de5b17bffcbcb7a2b5676fe1e222
   '@nrwl/react': 12.6.5_2f16a4c7fe61e4d8004940892fd7a7cb
@@ -1267,7 +1267,6 @@ packages:
     dependencies:
       '@babel/core': 7.15.0
       '@babel/helper-plugin-utils': 7.14.5
-    dev: true
 
   /@babel/plugin-syntax-class-properties/7.12.13_@babel+core@7.12.13:
     resolution: {integrity: sha512-fm4idjKla0YahUNgFNLCB0qySdsoPiZP3iQE3rky0mBUtMZ23yDJ9SJdg6dXTSDnulOVqiF3Hgr9nbXvXTQZYA==}
@@ -1391,7 +1390,6 @@ packages:
     dependencies:
       '@babel/core': 7.15.0
       '@babel/helper-plugin-utils': 7.14.5
-    dev: true
 
   /@babel/plugin-syntax-json-strings/7.8.3_@babel+core@7.12.13:
     resolution: {integrity: sha512-lY6kdGpWHvjoe2vk4WrAapEuBR69EMxZl+RoGRhrFGNYVK8mOPAW8VfbT/ZgrFbXlDNiiaxQnAtgVCZ6jv30EA==}
@@ -3473,7 +3471,7 @@ packages:
     dependencies:
       '@jest/fake-timers': 27.0.6
       '@jest/types': 27.0.6
-      '@types/node': 16.4.11
+      '@types/node': 16.4.13
       jest-mock: 27.0.6
 
   /@jest/fake-timers/27.0.6:
@@ -3482,7 +3480,7 @@ packages:
     dependencies:
       '@jest/types': 27.0.6
       '@sinonjs/fake-timers': 7.1.0
-      '@types/node': 16.4.11
+      '@types/node': 16.4.13
       jest-message-util: 27.0.6
       jest-mock: 27.0.6
       jest-util: 27.0.6
@@ -5149,7 +5147,6 @@ packages:
 
   /@types/node/16.4.13:
     resolution: {integrity: sha512-bLL69sKtd25w7p1nvg9pigE4gtKVpGTPojBFLMkGHXuUgap2sLqQt2qUnqmVCDfzGUL0DRNZP+1prIZJbMeAXg==}
-    dev: true
 
   /@types/parse-json/4.0.0:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
@@ -5650,16 +5647,10 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  /acorn/8.2.4:
-    resolution: {integrity: sha512-Ibt84YwBDDA890eDiDCEqcbwvHlBvzzDkU2cGBBDDI1QWT12jTiXIOn2CIw5KK4i6N5Z2HUxwYjzriDyqaqqZg==}
-    engines: {node: '>=0.4.0'}
-    hasBin: true
-
   /acorn/8.4.1:
     resolution: {integrity: sha512-asabaBSkEKosYKMITunzX177CXxQ4Q8BSSzMTKD+FefUhipQC70gfW5SiUDhYQ3vk8G+81HqQk7Fv9OXwwn9KA==}
     engines: {node: '>=0.4.0'}
     hasBin: true
-    dev: true
 
   /agent-base/6.0.2:
     resolution: {integrity: sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==}
@@ -6050,24 +6041,6 @@ packages:
   /axobject-query/2.2.0:
     resolution: {integrity: sha512-Td525n+iPOOyUQIeBfcASuG6uJsDOITl7Mds5gFyerkWiX7qhUTdYUBlSgNMyVqtSJqwpt1kXGLdUt6SykLMRA==}
 
-  /babel-jest/27.0.6_@babel+core@7.14.8:
-    resolution: {integrity: sha512-iTJyYLNc4wRofASmofpOc5NK9QunwMk+TLFgGXsTFS8uEqmd8wdI7sga0FPe2oVH3b5Agt/EAK1QjPEuKL8VfA==}
-    engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
-    peerDependencies:
-      '@babel/core': ^7.8.0
-    dependencies:
-      '@babel/core': 7.14.8
-      '@jest/transform': 27.0.6
-      '@jest/types': 27.0.6
-      '@types/babel__core': 7.1.14
-      babel-plugin-istanbul: 6.0.0
-      babel-preset-jest: 27.0.6_@babel+core@7.14.8
-      chalk: 4.1.0
-      graceful-fs: 4.2.6
-      slash: 3.0.0
-    transitivePeerDependencies:
-      - supports-color
-
   /babel-jest/27.0.6_@babel+core@7.15.0:
     resolution: {integrity: sha512-iTJyYLNc4wRofASmofpOc5NK9QunwMk+TLFgGXsTFS8uEqmd8wdI7sga0FPe2oVH3b5Agt/EAK1QjPEuKL8VfA==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
@@ -6085,7 +6058,6 @@ packages:
       slash: 3.0.0
     transitivePeerDependencies:
       - supports-color
-    dev: true
 
   /babel-loader/8.1.0_6ff0178a3e975ff0760870ba0a4cf20e:
     resolution: {integrity: sha512-7q7nC1tYOrqvUrN3LQK4GwSk/TQorZSOlO9C+RZDZpODgyN4ZlCqE5q9cDsyWOliN+aU9B4JX01xK9eJXowJLw==}
@@ -6274,17 +6246,6 @@ packages:
       '@babel/plugin-syntax-optional-catch-binding': 7.8.3_@babel+core@7.15.0
       '@babel/plugin-syntax-optional-chaining': 7.8.3_@babel+core@7.15.0
       '@babel/plugin-syntax-top-level-await': 7.14.5_@babel+core@7.15.0
-    dev: true
-
-  /babel-preset-jest/27.0.6_@babel+core@7.14.8:
-    resolution: {integrity: sha512-WObA0/Biw2LrVVwZkF/2GqbOdzhKD6Fkdwhoy9ASIrOWr/zodcSpQh72JOkEn6NWyjmnPDjNSqaGN4KnpKzhXw==}
-    engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
-    peerDependencies:
-      '@babel/core': ^7.0.0
-    dependencies:
-      '@babel/core': 7.14.8
-      babel-plugin-jest-hoist: 27.0.6
-      babel-preset-current-node-syntax: 1.0.1_@babel+core@7.14.8
 
   /babel-preset-jest/27.0.6_@babel+core@7.15.0:
     resolution: {integrity: sha512-WObA0/Biw2LrVVwZkF/2GqbOdzhKD6Fkdwhoy9ASIrOWr/zodcSpQh72JOkEn6NWyjmnPDjNSqaGN4KnpKzhXw==}
@@ -6295,7 +6256,6 @@ packages:
       '@babel/core': 7.15.0
       babel-plugin-jest-hoist: 27.0.6
       babel-preset-current-node-syntax: 1.0.1_@babel+core@7.15.0
-    dev: true
 
   /balanced-match/1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
@@ -9940,7 +9900,7 @@ packages:
       '@jest/environment': 27.0.6
       '@jest/test-result': 27.0.6
       '@jest/types': 27.0.6
-      '@types/node': 16.4.11
+      '@types/node': 16.4.13
       chalk: 4.1.0
       co: 4.6.0
       dedent: 0.7.0
@@ -9998,10 +9958,10 @@ packages:
       ts-node:
         optional: true
     dependencies:
-      '@babel/core': 7.14.8
+      '@babel/core': 7.15.0
       '@jest/test-sequencer': 27.0.6
       '@jest/types': 27.0.6
-      babel-jest: 27.0.6_@babel+core@7.14.8
+      babel-jest: 27.0.6_@babel+core@7.15.0
       chalk: 4.1.0
       deepmerge: 4.2.2
       glob: 7.1.7
@@ -10036,10 +9996,10 @@ packages:
       ts-node:
         optional: true
     dependencies:
-      '@babel/core': 7.14.8
+      '@babel/core': 7.15.0
       '@jest/test-sequencer': 27.0.6
       '@jest/types': 27.0.6
-      babel-jest: 27.0.6_@babel+core@7.14.8
+      babel-jest: 27.0.6_@babel+core@7.15.0
       chalk: 4.1.0
       deepmerge: 4.2.2
       glob: 7.1.7
@@ -10107,7 +10067,7 @@ packages:
       '@jest/environment': 27.0.6
       '@jest/fake-timers': 27.0.6
       '@jest/types': 27.0.6
-      '@types/node': 16.4.11
+      '@types/node': 16.4.13
       jest-mock: 27.0.6
       jest-util: 27.0.6
       jsdom: 16.6.0
@@ -10124,7 +10084,7 @@ packages:
       '@jest/environment': 27.0.6
       '@jest/fake-timers': 27.0.6
       '@jest/types': 27.0.6
-      '@types/node': 16.4.11
+      '@types/node': 16.4.13
       jest-mock: 27.0.6
       jest-util: 27.0.6
 
@@ -10160,12 +10120,12 @@ packages:
     resolution: {integrity: sha512-cjpH2sBy+t6dvCeKBsHpW41mjHzXgsavaFMp+VWRf0eR4EW8xASk1acqmljFtK2DgyIECMv2yCdY41r2l1+4iA==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     dependencies:
-      '@babel/traverse': 7.14.8
+      '@babel/traverse': 7.15.0
       '@jest/environment': 27.0.6
       '@jest/source-map': 27.0.6
       '@jest/test-result': 27.0.6
       '@jest/types': 27.0.6
-      '@types/node': 16.4.11
+      '@types/node': 16.4.13
       chalk: 4.1.0
       co: 4.6.0
       expect: 27.0.6
@@ -10216,7 +10176,7 @@ packages:
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     dependencies:
       '@jest/types': 27.0.6
-      '@types/node': 16.4.11
+      '@types/node': 16.4.13
 
   /jest-pnp-resolver/1.2.2_jest-resolve@27.0.6:
     resolution: {integrity: sha512-olV41bKSMm8BdnuMsewT4jqlZ8+3TCARAXjZGT9jcoSnrfUnRCqnMoF9XEeoWjbzObpqF9dRhHQj0Xb9QdF6/w==}
@@ -10416,7 +10376,7 @@ packages:
     resolution: {integrity: sha512-qupxcj/dRuA3xHPMUd40gr2EaAurFbkwzOh7wfPaeE9id7hyjURRQoqNfHifHK3XjJU6YJJUQKILGUnwGPEOCA==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 16.4.11
+      '@types/node': 16.4.13
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
@@ -10483,7 +10443,7 @@ packages:
         optional: true
     dependencies:
       abab: 2.0.5
-      acorn: 8.2.4
+      acorn: 8.4.1
       acorn-globals: 6.0.0
       cssom: 0.4.4
       cssstyle: 2.3.0
