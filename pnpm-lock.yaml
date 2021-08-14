@@ -26,7 +26,7 @@ specifiers:
   '@types/jest': 27.0.1
   '@types/lodash': ^4.14.168
   '@types/micro': ^7.3.4
-  '@types/node': 16.4.13
+  '@types/node': 16.6.1
   '@types/polka': ^0.5.2
   '@types/react': 17.0.18
   '@types/react-dom': 17.0.9
@@ -99,7 +99,7 @@ devDependencies:
   '@types/express': 4.17.13
   '@types/jest': 27.0.1
   '@types/micro': 7.3.4
-  '@types/node': 16.4.13
+  '@types/node': 16.6.1
   '@types/react': 17.0.18
   '@types/react-dom': 17.0.9
   '@typescript-eslint/eslint-plugin': 4.29.1_27a4c2de58f1f80e4e26dcdb0314b729
@@ -113,7 +113,7 @@ devDependencies:
   jest: 27.0.6_ts-node@10.2.0
   prettier: 2.3.2
   ts-jest: 27.0.4_bb63757ca62d168b69a374122160902d
-  ts-node: 10.2.0_efdd4a7b2de6faa643ce2c61faf59d35
+  ts-node: 10.2.0_f11aaae227c44a1b184fdf647d95a802
   typescript: 4.3.2
 
 packages:
@@ -3360,6 +3360,10 @@ packages:
 
   /@types/node/16.4.13:
     resolution: {integrity: sha512-bLL69sKtd25w7p1nvg9pigE4gtKVpGTPojBFLMkGHXuUgap2sLqQt2qUnqmVCDfzGUL0DRNZP+1prIZJbMeAXg==}
+
+  /@types/node/16.6.1:
+    resolution: {integrity: sha512-Sr7BhXEAer9xyGuCN3Ek9eg9xPviCF2gfu9kTfuU2HkTVAMYSDeX40fvpmo72n5nansg3nsBjuQBrsS28r+NUw==}
+    dev: true
 
   /@types/npmlog/4.1.3:
     resolution: {integrity: sha512-1TcL7YDYCtnHmLhTWbum+IIwLlvpaHoEKS2KNIngEwLzwgDeHaebaEHHbQp8IqzNQ9IYiboLKUjAf7MZqG63+w==}
@@ -8084,7 +8088,7 @@ packages:
       jest-validate: 27.0.6
       micromatch: 4.0.4
       pretty-format: 27.0.6
-      ts-node: 10.2.0_efdd4a7b2de6faa643ce2c61faf59d35
+      ts-node: 10.2.0_f11aaae227c44a1b184fdf647d95a802
     transitivePeerDependencies:
       - bufferutil
       - canvas
@@ -12544,7 +12548,7 @@ packages:
       semver: 5.7.1
       typescript: 4.3.2
 
-  /ts-node/10.2.0_efdd4a7b2de6faa643ce2c61faf59d35:
+  /ts-node/10.2.0_f11aaae227c44a1b184fdf647d95a802:
     resolution: {integrity: sha512-FstYHtQz6isj8rBtYMN4bZdnXN1vq4HCbqn9vdNQcInRqtB86PePJQIxE6es0PhxKWhj2PHuwbG40H+bxkZPmg==}
     engines: {node: '>=12.0.0'}
     hasBin: true
@@ -12564,7 +12568,7 @@ packages:
       '@tsconfig/node12': 1.0.7
       '@tsconfig/node14': 1.0.0
       '@tsconfig/node16': 1.0.2
-      '@types/node': 16.4.13
+      '@types/node': 16.6.1
       acorn: 8.4.1
       acorn-walk: 8.1.1
       arg: 4.1.3
