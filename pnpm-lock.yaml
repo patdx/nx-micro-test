@@ -20,7 +20,7 @@ specifiers:
   '@nrwl/react': 12.7.1
   '@nrwl/tao': 12.7.1
   '@nrwl/web': 12.6.5
-  '@nrwl/workspace': 12.6.5
+  '@nrwl/workspace': 12.7.1
   '@testing-library/react': 12.0.0
   '@types/express': 4.17.13
   '@types/jest': 27.0.1
@@ -94,7 +94,7 @@ devDependencies:
   '@nrwl/react': 12.7.1_2f16a4c7fe61e4d8004940892fd7a7cb
   '@nrwl/tao': 12.7.1
   '@nrwl/web': 12.6.5_9d52ddc148798efde55b93460e49b9bc
-  '@nrwl/workspace': 12.6.5_prettier@2.3.2+ts-node@10.2.0
+  '@nrwl/workspace': 12.7.1_prettier@2.3.2+ts-node@10.2.0
   '@testing-library/react': 12.0.0_react-dom@17.0.2+react@17.0.2
   '@types/express': 4.17.13
   '@types/jest': 27.0.1
