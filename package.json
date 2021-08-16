@@ -34,7 +34,7 @@
     "@babel/preset-typescript": "7.15.0",
     "@nrwl/cli": "999.9.9",
     "@nrwl/cypress": "999.9.9",
-    "@nrwl/eslint-plugin-nx": "12.7.1",
+    "@nrwl/eslint-plugin-nx": "999.9.9",
     "@nrwl/express": "12.7.1",
     "@nrwl/jest": "12.7.1",
     "@nrwl/linter": "12.7.1",
