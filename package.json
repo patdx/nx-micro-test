@@ -37,7 +37,7 @@
     "@nrwl/eslint-plugin-nx": "999.9.9",
     "@nrwl/express": "12.7.2",
     "@nrwl/jest": "12.7.2",
-    "@nrwl/linter": "12.7.1",
+    "@nrwl/linter": "12.7.2",
     "@nrwl/node": "12.7.1",
     "@nrwl/react": "12.7.1",
     "@nrwl/tao": "12.7.1",
