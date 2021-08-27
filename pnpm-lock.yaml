@@ -26,7 +26,7 @@ specifiers:
   '@types/jest': 27.0.1
   '@types/lodash': ^4.14.168
   '@types/micro': ^7.3.4
-  '@types/node': 16.7.2
+  '@types/node': 16.7.3
   '@types/polka': ^0.5.2
   '@types/react': 17.0.19
   '@types/react-dom': 17.0.9
@@ -99,7 +99,7 @@ devDependencies:
   '@types/express': 4.17.13
   '@types/jest': 27.0.1
   '@types/micro': 7.3.4
-  '@types/node': 16.7.2
+  '@types/node': 16.7.3
   '@types/react': 17.0.19
   '@types/react-dom': 17.0.9
   '@typescript-eslint/eslint-plugin': 4.29.3_5b13bab190e8051f191796d8c4619073
@@ -113,7 +113,7 @@ devDependencies:
   jest: 27.1.0_ts-node@10.2.0
   prettier: 2.3.2
   ts-jest: 27.0.5_efe22363f19574b84f3b8aa95b487fe4
-  ts-node: 10.2.0_462d198bbb8ab114d3af278044f2727a
+  ts-node: 10.2.0_2f43beb7ab576e177133ce806ea7cb46
   typescript: 4.4.2
 
 packages:
@@ -3540,6 +3540,10 @@ packages:
 
   /@types/node/16.7.2:
     resolution: {integrity: sha512-TbG4TOx9hng8FKxaVrCisdaxKxqEwJ3zwHoCWXZ0Jw6mnvTInpaB99/2Cy4+XxpXtjNv9/TgfGSvZFyfV/t8Fw==}
+
+  /@types/node/16.7.3:
+    resolution: {integrity: sha512-S6gm2sm9xIRWTxD7Ttj8N1ZrYfqdqZEU38Nwnrhd6krk7zf8vdgMgzz8hpAX9CfmXaJfP+Vqy2EhJpVavNEocg==}
+    dev: true
 
   /@types/npmlog/4.1.3:
     resolution: {integrity: sha512-1TcL7YDYCtnHmLhTWbum+IIwLlvpaHoEKS2KNIngEwLzwgDeHaebaEHHbQp8IqzNQ9IYiboLKUjAf7MZqG63+w==}
@@ -8419,7 +8423,7 @@ packages:
       jest-validate: 27.0.6
       micromatch: 4.0.4
       pretty-format: 27.0.6
-      ts-node: 10.2.0_462d198bbb8ab114d3af278044f2727a
+      ts-node: 10.2.0_2f43beb7ab576e177133ce806ea7cb46
     transitivePeerDependencies:
       - bufferutil
       - canvas
@@ -8495,7 +8499,7 @@ packages:
       jest-validate: 27.1.0
       micromatch: 4.0.4
       pretty-format: 27.1.0
-      ts-node: 10.2.0_462d198bbb8ab114d3af278044f2727a
+      ts-node: 10.2.0_2f43beb7ab576e177133ce806ea7cb46
     transitivePeerDependencies:
       - bufferutil
       - canvas
@@ -13409,7 +13413,7 @@ packages:
       semver: 5.7.1
       typescript: 4.4.2
 
-  /ts-node/10.2.0_462d198bbb8ab114d3af278044f2727a:
+  /ts-node/10.2.0_2f43beb7ab576e177133ce806ea7cb46:
     resolution: {integrity: sha512-FstYHtQz6isj8rBtYMN4bZdnXN1vq4HCbqn9vdNQcInRqtB86PePJQIxE6es0PhxKWhj2PHuwbG40H+bxkZPmg==}
     engines: {node: '>=12.0.0'}
     hasBin: true
@@ -13429,7 +13433,7 @@ packages:
       '@tsconfig/node12': 1.0.7
       '@tsconfig/node14': 1.0.0
       '@tsconfig/node16': 1.0.2
-      '@types/node': 16.7.2
+      '@types/node': 16.7.3
       acorn: 8.4.1
       acorn-walk: 8.1.1
       arg: 4.1.3
