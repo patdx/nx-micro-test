@@ -21,7 +21,7 @@ specifiers:
   '@nrwl/tao': 12.9.0
   '@nrwl/web': 12.9.0
   '@nrwl/workspace': 12.9.0
-  '@testing-library/react': 12.0.0
+  '@testing-library/react': 12.1.0
   '@types/express': 4.17.13
   '@types/jest': 27.0.1
   '@types/lodash': ^4.14.168
@@ -95,7 +95,7 @@ devDependencies:
   '@nrwl/tao': 12.9.0
   '@nrwl/web': 12.9.0_a875f61b01012cd9f53b62700221c7df
   '@nrwl/workspace': 12.9.0_prettier@2.4.0+ts-node@10.2.0
-  '@testing-library/react': 12.0.0_react-dom@17.0.2+react@17.0.2
+  '@testing-library/react': 12.1.0_react-dom@17.0.2+react@17.0.2
   '@types/express': 4.17.13
   '@types/jest': 27.0.1
   '@types/micro': 7.3.4
@@ -1651,11 +1651,6 @@ packages:
       core-js-pure: 3.8.3
       regenerator-runtime: 0.13.7
 
-  /@babel/runtime/7.12.18:
-    resolution: {integrity: sha512-BogPQ7ciE6SYAUPtlm9tWbgI9+2AgqSam6QivMgXgAT+fKbgppaj4ZX15MHeLC1PVF5sNk70huBu20XxWOs8Cg==}
-    dependencies:
-      regenerator-runtime: 0.13.7
-
   /@babel/runtime/7.14.8:
     resolution: {integrity: sha512-twj3L8Og5SaCRCErB4x4ajbvBIVV77CGeFglHpeg5WC5FF8TZzBWXtTJ4MqaD9QszLYTtr+IsaAL2rEUevb+eg==}
     engines: {node: '>=6.9.0'}
@@ -2200,17 +2195,6 @@ packages:
       write-file-atomic: 3.0.3
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /@jest/types/27.0.2:
-    resolution: {integrity: sha512-XpjCtJ/99HB4PmyJ2vgmN7vT+JLP7RW1FBT9RgnMFS4Dt7cvIyBee8O3/j98aUZ34ZpenPZFqmaaObWSeL65dg==}
-    engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
-    dependencies:
-      '@types/istanbul-lib-coverage': 2.0.3
-      '@types/istanbul-reports': 3.0.0
-      '@types/node': 15.12.4
-      '@types/yargs': 16.0.3
-      chalk: 4.1.0
     dev: true
 
   /@jest/types/27.0.6:
@@ -3673,23 +3657,23 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       '@babel/code-frame': 7.14.5
-      '@babel/runtime': 7.12.18
+      '@babel/runtime': 7.15.3
       '@types/aria-query': 4.2.1
       aria-query: 4.2.2
       chalk: 4.1.0
       dom-accessibility-api: 0.5.6
       lz-string: 1.4.4
-      pretty-format: 27.0.2
+      pretty-format: 27.1.1
     dev: true
 
-  /@testing-library/react/12.0.0_react-dom@17.0.2+react@17.0.2:
-    resolution: {integrity: sha512-sh3jhFgEshFyJ/0IxGltRhwZv2kFKfJ3fN1vTZ6hhMXzz9ZbbcTgmDYM4e+zJv+oiVKKEWZPyqPAh4MQBI65gA==}
+  /@testing-library/react/12.1.0_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-Ge3Ht3qXE82Yv9lyPpQ7ZWgzo/HgOcHu569Y4ZGWcZME38iOFiOg87qnu6hTEa8jTJVL7zYovnvD3GE2nsNIoQ==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '*'
       react-dom: '*'
     dependencies:
-      '@babel/runtime': 7.12.18
+      '@babel/runtime': 7.15.3
       '@testing-library/dom': 8.0.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
@@ -3863,10 +3847,6 @@ packages:
 
   /@types/node/15.0.2:
     resolution: {integrity: sha512-p68+a+KoxpoB47015IeYZYRrdqMUcpbK8re/zpFB8Ld46LHC1lPEbp3EXgkEhAYEcPvjJF6ZO+869SQ0aH1dcA==}
-
-  /@types/node/15.12.4:
-    resolution: {integrity: sha512-zrNj1+yqYF4WskCMOHwN+w9iuD12+dGm0rQ35HLl9/Ouuq52cEtd0CH9qMgrdNmi5ejC1/V7vKEXYubB+65DkA==}
-    dev: true
 
   /@types/node/16.0.1:
     resolution: {integrity: sha512-hBOx4SUlEPKwRi6PrXuTGw1z6lz0fjsibcWCM378YxsSu/6+C30L6CR49zIBKHiwNWCYIcOLjg4OHKZaFeLAug==}
@@ -4524,7 +4504,7 @@ packages:
     resolution: {integrity: sha512-o/HelwhuKpTj/frsOsbNLNgnNGVIFsVP/SW2BSF14gVl7kAfMOJ6/8wUAUvG1R1NHKrfG+2sHZTu0yauT1qBrA==}
     engines: {node: '>=6.0'}
     dependencies:
-      '@babel/runtime': 7.12.18
+      '@babel/runtime': 7.15.3
       '@babel/runtime-corejs3': 7.12.13
 
   /arr-diff/4.0.0:
@@ -11917,16 +11897,6 @@ packages:
   /pretty-bytes/5.6.0:
     resolution: {integrity: sha512-FFw039TmrBqFK8ma/7OL3sDz/VytdtJr044/QUJtH0wK9lb9jLq9tJyIxUwtQJHwar2BqtiA4iCWSwo9JLkzFg==}
     engines: {node: '>=6'}
-    dev: true
-
-  /pretty-format/27.0.2:
-    resolution: {integrity: sha512-mXKbbBPnYTG7Yra9qFBtqj+IXcsvxsvOBco3QHxtxTl+hHKq6QdzMZ+q0CtL4ORHZgwGImRr2XZUX2EWzORxig==}
-    engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
-    dependencies:
-      '@jest/types': 27.0.2
-      ansi-regex: 5.0.0
-      ansi-styles: 5.2.0
-      react-is: 17.0.2
     dev: true
 
   /pretty-format/27.0.6:
