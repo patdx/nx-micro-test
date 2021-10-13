@@ -26,7 +26,7 @@ specifiers:
   '@types/jest': 27.0.2
   '@types/lodash': ^4.14.168
   '@types/micro': ^7.3.4
-  '@types/node': 16.10.4
+  '@types/node': 16.10.5
   '@types/polka': ^0.5.2
   '@types/react': 17.0.29
   '@types/react-dom': 17.0.9
@@ -99,7 +99,7 @@ devDependencies:
   '@types/express': 4.17.13
   '@types/jest': 27.0.2
   '@types/micro': 7.3.4
-  '@types/node': 16.10.4
+  '@types/node': 16.10.5
   '@types/react': 17.0.29
   '@types/react-dom': 17.0.9
   '@typescript-eslint/eslint-plugin': 5.0.0_7a377843a4079199a8976052abacd7cc
@@ -113,7 +113,7 @@ devDependencies:
   jest: 27.2.5_ts-node@10.3.0
   prettier: 2.4.1
   ts-jest: 27.0.5_bb9582113a48dd674799d56aa38598de
-  ts-node: 10.3.0_760ebcbbf1740a259e15cb32670ffbe5
+  ts-node: 10.3.0_ea22ed2bf7a5a26ff07619617cd65bec
   typescript: 4.4.2
 
 packages:
@@ -4065,8 +4065,8 @@ packages:
   /@types/node/16.10.3:
     resolution: {integrity: sha512-ho3Ruq+fFnBrZhUYI46n/bV2GjwzSkwuT4dTf0GkuNFmnb8nq4ny2z9JEVemFi6bdEJanHLlYfy9c6FN9B9McQ==}
 
-  /@types/node/16.10.4:
-    resolution: {integrity: sha512-EITwVTX5B4nDjXjGeQAfXOrm+Jn+qNjDmyDRtWoD+wZsl/RDPRTFRKivs4Mt74iOFlLOrE5+Kf+p5yjyhm3+cA==}
+  /@types/node/16.10.5:
+    resolution: {integrity: sha512-9iI3OOlkyOjLQQ9s+itIJNMRepDhB/96jW3fqduJ2FTPQj1dJjw6Q3QCImF9FE1wmdBs5QSun4FjDSFS8d8JLw==}
     dev: true
 
   /@types/node/16.3.3:
@@ -9156,7 +9156,7 @@ packages:
       jest-validate: 27.1.0
       micromatch: 4.0.4
       pretty-format: 27.1.0
-      ts-node: 10.3.0_760ebcbbf1740a259e15cb32670ffbe5
+      ts-node: 10.3.0_ea22ed2bf7a5a26ff07619617cd65bec
     transitivePeerDependencies:
       - bufferutil
       - canvas
@@ -9194,7 +9194,7 @@ packages:
       jest-validate: 27.2.5
       micromatch: 4.0.4
       pretty-format: 27.2.5
-      ts-node: 10.3.0_760ebcbbf1740a259e15cb32670ffbe5
+      ts-node: 10.3.0_ea22ed2bf7a5a26ff07619617cd65bec
     transitivePeerDependencies:
       - bufferutil
       - canvas
@@ -9270,7 +9270,7 @@ packages:
       jest-validate: 27.2.5
       micromatch: 4.0.4
       pretty-format: 27.2.5
-      ts-node: 10.3.0_760ebcbbf1740a259e15cb32670ffbe5
+      ts-node: 10.3.0_ea22ed2bf7a5a26ff07619617cd65bec
     transitivePeerDependencies:
       - bufferutil
       - canvas
@@ -14297,7 +14297,7 @@ packages:
       semver: 5.7.1
       typescript: 4.4.2
 
-  /ts-node/10.3.0_760ebcbbf1740a259e15cb32670ffbe5:
+  /ts-node/10.3.0_ea22ed2bf7a5a26ff07619617cd65bec:
     resolution: {integrity: sha512-RYIy3i8IgpFH45AX4fQHExrT8BxDeKTdC83QFJkNzkvt8uFB6QJ8XMyhynYiKMLxt9a7yuXaDBZNOYS3XjDcYw==}
     hasBin: true
     peerDependencies:
@@ -14316,7 +14316,7 @@ packages:
       '@tsconfig/node12': 1.0.7
       '@tsconfig/node14': 1.0.0
       '@tsconfig/node16': 1.0.2
-      '@types/node': 16.10.4
+      '@types/node': 16.10.5
       acorn: 8.5.0
       acorn-walk: 8.1.1
       arg: 4.1.3
