@@ -14,7 +14,7 @@ specifiers:
   '@nrwl/eslint-plugin-nx': 999.9.9
   '@nrwl/express': 13.0.0
   '@nrwl/jest': 13.0.0
-  '@nrwl/linter': 12.10.0
+  '@nrwl/linter': 13.0.0
   '@nrwl/next': 12.10.0
   '@nrwl/node': 12.10.0
   '@nrwl/react': 12.10.0
@@ -89,7 +89,7 @@ devDependencies:
   '@nrwl/eslint-plugin-nx': 999.9.9_baaf636386a2026f9bd2eb1243ec5f29
   '@nrwl/express': 13.0.0_892920953412c6f91291e08a327880d9
   '@nrwl/jest': 13.0.0_ts-node@10.3.0
-  '@nrwl/linter': 12.10.0_ts-node@10.3.0
+  '@nrwl/linter': 13.0.0_ts-node@10.3.0
   '@nrwl/node': 12.10.0_892920953412c6f91291e08a327880d9
   '@nrwl/react': 12.10.0_3e78d086cabe9f5333eefbedfa9d9cc0
   '@nrwl/tao': 12.10.0
@@ -2445,6 +2445,7 @@ packages:
 
   /@nrwl/linter/999.9.9:
     resolution: {integrity: sha512-/n1tDhH03xGxXIbbQUwptzLSO9xbRyC+hDG4n8jSd07o9Szt1wzxC0KbtLhbkfUarlpz6haU4iAHnwEZZcGw8Q==}
+    deprecated: This was a mispublish
     dependencies:
       '@nrwl/devkit': 999.9.9
       glob: 7.1.4
@@ -3977,7 +3978,7 @@ packages:
       '@typescript-eslint/visitor-keys': 4.28.5
       debug: 4.3.2
       globby: 11.0.3
-      is-glob: 4.0.1
+      is-glob: 4.0.3
       semver: 7.3.5
       tsutils: 3.21.0_typescript@4.4.2
       typescript: 4.4.2
@@ -8556,6 +8557,7 @@ packages:
     engines: {node: '>=0.10.0'}
     dependencies:
       is-extglob: 2.1.1
+    dev: false
 
   /is-glob/4.0.3:
     resolution: {integrity: sha512-xelSayHH36ZgE7ZWhli7pW34hNbNl8Ojv5KVmkJD4hBdD3th8Tfk9vYasLM+mXWOZhFkgZfxhLSnrwRr4elSSg==}
