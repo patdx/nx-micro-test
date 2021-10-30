@@ -13,7 +13,7 @@ specifiers:
   '@nrwl/cypress': 9999.0.0
   '@nrwl/eslint-plugin-nx': 999.9.9
   '@nrwl/express': 13.1.2
-  '@nrwl/jest': 13.1.0
+  '@nrwl/jest': 13.1.2
   '@nrwl/linter': 13.1.0
   '@nrwl/next': 13.1.0
   '@nrwl/node': 13.1.0
@@ -88,7 +88,7 @@ devDependencies:
   '@nrwl/cypress': 9999.0.0_71b18f2eadf2fba7d8c0268634096e88
   '@nrwl/eslint-plugin-nx': 999.9.9_def15d9059f625cfa14efe06aa3f80af
   '@nrwl/express': 13.1.2_567efbb40cc0b65bd307458f91f0dbb8
-  '@nrwl/jest': 13.1.0_ts-node@10.4.0
+  '@nrwl/jest': 13.1.2_ts-node@10.4.0
   '@nrwl/linter': 13.1.0_ts-node@10.4.0
   '@nrwl/node': 13.1.0_567efbb40cc0b65bd307458f91f0dbb8
   '@nrwl/react': 13.1.0_020692a34b92d20b8f8b9d4e0e6f5cb7
@@ -3940,18 +3940,18 @@ packages:
   /@types/babel__generator/7.6.2:
     resolution: {integrity: sha512-MdSJnBjl+bdwkLskZ3NGFp9YcXGx5ggLpQQPqtgakVhsWK0hTtNYhjpZLlWQTviGTvF8at+Bvli3jV7faPdgeQ==}
     dependencies:
-      '@babel/types': 7.15.6
+      '@babel/types': 7.16.0
 
   /@types/babel__template/7.4.0:
     resolution: {integrity: sha512-NTPErx4/FiPCGScH7foPyr+/1Dkzkni+rHiYHHoTjvwou7AQzJkNeD60A9CXRy+ZEN2B1bggmkTMCDb+Mv5k+A==}
     dependencies:
-      '@babel/parser': 7.15.8
-      '@babel/types': 7.15.6
+      '@babel/parser': 7.16.0
+      '@babel/types': 7.16.0
 
   /@types/babel__traverse/7.11.0:
     resolution: {integrity: sha512-kSjgDMZONiIfSH1Nxcr5JIRMwUetDki63FSQfpTCz8ogF3Ulqm8+mr5f78dUYs6vMiB6gBusQqfQmBvHZj/lwg==}
     dependencies:
-      '@babel/types': 7.15.6
+      '@babel/types': 7.16.0
 
   /@types/body-parser/1.19.0:
     resolution: {integrity: sha512-W98JrE0j2K78swW4ukqMleo8R7h/pFETjM2DQ90MF6XK2i4LO4W3gQ71Lt4w3bfm2EvVSyWHplECvB5sK22yFQ==}
