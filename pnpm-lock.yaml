@@ -13,7 +13,7 @@ specifiers:
   '@nrwl/cypress': 9999.0.0
   '@nrwl/eslint-plugin-nx': 999.9.9
   '@nrwl/express': 13.1.3
-  '@nrwl/jest': 13.1.2
+  '@nrwl/jest': 13.1.3
   '@nrwl/linter': 13.1.2
   '@nrwl/next': 13.1.2
   '@nrwl/node': 13.1.2
@@ -88,7 +88,7 @@ devDependencies:
   '@nrwl/cypress': 9999.0.0_22a419d970a3e37133c4b07eda22e08f
   '@nrwl/eslint-plugin-nx': 999.9.9_d08c03704cad7bad333bdfcaea7b987b
   '@nrwl/express': 13.1.3_567efbb40cc0b65bd307458f91f0dbb8
-  '@nrwl/jest': 13.1.2_ts-node@10.4.0
+  '@nrwl/jest': 13.1.3_ts-node@10.4.0
   '@nrwl/linter': 13.1.2_ts-node@10.4.0
   '@nrwl/node': 13.1.2_567efbb40cc0b65bd307458f91f0dbb8
   '@nrwl/react': 13.1.2_5edab72758e636575094ad5725d1026c
@@ -10167,7 +10167,7 @@ packages:
     resolution: {integrity: sha512-LpCfZCWsVEtmD2SI1j2KRaw1uIyn4DJ3eRzsjnDYitbq38aORpkvYO+L0zVMZRNDSYSRGTsuj0nHCS3OOxK/Cg==}
     hasBin: true
     dependencies:
-      '@nrwl/cli': 13.1.2
+      '@nrwl/cli': 13.1.3
     dev: true
 
   /nx/13.1.2:
