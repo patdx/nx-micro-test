@@ -14,7 +14,7 @@ specifiers:
   '@nrwl/eslint-plugin-nx': 999.9.9
   '@nrwl/express': 13.2.0
   '@nrwl/jest': 13.2.0
-  '@nrwl/linter': 13.1.4
+  '@nrwl/linter': 13.2.0
   '@nrwl/next': 13.1.4
   '@nrwl/node': 13.1.4
   '@nrwl/react': 13.1.4
@@ -89,7 +89,7 @@ devDependencies:
   '@nrwl/eslint-plugin-nx': 999.9.9_38bd343f2c7ff910caef1e309bfe6f7c
   '@nrwl/express': 13.2.0_d8f72e2c6bb357dfa3281bad01e3cc12
   '@nrwl/jest': 13.2.0_ts-node@10.4.0
-  '@nrwl/linter': 13.1.4_ts-node@10.4.0
+  '@nrwl/linter': 13.2.0_ts-node@10.4.0
   '@nrwl/node': 13.1.4_d8f72e2c6bb357dfa3281bad01e3cc12
   '@nrwl/react': 13.1.4_24849b267a3080cdee21a85fa870a5c9
   '@nrwl/tao': 12.10.0
@@ -2294,7 +2294,7 @@ packages:
       ignore: 5.1.8
       rxjs: 6.6.7
       semver: 7.3.4
-      tslib: 2.2.0
+      tslib: 2.3.1
     dev: true
 
   /@nrwl/eslint-plugin-nx/999.9.9_38bd343f2c7ff910caef1e309bfe6f7c:
@@ -2441,7 +2441,7 @@ packages:
       glob: 7.1.4
       minimatch: 3.0.4
       tmp: 0.2.1
-      tslib: 2.2.0
+      tslib: 2.3.1
     transitivePeerDependencies:
       - bufferutil
       - canvas
@@ -2460,7 +2460,7 @@ packages:
       glob: 7.1.4
       minimatch: 3.0.4
       tmp: 0.2.1
-      tslib: 2.2.0
+      tslib: 2.3.1
     transitivePeerDependencies:
       - bufferutil
       - canvas
@@ -3151,7 +3151,7 @@ packages:
       rxjs: 6.6.7
       semver: 7.3.4
       tmp: 0.2.1
-      tslib: 2.2.0
+      tslib: 2.3.1
       yargs: 15.4.1
       yargs-parser: 20.0.0
     transitivePeerDependencies:
