@@ -13,7 +13,7 @@ specifiers:
   '@nrwl/cypress': 9999.0.0
   '@nrwl/eslint-plugin-nx': 999.9.9
   '@nrwl/express': 13.2.0
-  '@nrwl/jest': 13.1.4
+  '@nrwl/jest': 13.2.0
   '@nrwl/linter': 13.1.4
   '@nrwl/next': 13.1.4
   '@nrwl/node': 13.1.4
@@ -88,7 +88,7 @@ devDependencies:
   '@nrwl/cypress': 9999.0.0_638fbec7ca4c22ca5d14c31308d30c86
   '@nrwl/eslint-plugin-nx': 999.9.9_38bd343f2c7ff910caef1e309bfe6f7c
   '@nrwl/express': 13.2.0_d8f72e2c6bb357dfa3281bad01e3cc12
-  '@nrwl/jest': 13.1.4_ts-node@10.4.0
+  '@nrwl/jest': 13.2.0_ts-node@10.4.0
   '@nrwl/linter': 13.1.4_ts-node@10.4.0
   '@nrwl/node': 13.1.4_d8f72e2c6bb357dfa3281bad01e3cc12
   '@nrwl/react': 13.1.4_24849b267a3080cdee21a85fa870a5c9
@@ -431,11 +431,6 @@ packages:
       '@babel/helper-validator-identifier': 7.15.7
       chalk: 2.4.2
       js-tokens: 4.0.0
-
-  /@babel/parser/7.15.8:
-    resolution: {integrity: sha512-BRYa3wcQnjS/nqI8Ac94pYYpJfojHVvVXJ97+IDCImX4Jc8W8Xv1+47enbruk+q1etOpsQNwnfFcNGw+gtPGxA==}
-    engines: {node: '>=6.0.0'}
-    hasBin: true
 
   /@babel/parser/7.16.0:
     resolution: {integrity: sha512-TEHWXf0xxpi9wKVyBCmRcSSDjbJ/cl6LUdlbYUHEaNQUJGhreJbZrXT6sR4+fZLxVUJqNRB4KyOvjuy/D9009A==}
@@ -2360,7 +2355,7 @@ packages:
       jest-resolve: 27.2.2
       jest-util: 27.2.0
       rxjs: 6.6.7
-      tslib: 2.2.0
+      tslib: 2.3.1
     transitivePeerDependencies:
       - bufferutil
       - canvas
@@ -2382,7 +2377,7 @@ packages:
       jest-resolve: 27.2.2
       jest-util: 27.2.0
       rxjs: 6.6.7
-      tslib: 2.2.0
+      tslib: 2.3.1
     transitivePeerDependencies:
       - bufferutil
       - canvas
@@ -2872,7 +2867,7 @@ packages:
       rxjs-for-await: 0.0.2_rxjs@6.6.7
       semver: 7.3.4
       tmp: 0.2.1
-      tslib: 2.2.0
+      tslib: 2.3.1
       yargs-parser: 20.0.0
     dev: true
 
@@ -3624,7 +3619,7 @@ packages:
   /@types/babel__core/7.1.14:
     resolution: {integrity: sha512-zGZJzzBUVDo/eV6KgbE0f0ZI7dInEYvo12Rb70uNQDshC3SkRMb67ja0GgRHZgAX3Za6rhaWlvbDO8rrGyAb1g==}
     dependencies:
-      '@babel/parser': 7.15.8
+      '@babel/parser': 7.16.0
       '@babel/types': 7.16.0
       '@types/babel__generator': 7.6.2
       '@types/babel__template': 7.4.0
@@ -10024,7 +10019,7 @@ packages:
     resolution: {integrity: sha512-LpCfZCWsVEtmD2SI1j2KRaw1uIyn4DJ3eRzsjnDYitbq38aORpkvYO+L0zVMZRNDSYSRGTsuj0nHCS3OOxK/Cg==}
     hasBin: true
     dependencies:
-      '@nrwl/cli': 13.1.4
+      '@nrwl/cli': 13.2.0
     dev: true
 
   /nx/13.1.4:
