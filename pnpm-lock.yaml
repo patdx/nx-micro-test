@@ -14,7 +14,7 @@ specifiers:
   '@nrwl/eslint-plugin-nx': 999.9.9
   '@nrwl/express': 13.2.1
   '@nrwl/jest': 13.2.1
-  '@nrwl/linter': 13.2.0
+  '@nrwl/linter': 13.2.1
   '@nrwl/next': 13.2.0
   '@nrwl/node': 13.2.0
   '@nrwl/react': 13.2.0
@@ -89,7 +89,7 @@ devDependencies:
   '@nrwl/eslint-plugin-nx': 999.9.9_38bd343f2c7ff910caef1e309bfe6f7c
   '@nrwl/express': 13.2.1_d8f72e2c6bb357dfa3281bad01e3cc12
   '@nrwl/jest': 13.2.1_ts-node@10.4.0
-  '@nrwl/linter': 13.2.0_ts-node@10.4.0
+  '@nrwl/linter': 13.2.1_ts-node@10.4.0
   '@nrwl/node': 13.2.0_d8f72e2c6bb357dfa3281bad01e3cc12
   '@nrwl/react': 13.2.0_24849b267a3080cdee21a85fa870a5c9
   '@nrwl/tao': 12.10.0
@@ -2078,7 +2078,6 @@ packages:
       v8-compile-cache: 2.3.0
       yargs: 15.4.1
       yargs-parser: 20.0.0
-    dev: true
 
   /@nrwl/cli/999.9.9:
     resolution: {integrity: sha512-oZyah+wQ4oq2tJj0rNmqPZL7U2OkRueZD3D73PfQZoqh0s1LsdbbKP6yss1JQdpkjl6p7KEMnS/XcaPnV/O/Yg==}
@@ -2937,7 +2936,6 @@ packages:
       tmp: 0.2.1
       tslib: 2.3.1
       yargs-parser: 20.0.0
-    dev: true
 
   /@nrwl/tao/999.9.9:
     resolution: {integrity: sha512-mOh4tzeqvoy6Y5jTqRdCjK+Efna9+ghb23MUU0A9z+IYkIaULSSQUxnVMfc4Gf/OZVK6I5c4IBrEcbJtyYsDUQ==}
@@ -10133,7 +10131,7 @@ packages:
     resolution: {integrity: sha512-LpCfZCWsVEtmD2SI1j2KRaw1uIyn4DJ3eRzsjnDYitbq38aORpkvYO+L0zVMZRNDSYSRGTsuj0nHCS3OOxK/Cg==}
     hasBin: true
     dependencies:
-      '@nrwl/cli': 13.2.0
+      '@nrwl/cli': 13.2.1
     dev: true
 
   /nx/13.1.4:
@@ -10147,14 +10145,13 @@ packages:
     resolution: {integrity: sha512-6EmHNwU3wsxfpy57+MQGbMcvrd9CImw3OU2OCW8Ddywi6UVmoVevaHgcxyOsUlaicj/4xU+7Pv5fGt4q1uAjyw==}
     hasBin: true
     dependencies:
-      '@nrwl/cli': 13.2.0
+      '@nrwl/cli': 13.2.1
 
   /nx/13.2.1:
     resolution: {integrity: sha512-z1+f6rMSrA8unHDjUmcnwSUo5w7ZnQYnHIx0aQvIeYYeACrQsgYMNIucEzsKb4eTKu7ekpkWVPrQpeK4Fzc/0Q==}
     hasBin: true
     dependencies:
       '@nrwl/cli': 13.2.1
-    dev: true
 
   /object-assign/4.1.1:
     resolution: {integrity: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=}
