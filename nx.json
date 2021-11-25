@@ -27,24 +27,30 @@
       }
     }
   },
-  "projects": {
-    "express-app": {
-      "tags": []
+  "targetDependencies": {
+    "build": [
+      {
+        "target": "build",
+        "projects": "dependencies"
+      }
+    ]
+  },
+  "cli": {
+    "defaultCollection": "@nrwl/express",
+    "packageManager": "pnpm"
+  },
+  "generators": {
+    "@nrwl/react": {
+      "application": {
+        "babel": true
+      }
     },
-    "next-app": {
-      "tags": []
-    },
-    "next-app-e2e": {
-      "tags": [],
-      "implicitDependencies": [
-        "next-app"
-      ]
-    },
-    "micro-app": {
-      "tags": []
-    },
-    "config": {
-      "tags": []
+    "@nrwl/next": {
+      "application": {
+        "style": "css",
+        "linter": "eslint"
+      }
     }
-  }
+  },
+  "defaultProject": "express-app"
 }

@@ -1,8 +1,3 @@
-module.exports = {
-  projects: [
-    '<rootDir>/apps/express-app',
-    '<rootDir>/apps/next-app',
-    '<rootDir>/apps/micro-app',
-    '<rootDir>/libs/config',
-  ],
-};
+const { getJestProjects } = require('@nrwl/jest');
+
+module.exports = { projects: getJestProjects() };
