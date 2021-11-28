@@ -16,7 +16,7 @@ specifiers:
   '@nrwl/jest': 13.2.3
   '@nrwl/linter': 13.2.3
   '@nrwl/next': 13.2.3
-  '@nrwl/node': 13.2.2
+  '@nrwl/node': 13.2.3
   '@nrwl/react': 13.2.2
   '@nrwl/tao': 13.2.2
   '@nrwl/web': 13.2.2
@@ -90,7 +90,7 @@ devDependencies:
   '@nrwl/express': 13.2.3_cf0cf6d27bc3cc9932035cf0c5e56fc9
   '@nrwl/jest': 13.2.3_ts-node@10.4.0
   '@nrwl/linter': 13.2.3_ts-node@10.4.0
-  '@nrwl/node': 13.2.2_cf0cf6d27bc3cc9932035cf0c5e56fc9
+  '@nrwl/node': 13.2.3_cf0cf6d27bc3cc9932035cf0c5e56fc9
   '@nrwl/react': 13.2.2_d1efcb682ef74904700b72f76db9dff1
   '@nrwl/tao': 13.2.2
   '@nrwl/web': 13.2.2_1920db0c74616e98f58d27039722a8ba
@@ -2493,46 +2493,6 @@ packages:
       - webpack-hot-middleware
       - webpack-plugin-serve
     dev: false
-
-  /@nrwl/node/13.2.2_cf0cf6d27bc3cc9932035cf0c5e56fc9:
-    resolution: {integrity: sha512-F1ibkoofGdzfjn3zVSs7lRETRDQ85txZXx2h2U4LcTcgv6s1hkXDwAGu/saK18PFYPbrrq7wXtNAqXlqUkapIA==}
-    dependencies:
-      '@nrwl/devkit': 13.2.2
-      '@nrwl/jest': 13.2.2_ts-node@10.4.0
-      '@nrwl/linter': 13.2.2_ts-node@10.4.0
-      '@nrwl/workspace': 13.2.2_prettier@2.5.0+ts-node@10.4.0
-      chalk: 4.1.0
-      copy-webpack-plugin: 9.0.1_webpack@5.59.0
-      enhanced-resolve: 5.8.3
-      fork-ts-checker-webpack-plugin: 6.2.10
-      fs-extra: 9.1.0
-      glob: 7.1.4
-      license-webpack-plugin: 2.3.15
-      rxjs: 6.6.7
-      rxjs-for-await: 0.0.2_rxjs@6.6.7
-      source-map-support: 0.5.19
-      tree-kill: 1.2.2
-      ts-loader: 9.2.6_typescript@4.5.2+webpack@5.59.0
-      tsconfig-paths: 3.9.0
-      tsconfig-paths-webpack-plugin: 3.4.1
-      tslib: 2.3.1
-      webpack: 5.59.0
-      webpack-merge: 5.8.0
-      webpack-node-externals: 3.0.0
-    transitivePeerDependencies:
-      - '@swc/core'
-      - bufferutil
-      - canvas
-      - esbuild
-      - node-notifier
-      - prettier
-      - supports-color
-      - ts-node
-      - typescript
-      - uglify-js
-      - utf-8-validate
-      - webpack-cli
-    dev: true
 
   /@nrwl/node/13.2.3_cf0cf6d27bc3cc9932035cf0c5e56fc9:
     resolution: {integrity: sha512-wBNRsiKbnV0o115Osi4WRpGYgvgcTd6zSNbk5bKGDil0wxXO0mFaLdDNvsAocGE/FjWKlOpeq26QG8w/do7zrQ==}
