@@ -16,7 +16,7 @@ specifiers:
   '@nrwl/jest': 13.2.4
   '@nrwl/linter': 13.2.4
   '@nrwl/next': 13.2.4
-  '@nrwl/node': 13.2.3
+  '@nrwl/node': 13.2.4
   '@nrwl/react': 13.2.3
   '@nrwl/tao': 13.2.3
   '@nrwl/web': 13.2.3
@@ -90,7 +90,7 @@ devDependencies:
   '@nrwl/express': 13.2.4_cae1db342fdbbcd6d595ceea3803a5f2
   '@nrwl/jest': 13.2.4_ts-node@10.4.0
   '@nrwl/linter': 13.2.4_ts-node@10.4.0
-  '@nrwl/node': 13.2.3_cae1db342fdbbcd6d595ceea3803a5f2
+  '@nrwl/node': 13.2.4_cae1db342fdbbcd6d595ceea3803a5f2
   '@nrwl/react': 13.2.3_20299ff66908f0d638aaa43ee3e498eb
   '@nrwl/tao': 13.2.3
   '@nrwl/web': 13.2.3_1160899e4b4e091200f3b5ca60518925
@@ -2494,46 +2494,6 @@ packages:
       - webpack-hot-middleware
       - webpack-plugin-serve
     dev: false
-
-  /@nrwl/node/13.2.3_cae1db342fdbbcd6d595ceea3803a5f2:
-    resolution: {integrity: sha512-wBNRsiKbnV0o115Osi4WRpGYgvgcTd6zSNbk5bKGDil0wxXO0mFaLdDNvsAocGE/FjWKlOpeq26QG8w/do7zrQ==}
-    dependencies:
-      '@nrwl/devkit': 13.2.3
-      '@nrwl/jest': 13.2.3_ts-node@10.4.0
-      '@nrwl/linter': 13.2.3_ts-node@10.4.0
-      '@nrwl/workspace': 13.2.3_prettier@2.5.1+ts-node@10.4.0
-      chalk: 4.1.0
-      copy-webpack-plugin: 9.0.1_webpack@5.59.0
-      enhanced-resolve: 5.8.3
-      fork-ts-checker-webpack-plugin: 6.2.10
-      fs-extra: 9.1.0
-      glob: 7.1.4
-      license-webpack-plugin: 2.3.15
-      rxjs: 6.6.7
-      rxjs-for-await: 0.0.2_rxjs@6.6.7
-      source-map-support: 0.5.19
-      tree-kill: 1.2.2
-      ts-loader: 9.2.6_typescript@4.5.2+webpack@5.59.0
-      tsconfig-paths: 3.9.0
-      tsconfig-paths-webpack-plugin: 3.4.1
-      tslib: 2.3.1
-      webpack: 5.59.0
-      webpack-merge: 5.8.0
-      webpack-node-externals: 3.0.0
-    transitivePeerDependencies:
-      - '@swc/core'
-      - bufferutil
-      - canvas
-      - esbuild
-      - node-notifier
-      - prettier
-      - supports-color
-      - ts-node
-      - typescript
-      - uglify-js
-      - utf-8-validate
-      - webpack-cli
-    dev: true
 
   /@nrwl/node/13.2.4_cae1db342fdbbcd6d595ceea3803a5f2:
     resolution: {integrity: sha512-W7eW79eAO9pqB3UK3MsZg1BSXz/6oA/+cIp+4L6Retam3hB9vTKpzOmQpMZsqQm6cVXqm+aC/AyotmoMFBy9fA==}
