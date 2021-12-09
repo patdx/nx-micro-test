@@ -16,7 +16,7 @@ specifiers:
   '@nrwl/jest': 13.3.0
   '@nrwl/linter': 13.3.0
   '@nrwl/next': 13.3.0
-  '@nrwl/node': 13.2.4
+  '@nrwl/node': 13.3.0
   '@nrwl/react': 13.2.4
   '@nrwl/tao': 13.2.4
   '@nrwl/web': 13.2.4
@@ -90,7 +90,7 @@ devDependencies:
   '@nrwl/express': 13.3.0_e7edc8966d839a98fd1c1dd1bbb5185c
   '@nrwl/jest': 13.3.0_ts-node@10.4.0
   '@nrwl/linter': 13.3.0_ts-node@10.4.0+typescript@4.5.3
-  '@nrwl/node': 13.2.4_e237bfaf88da70e9d4f3a89ee6821150
+  '@nrwl/node': 13.3.0_e7edc8966d839a98fd1c1dd1bbb5185c
   '@nrwl/react': 13.2.4_db783339e4f5f12cc018b8f8945d825e
   '@nrwl/tao': 13.2.4
   '@nrwl/web': 13.2.4_e65ef8c6158af30ba2492938791b6696
@@ -2534,46 +2534,6 @@ packages:
       - webpack-plugin-serve
     dev: false
 
-  /@nrwl/node/13.2.4_e237bfaf88da70e9d4f3a89ee6821150:
-    resolution: {integrity: sha512-W7eW79eAO9pqB3UK3MsZg1BSXz/6oA/+cIp+4L6Retam3hB9vTKpzOmQpMZsqQm6cVXqm+aC/AyotmoMFBy9fA==}
-    dependencies:
-      '@nrwl/devkit': 13.2.4
-      '@nrwl/jest': 13.2.4_ts-node@10.4.0
-      '@nrwl/linter': 13.2.4_ts-node@10.4.0
-      '@nrwl/workspace': 13.2.4_prettier@2.5.1+ts-node@10.4.0
-      chalk: 4.1.0
-      copy-webpack-plugin: 9.0.1_webpack@5.59.0
-      enhanced-resolve: 5.8.3
-      fork-ts-checker-webpack-plugin: 6.2.10
-      fs-extra: 9.1.0
-      glob: 7.1.4
-      license-webpack-plugin: 2.3.15
-      rxjs: 6.6.7
-      rxjs-for-await: 0.0.2_rxjs@6.6.7
-      source-map-support: 0.5.19
-      tree-kill: 1.2.2
-      ts-loader: 9.2.6_typescript@4.5.3+webpack@5.59.0
-      tsconfig-paths: 3.9.0
-      tsconfig-paths-webpack-plugin: 3.4.1
-      tslib: 2.3.1
-      webpack: 5.59.0
-      webpack-merge: 5.8.0
-      webpack-node-externals: 3.0.0
-    transitivePeerDependencies:
-      - '@swc/core'
-      - bufferutil
-      - canvas
-      - esbuild
-      - node-notifier
-      - prettier
-      - supports-color
-      - ts-node
-      - typescript
-      - uglify-js
-      - utf-8-validate
-      - webpack-cli
-    dev: true
-
   /@nrwl/node/13.3.0_e7edc8966d839a98fd1c1dd1bbb5185c:
     resolution: {integrity: sha512-9wz1MsemmrZqCYemzMxK4KBvCLBOs6U45Wl+A165FXzvs2pG+l9B2IWWxUzBApfqUlS3QIB3oLAtdayQgu1qfQ==}
     dependencies:
@@ -2593,7 +2553,7 @@ packages:
       source-map-support: 0.5.19
       tree-kill: 1.2.2
       ts-loader: 9.2.6_typescript@4.5.3+webpack@5.59.0
-      tsconfig-paths: 3.9.0
+      tsconfig-paths: 3.12.0
       tsconfig-paths-webpack-plugin: 3.4.1
       tslib: 2.3.1
       webpack: 5.59.0
@@ -3012,7 +2972,7 @@ packages:
       terser-webpack-plugin: 5.2.4_webpack@5.59.0
       ts-loader: 9.2.6_typescript@4.5.3+webpack@5.59.0
       ts-node: 9.1.1_typescript@4.5.3
-      tsconfig-paths: 3.9.0
+      tsconfig-paths: 3.12.0
       tsconfig-paths-webpack-plugin: 3.4.1
       tslib: 2.3.1
       webpack: 5.59.0
@@ -6507,7 +6467,7 @@ packages:
       glob: 7.2.0
       is-glob: 4.0.3
       resolve: 1.20.0
-      tsconfig-paths: 3.9.0
+      tsconfig-paths: 3.12.0
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -12526,7 +12486,7 @@ packages:
     dependencies:
       chalk: 4.1.2
       enhanced-resolve: 5.8.3
-      tsconfig-paths: 3.9.0
+      tsconfig-paths: 3.12.0
 
   /tsconfig-paths/3.12.0:
     resolution: {integrity: sha512-e5adrnOYT6zqVnWqZu7i/BQ3BnhzvGbjEjejFXO20lKIKpwTaupkCPgEfv4GZK1IBciJUEhYs3J3p75FdaTFVg==}
