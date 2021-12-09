@@ -9,7 +9,7 @@ specifiers:
   '@babel/preset-env': 7.16.4
   '@babel/preset-react': 7.16.0
   '@babel/preset-typescript': 7.16.0
-  '@nrwl/cli': 13.2.4
+  '@nrwl/cli': 13.3.0
   '@nrwl/cypress': 13.2.4
   '@nrwl/eslint-plugin-nx': 13.2.4
   '@nrwl/express': 13.2.4
@@ -84,7 +84,7 @@ devDependencies:
   '@babel/preset-env': 7.16.4_@babel+core@7.16.0
   '@babel/preset-react': 7.16.0_@babel+core@7.16.0
   '@babel/preset-typescript': 7.16.0_@babel+core@7.16.0
-  '@nrwl/cli': 13.2.4
+  '@nrwl/cli': 13.3.0
   '@nrwl/cypress': 13.2.4_6682a7789a55883661d7108c6cae0c6b
   '@nrwl/eslint-plugin-nx': 13.2.4_e86e99fc34f57c3152a8c2f456368e4c
   '@nrwl/express': 13.2.4_cae1db342fdbbcd6d595ceea3803a5f2
@@ -1965,6 +1965,17 @@ packages:
       yargs: 15.4.1
       yargs-parser: 20.0.0
 
+  /@nrwl/cli/13.3.0:
+    resolution: {integrity: sha512-PiK4w1CCLQQ+KIP7jWZxhcUIZqLK5qajsyg6TjZvnsIWePm50pVJxQQZgbrK6M2ZxwmifqIGX1kcDPfd+55V4g==}
+    hasBin: true
+    dependencies:
+      '@nrwl/tao': 13.3.0
+      chalk: 4.1.0
+      enquirer: 2.3.6
+      v8-compile-cache: 2.3.0
+      yargs: 15.4.1
+      yargs-parser: 20.0.0
+
   /@nrwl/cypress/13.2.4_397851f2c949c7ffc1f5de20e5967975:
     resolution: {integrity: sha512-WX9654iCg8p47l0ykKgWGpaapKXYRGddz76LNFHMcgnPGdZzKvDooICy0/BIr7t42PSsSIYu0jiq1f3RNCch+A==}
     peerDependencies:
@@ -2568,6 +2579,24 @@ packages:
       fs-extra: 9.1.0
       jsonc-parser: 3.0.0
       nx: 13.2.4
+      rxjs: 6.6.7
+      rxjs-for-await: 0.0.2_rxjs@6.6.7
+      semver: 7.3.4
+      tmp: 0.2.1
+      tslib: 2.3.1
+      yargs-parser: 20.0.0
+
+  /@nrwl/tao/13.3.0:
+    resolution: {integrity: sha512-BxTOOiFRb75YxpZpkJsG3dILBteJ/54etFdWgbbH4S14RxHd7Qa87o+vaJVCuJ1+MB2ygVpNmiZwW+itQYx1ew==}
+    hasBin: true
+    dependencies:
+      chalk: 4.1.0
+      enquirer: 2.3.6
+      fast-glob: 3.2.7
+      fs-extra: 9.1.0
+      ignore: 5.1.9
+      jsonc-parser: 3.0.0
+      nx: 13.3.0
       rxjs: 6.6.7
       rxjs-for-await: 0.0.2_rxjs@6.6.7
       semver: 7.3.4
@@ -8906,7 +8935,13 @@ packages:
     resolution: {integrity: sha512-/ZQRSKl1582CvntOT9cqItIu9vqGp1DnKuYgLClxpqkhk7GzIHWE9mtm56qT3o8NvBjZXyf+IZcxBwPgjd49NQ==}
     hasBin: true
     dependencies:
-      '@nrwl/cli': 13.2.4
+      '@nrwl/cli': 13.3.0
+
+  /nx/13.3.0:
+    resolution: {integrity: sha512-S5nmkbMsV1fBhwpSoYDWZ0XLzt7BAj03bdcpfYMFBjXCNIpHd9gcmA9wrqJfVQrP7GsNBBc6nvuQHllxqDEgIQ==}
+    hasBin: true
+    dependencies:
+      '@nrwl/cli': 13.3.0
 
   /object-assign/4.1.1:
     resolution: {integrity: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=}
