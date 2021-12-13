@@ -8,7 +8,7 @@ specifiers:
   '@babel/core': 7.16.5
   '@babel/preset-env': 7.16.5
   '@babel/preset-react': 7.16.5
-  '@babel/preset-typescript': 7.16.0
+  '@babel/preset-typescript': 7.16.5
   '@nrwl/cli': 13.3.1
   '@nrwl/cypress': 13.3.1
   '@nrwl/eslint-plugin-nx': 13.3.1
@@ -83,7 +83,7 @@ devDependencies:
   '@babel/core': 7.16.5
   '@babel/preset-env': 7.16.5_@babel+core@7.16.5
   '@babel/preset-react': 7.16.5_@babel+core@7.16.5
-  '@babel/preset-typescript': 7.16.0_@babel+core@7.16.5
+  '@babel/preset-typescript': 7.16.5_@babel+core@7.16.5
   '@nrwl/cli': 13.3.1
   '@nrwl/cypress': 13.3.1_975a2fbd4520e8cb43bd2a1393951f3e
   '@nrwl/eslint-plugin-nx': 13.3.1_912a0ddccd2bfd161158c3c129d3c26d
@@ -192,22 +192,6 @@ packages:
       '@babel/helper-validator-option': 7.14.5
       browserslist: 4.18.1
       semver: 6.3.0
-
-  /@babel/helper-create-class-features-plugin/7.16.0_@babel+core@7.16.5:
-    resolution: {integrity: sha512-XLwWvqEaq19zFlF5PTgOod4bUA+XbkR4WLQBct1bkzmxJGB0ZEJaoKF4c8cgH9oBtCDuYJ8BP5NB9uFiEgO5QA==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': ^7.0.0
-    dependencies:
-      '@babel/core': 7.16.5
-      '@babel/helper-annotate-as-pure': 7.16.0
-      '@babel/helper-function-name': 7.16.0
-      '@babel/helper-member-expression-to-functions': 7.16.5
-      '@babel/helper-optimise-call-expression': 7.16.0
-      '@babel/helper-replace-supers': 7.16.5
-      '@babel/helper-split-export-declaration': 7.16.0
-    transitivePeerDependencies:
-      - supports-color
 
   /@babel/helper-create-class-features-plugin/7.16.5_@babel+core@7.16.5:
     resolution: {integrity: sha512-NEohnYA7mkB8L5JhU7BLwcBdU3j83IziR9aseMueWGeAjblbul3zzb8UvJ3a1zuBiqCMObzCJHFqKIQE6hTVmg==}
@@ -334,10 +318,6 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/types': 7.16.0
-
-  /@babel/helper-plugin-utils/7.14.5:
-    resolution: {integrity: sha512-/37qQCE3K0vvZKwoK4XU/irIJQdIfCJuhU5eKnNxpFDsOkgFaUAwbv+RYw6eYgsC0E4hS7r5KqGULUogqui0fQ==}
-    engines: {node: '>=6.9.0'}
 
   /@babel/helper-plugin-utils/7.16.5:
     resolution: {integrity: sha512-59KHWHXxVA9K4HNF4sbHCf+eJeFe0Te/ZFGqBT4OjXhrwvA04sGfaEGsVTdsjoszq0YTP49RC9UKe5g8uN2RwQ==}
@@ -1195,7 +1175,7 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.16.5
-      '@babel/helper-create-class-features-plugin': 7.16.0_@babel+core@7.16.5
+      '@babel/helper-create-class-features-plugin': 7.16.5_@babel+core@7.16.5
       '@babel/helper-plugin-utils': 7.16.5
       '@babel/plugin-syntax-typescript': 7.16.0_@babel+core@7.16.5
     transitivePeerDependencies:
@@ -1330,14 +1310,14 @@ packages:
       '@babel/plugin-transform-react-jsx-development': 7.16.5_@babel+core@7.16.5
       '@babel/plugin-transform-react-pure-annotations': 7.16.5_@babel+core@7.16.5
 
-  /@babel/preset-typescript/7.16.0_@babel+core@7.16.5:
-    resolution: {integrity: sha512-txegdrZYgO9DlPbv+9QOVpMnKbOtezsLHWsnsRF4AjbSIsVaujrq1qg8HK0mxQpWv0jnejt0yEoW1uWpvbrDTg==}
+  /@babel/preset-typescript/7.16.5_@babel+core@7.16.5:
+    resolution: {integrity: sha512-lmAWRoJ9iOSvs3DqOndQpj8XqXkzaiQs50VG/zESiI9D3eoZhGriU675xNCr0UwvsuXrhMAGvyk1w+EVWF3u8Q==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.16.5
-      '@babel/helper-plugin-utils': 7.14.5
+      '@babel/helper-plugin-utils': 7.16.5
       '@babel/helper-validator-option': 7.14.5
       '@babel/plugin-transform-typescript': 7.16.1_@babel+core@7.16.5
     transitivePeerDependencies:
@@ -2809,7 +2789,7 @@ packages:
       '@babel/plugin-transform-regenerator': 7.16.0_@babel+core@7.16.5
       '@babel/plugin-transform-runtime': 7.15.0_@babel+core@7.16.5
       '@babel/preset-env': 7.16.5_@babel+core@7.16.5
-      '@babel/preset-typescript': 7.16.0_@babel+core@7.16.5
+      '@babel/preset-typescript': 7.16.5_@babel+core@7.16.5
       '@babel/runtime': 7.16.3
       '@nrwl/cypress': 13.2.4_ba076299f41176fc4b355431827f12fc
       '@nrwl/devkit': 13.2.4
@@ -2922,7 +2902,7 @@ packages:
       '@babel/plugin-transform-regenerator': 7.16.0_@babel+core@7.16.5
       '@babel/plugin-transform-runtime': 7.15.0_@babel+core@7.16.5
       '@babel/preset-env': 7.16.5_@babel+core@7.16.5
-      '@babel/preset-typescript': 7.16.0_@babel+core@7.16.5
+      '@babel/preset-typescript': 7.16.5_@babel+core@7.16.5
       '@babel/runtime': 7.16.3
       '@nrwl/cypress': 13.3.1_58b088f59f2125008e9075b90fb833a1
       '@nrwl/devkit': 13.3.1
