@@ -53,7 +53,7 @@ specifiers:
   prettier: 2.5.1
   react: latest
   react-dom: latest
-  ts-jest: 27.1.1
+  ts-jest: 27.1.2
   ts-node: ~10.4.0
   tslib: ^2.3.1
   typescript: 4.5.4
@@ -112,7 +112,7 @@ devDependencies:
   eslint-plugin-cypress: 2.12.1_eslint@7.32.0
   jest: 27.4.5_ts-node@10.4.0
   prettier: 2.5.1
-  ts-jest: 27.1.1_dee0b726dbd276697ee4962bafb31db0
+  ts-jest: 27.1.2_dee0b726dbd276697ee4962bafb31db0
   ts-node: 10.4.0_b6e8374966de429fb31cc39444331b2d
   typescript: 4.5.4
 
@@ -12730,8 +12730,8 @@ packages:
       matchit: 1.1.0
     dev: false
 
-  /ts-jest/27.1.1_dee0b726dbd276697ee4962bafb31db0:
-    resolution: {integrity: sha512-Ds0VkB+cB+8g2JUmP/GKWndeZcCKrbe6jzolGrVWdqVUFByY/2KDHqxJ7yBSon7hDB1TA4PXxjfZ+JjzJisvgA==}
+  /ts-jest/27.1.2_dee0b726dbd276697ee4962bafb31db0:
+    resolution: {integrity: sha512-eSOiJOWq6Hhs6Khzk5wKC5sgWIXgXqOCiIl1+3lfnearu58Hj4QpE5tUhQcA3xtZrELbcvAGCsd6HB8OsaVaTA==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     hasBin: true
     peerDependencies:
