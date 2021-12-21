@@ -16,7 +16,7 @@ specifiers:
   '@nrwl/jest': 13.3.12
   '@nrwl/linter': 13.3.12
   '@nrwl/next': 13.3.12
-  '@nrwl/node': 13.3.11
+  '@nrwl/node': 13.3.12
   '@nrwl/react': 13.3.11
   '@nrwl/tao': 13.3.11
   '@nrwl/web': 13.3.11
@@ -90,7 +90,7 @@ devDependencies:
   '@nrwl/express': 13.3.12_451c6917a69c5c23f897ab677b8e83cf
   '@nrwl/jest': 13.3.12_ts-node@10.4.0
   '@nrwl/linter': 13.3.12_ts-node@10.4.0+typescript@4.5.4
-  '@nrwl/node': 13.3.11_prettier@2.5.1+typescript@4.5.4
+  '@nrwl/node': 13.3.12_prettier@2.5.1+typescript@4.5.4
   '@nrwl/react': 13.3.11_0df0eb2b572b9c3807e12cce94b9075a
   '@nrwl/tao': 13.3.11
   '@nrwl/web': 13.3.11_c0ea356442c2fafb0c48595fc31f40b3
@@ -2634,46 +2634,6 @@ packages:
       - webpack-hot-middleware
       - webpack-plugin-serve
     dev: false
-
-  /@nrwl/node/13.3.11_prettier@2.5.1+typescript@4.5.4:
-    resolution: {integrity: sha512-HWlV1y9bnl0kI0DHcN1ZT6X6hucfX/lTUbWYZnBc8VE2MoVyyOUYk2dPd8G+q8gc3jiGYfEKK6i0X1DciEP1Gg==}
-    dependencies:
-      '@nrwl/devkit': 13.3.11
-      '@nrwl/jest': 13.3.11_ts-node@9.1.1
-      '@nrwl/linter': 13.3.11_ts-node@9.1.1+typescript@4.5.4
-      '@nrwl/workspace': 13.3.11_f4724441d51958646230fbbccce44345
-      chalk: 4.1.0
-      copy-webpack-plugin: 9.0.1_webpack@5.59.0
-      enhanced-resolve: 5.8.3
-      fork-ts-checker-webpack-plugin: 6.2.10
-      fs-extra: 9.1.0
-      glob: 7.1.4
-      license-webpack-plugin: 2.3.15
-      rxjs: 6.6.7
-      rxjs-for-await: 0.0.2_rxjs@6.6.7
-      source-map-support: 0.5.19
-      tree-kill: 1.2.2
-      ts-loader: 9.2.6_typescript@4.5.4+webpack@5.59.0
-      ts-node: 9.1.1_typescript@4.5.4
-      tsconfig-paths: 3.12.0
-      tsconfig-paths-webpack-plugin: 3.4.1
-      tslib: 2.3.1
-      webpack: 5.59.0
-      webpack-merge: 5.8.0
-      webpack-node-externals: 3.0.0
-    transitivePeerDependencies:
-      - '@swc/core'
-      - bufferutil
-      - canvas
-      - esbuild
-      - node-notifier
-      - prettier
-      - supports-color
-      - typescript
-      - uglify-js
-      - utf-8-validate
-      - webpack-cli
-    dev: true
 
   /@nrwl/node/13.3.12_prettier@2.5.1+typescript@4.5.4:
     resolution: {integrity: sha512-W/RUXp8b2mdzSqzHRgd6tcRX7a+DPsf2CB+XsfsSdMbV/Z4+f4oWSM8Ldx8QrlB8mPdQF9xgJMqCAKHgpv4wtg==}
