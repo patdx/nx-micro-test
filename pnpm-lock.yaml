@@ -13,7 +13,7 @@ specifiers:
   '@nrwl/cypress': 13.4.1
   '@nrwl/eslint-plugin-nx': 13.4.1
   '@nrwl/express': 13.4.1
-  '@nrwl/jest': 13.4.0
+  '@nrwl/jest': 13.4.1
   '@nrwl/linter': 13.4.0
   '@nrwl/next': 13.4.0
   '@nrwl/node': 13.4.0
@@ -88,7 +88,7 @@ devDependencies:
   '@nrwl/cypress': 13.4.1_a8163e5419606df1dba7792839619774
   '@nrwl/eslint-plugin-nx': 13.4.1_3addce3f3e88bd6d21cf23aeaadd3a4d
   '@nrwl/express': 13.4.1_451c6917a69c5c23f897ab677b8e83cf
-  '@nrwl/jest': 13.4.0_ts-node@10.4.0
+  '@nrwl/jest': 13.4.1_ts-node@10.4.0
   '@nrwl/linter': 13.4.0_ts-node@10.4.0+typescript@4.5.4
   '@nrwl/node': 13.4.0_prettier@2.5.1+typescript@4.5.4
   '@nrwl/react': 13.3.12_0df0eb2b572b9c3807e12cce94b9075a
@@ -8879,8 +8879,8 @@ packages:
     dependencies:
       chalk: 4.1.2
       diff-sequences: 27.0.6
-      jest-get-type: 27.3.1
-      pretty-format: 27.3.1
+      jest-get-type: 27.4.0
+      pretty-format: 27.4.2
     dev: true
 
   /jest-diff/27.4.2:
@@ -8935,11 +8935,6 @@ packages:
       '@types/node': 17.0.3
       jest-mock: 27.4.2
       jest-util: 27.4.2
-
-  /jest-get-type/27.3.1:
-    resolution: {integrity: sha512-+Ilqi8hgHSAdhlQ3s12CAVNd8H96ZkQBfYoXmArzZnOfAtVAJEiPDBirjByEblvG/4LPJmkL+nBqPO3A1YJAEg==}
-    engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
-    dev: true
 
   /jest-get-type/27.4.0:
     resolution: {integrity: sha512-tk9o+ld5TWq41DkK14L4wox4s2D9MtTpKaAVzXfr5CUKm5ZK2ExcaFE0qls2W71zE/6R2TxxrK9w2r6svAFDBQ==}
