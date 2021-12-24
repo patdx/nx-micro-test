@@ -14,7 +14,7 @@ specifiers:
   '@nrwl/eslint-plugin-nx': 13.4.1
   '@nrwl/express': 13.4.1
   '@nrwl/jest': 13.4.1
-  '@nrwl/linter': 13.4.0
+  '@nrwl/linter': 13.4.1
   '@nrwl/next': 13.4.0
   '@nrwl/node': 13.4.0
   '@nrwl/react': 13.3.12
@@ -89,7 +89,7 @@ devDependencies:
   '@nrwl/eslint-plugin-nx': 13.4.1_3addce3f3e88bd6d21cf23aeaadd3a4d
   '@nrwl/express': 13.4.1_451c6917a69c5c23f897ab677b8e83cf
   '@nrwl/jest': 13.4.1_ts-node@10.4.0
-  '@nrwl/linter': 13.4.0_ts-node@10.4.0+typescript@4.5.4
+  '@nrwl/linter': 13.4.1_ts-node@10.4.0+typescript@4.5.4
   '@nrwl/node': 13.4.0_prettier@2.5.1+typescript@4.5.4
   '@nrwl/react': 13.3.12_0df0eb2b572b9c3807e12cce94b9075a
   '@nrwl/tao': 13.3.11
@@ -2477,29 +2477,6 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@nrwl/jest/13.4.0_ts-node@10.4.0:
-    resolution: {integrity: sha512-FBaqWnnLYez/EbgGgHDzSuG0g694mgJWGIHSjFLLMJ3Oa6KAWFc9TnGz/M9Xs90FLwxGT/+8DwT0nD3Xo+lJaA==}
-    dependencies:
-      '@jest/reporters': 27.2.2
-      '@jest/test-result': 27.2.2
-      '@nrwl/devkit': 13.4.0
-      chalk: 4.1.0
-      identity-obj-proxy: 3.0.0
-      jest-config: 27.2.2_ts-node@10.4.0
-      jest-resolve: 27.2.2
-      jest-util: 27.2.0
-      resolve.exports: 1.1.0
-      rxjs: 6.6.7
-      tslib: 2.3.1
-    transitivePeerDependencies:
-      - bufferutil
-      - canvas
-      - node-notifier
-      - supports-color
-      - ts-node
-      - utf-8-validate
-    dev: true
-
   /@nrwl/jest/13.4.0_ts-node@9.1.1:
     resolution: {integrity: sha512-FBaqWnnLYez/EbgGgHDzSuG0g694mgJWGIHSjFLLMJ3Oa6KAWFc9TnGz/M9Xs90FLwxGT/+8DwT0nD3Xo+lJaA==}
     dependencies:
@@ -2720,27 +2697,6 @@ packages:
     dependencies:
       '@nrwl/devkit': 13.3.9
       '@nrwl/jest': 13.3.9_ts-node@10.4.0
-      '@phenomnomnominal/tsquery': 4.1.1_typescript@4.5.4
-      eslint: 8.2.0
-      glob: 7.1.4
-      minimatch: 3.0.4
-      tmp: 0.2.1
-      tslib: 2.3.1
-    transitivePeerDependencies:
-      - bufferutil
-      - canvas
-      - node-notifier
-      - supports-color
-      - ts-node
-      - typescript
-      - utf-8-validate
-    dev: true
-
-  /@nrwl/linter/13.4.0_ts-node@10.4.0+typescript@4.5.4:
-    resolution: {integrity: sha512-RHR6PyrlQ8IKXc0JdJIqWjshI3zQzyT5ni4LafJe8+0FoSVh6Cy+pMYOUVBF5hSGzypyWf3Nfjzfr/jKQ8uAIw==}
-    dependencies:
-      '@nrwl/devkit': 13.4.0
-      '@nrwl/jest': 13.4.0_ts-node@10.4.0
       '@phenomnomnominal/tsquery': 4.1.1_typescript@4.5.4
       eslint: 8.2.0
       glob: 7.1.4
