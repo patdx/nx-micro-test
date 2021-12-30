@@ -23,7 +23,7 @@ specifiers:
   '@nrwl/workspace': 13.4.1
   '@testing-library/react': 12.1.2
   '@types/express': 4.17.13
-  '@types/jest': 27.0.3
+  '@types/jest': 27.4.0
   '@types/lodash': ^4.14.177
   '@types/micro': ^7.3.6
   '@types/node': 17.0.5
@@ -97,7 +97,7 @@ devDependencies:
   '@nrwl/workspace': 13.4.1_451c6917a69c5c23f897ab677b8e83cf
   '@testing-library/react': 12.1.2_react-dom@17.0.2+react@17.0.2
   '@types/express': 4.17.13
-  '@types/jest': 27.0.3
+  '@types/jest': 27.4.0
   '@types/micro': 7.3.6
   '@types/node': 17.0.5
   '@types/react': 17.0.38
@@ -112,7 +112,7 @@ devDependencies:
   eslint-plugin-cypress: 2.12.1_eslint@7.32.0
   jest: 27.4.5_ts-node@10.4.0
   prettier: 2.5.1
-  ts-jest: 27.1.2_dee0b726dbd276697ee4962bafb31db0
+  ts-jest: 27.1.2_5cc28e3dfd9cf279c821163c9497c56a
   ts-node: 10.4.0_bad060d5f9aca5284661d88d739ba15b
   typescript: 4.5.4
 
@@ -3256,7 +3256,7 @@ packages:
       chalk: 4.1.2
       dom-accessibility-api: 0.5.6
       lz-string: 1.4.4
-      pretty-format: 27.3.1
+      pretty-format: 27.4.2
     dev: true
 
   /@testing-library/react/12.1.2_react-dom@17.0.2+react@17.0.2:
@@ -3418,11 +3418,11 @@ packages:
     dependencies:
       '@types/istanbul-lib-report': 3.0.0
 
-  /@types/jest/27.0.3:
-    resolution: {integrity: sha512-cmmwv9t7gBYt7hNKH5Spu7Kuu/DotGa+Ff+JGRKZ4db5eh8PnKS4LuebJ3YLUoyOyIHraTGyULn23YtEAm0VSg==}
+  /@types/jest/27.4.0:
+    resolution: {integrity: sha512-gHl8XuC1RZ8H2j5sHv/JqsaxXkDDM9iDOgu0Wp8sjs4u/snb2PVehyWXJPr+ORA0RPpgw231mnutWI1+0hgjIQ==}
     dependencies:
-      jest-diff: 27.3.1
-      pretty-format: 27.3.1
+      jest-diff: 27.4.2
+      pretty-format: 27.4.2
     dev: true
 
   /@types/json-schema/7.0.9:
@@ -5691,11 +5691,6 @@ packages:
   /detect-node/2.0.4:
     resolution: {integrity: sha512-ZIzRpLJrOj7jjP2miAtgqIfmzbxa4ZOr5jJc601zklsfEx9oTzmmj2nVpIPRpNlRTIh8lc1kyViIY7BWSGNmKw==}
 
-  /diff-sequences/27.0.6:
-    resolution: {integrity: sha512-ag6wfpBFyNXZ0p8pcuIDS//D8H062ZQJ3fzYxjpmeKjnz8W4pekL3AI8VohmyZmsWW2PWaHgjsmqR6L13101VQ==}
-    engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
-    dev: true
-
   /diff-sequences/27.4.0:
     resolution: {integrity: sha512-YqiQzkrsmHMH5uuh8OdQFU9/ZpADnwzml8z0O5HvRNda+5UZsaX/xN+AAxfR2hWq1Y7HZnAzO9J5lJXOuDz2Ww==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
@@ -7836,16 +7831,6 @@ packages:
       - canvas
       - supports-color
       - utf-8-validate
-    dev: true
-
-  /jest-diff/27.3.1:
-    resolution: {integrity: sha512-PCeuAH4AWUo2O5+ksW4pL9v5xJAcIKPUPfIhZBcG1RKv/0+dvaWTQK1Nrau8d67dp65fOqbeMdoil+6PedyEPQ==}
-    engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
-    dependencies:
-      chalk: 4.1.2
-      diff-sequences: 27.0.6
-      jest-get-type: 27.4.0
-      pretty-format: 27.4.2
     dev: true
 
   /jest-diff/27.4.2:
@@ -10316,16 +10301,6 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /pretty-format/27.3.1:
-    resolution: {integrity: sha512-DR/c+pvFc52nLimLROYjnXPtolawm+uWDxr4FjuLDLUn+ktWnSN851KoHwHzzqq6rfCOjkzN8FLgDrSub6UDuA==}
-    engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
-    dependencies:
-      '@jest/types': 27.4.2
-      ansi-regex: 5.0.1
-      ansi-styles: 5.2.0
-      react-is: 17.0.2
-    dev: true
-
   /pretty-format/27.4.2:
     resolution: {integrity: sha512-p0wNtJ9oLuvgOQDEIZ9zQjZffK7KtyR6Si0jnXULIDwrlNF8Cuir3AZP0hHv0jmKuNN/edOnbMjnzd4uTcmWiw==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
@@ -11793,7 +11768,7 @@ packages:
       matchit: 1.1.0
     dev: false
 
-  /ts-jest/27.1.2_dee0b726dbd276697ee4962bafb31db0:
+  /ts-jest/27.1.2_5cc28e3dfd9cf279c821163c9497c56a:
     resolution: {integrity: sha512-eSOiJOWq6Hhs6Khzk5wKC5sgWIXgXqOCiIl1+3lfnearu58Hj4QpE5tUhQcA3xtZrELbcvAGCsd6HB8OsaVaTA==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     hasBin: true
@@ -11815,7 +11790,7 @@ packages:
         optional: true
     dependencies:
       '@babel/core': 7.16.5
-      '@types/jest': 27.0.3
+      '@types/jest': 27.4.0
       babel-jest: 27.4.5_@babel+core@7.16.5
       bs-logger: 0.2.6
       fast-json-stable-stringify: 2.1.0
