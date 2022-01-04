@@ -16,7 +16,7 @@ specifiers:
   '@nrwl/jest': 13.4.3
   '@nrwl/linter': 13.4.3
   '@nrwl/next': 13.4.3
-  '@nrwl/node': 13.4.2
+  '@nrwl/node': 13.4.3
   '@nrwl/react': 13.4.3
   '@nrwl/tao': 13.4.2
   '@nrwl/web': 13.4.2
@@ -90,7 +90,7 @@ devDependencies:
   '@nrwl/express': 13.4.3_451c6917a69c5c23f897ab677b8e83cf
   '@nrwl/jest': 13.4.3_ts-node@10.4.0
   '@nrwl/linter': 13.4.3_ts-node@10.4.0+typescript@4.5.4
-  '@nrwl/node': 13.4.2_prettier@2.5.1+typescript@4.5.4
+  '@nrwl/node': 13.4.3_prettier@2.5.1+typescript@4.5.4
   '@nrwl/react': 13.4.3_464bfab8a5fea0bcd8d020d07e673b6f
   '@nrwl/tao': 13.4.2
   '@nrwl/web': 13.4.2_fb2ed340ac9e6adaac5c0b00de954126
@@ -2582,46 +2582,6 @@ packages:
       - webpack-hot-middleware
       - webpack-plugin-serve
     dev: false
-
-  /@nrwl/node/13.4.2_prettier@2.5.1+typescript@4.5.4:
-    resolution: {integrity: sha512-+RAble0FJj/DMHlMCnjHxOvMVG1YuRl+8i5ypHvQQzGfy/YMYdunoKH/opsQVgfE0GM5+BeoKSudvl5T65+YfQ==}
-    dependencies:
-      '@nrwl/devkit': 13.4.2
-      '@nrwl/jest': 13.4.2_ts-node@9.1.1
-      '@nrwl/linter': 13.4.2_ts-node@9.1.1+typescript@4.5.4
-      '@nrwl/workspace': 13.4.2_f4724441d51958646230fbbccce44345
-      chalk: 4.1.0
-      copy-webpack-plugin: 9.0.1_webpack@5.59.0
-      enhanced-resolve: 5.8.3
-      fork-ts-checker-webpack-plugin: 6.2.10
-      fs-extra: 9.1.0
-      glob: 7.1.4
-      license-webpack-plugin: 2.3.15
-      rxjs: 6.6.7
-      rxjs-for-await: 0.0.2_rxjs@6.6.7
-      source-map-support: 0.5.19
-      tree-kill: 1.2.2
-      ts-loader: 9.2.6_typescript@4.5.4+webpack@5.59.0
-      ts-node: 9.1.1_typescript@4.5.4
-      tsconfig-paths: 3.12.0
-      tsconfig-paths-webpack-plugin: 3.4.1
-      tslib: 2.3.1
-      webpack: 5.59.0
-      webpack-merge: 5.8.0
-      webpack-node-externals: 3.0.0
-    transitivePeerDependencies:
-      - '@swc/core'
-      - bufferutil
-      - canvas
-      - esbuild
-      - node-notifier
-      - prettier
-      - supports-color
-      - typescript
-      - uglify-js
-      - utf-8-validate
-      - webpack-cli
-    dev: true
 
   /@nrwl/node/13.4.3_prettier@2.5.1+typescript@4.5.4:
     resolution: {integrity: sha512-arzNb4lWK5vfotOkE2TPXSkbmBijmfHOGqyzBh6yshrIOP0HdqNe9UOWNDOhpvM6gQHLDE7x2faSnqkqZErwXA==}
