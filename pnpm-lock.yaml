@@ -36,7 +36,7 @@ specifiers:
   core-js: ^3.19.1
   cypress: ^9.0.0
   document-register-element: 1.14.10
-  dotenv: 10.0.0
+  dotenv: 11.0.0
   eslint: 8.6.0
   eslint-config-prettier: 8.3.0
   eslint-plugin-cypress: ^2.12.1
@@ -106,7 +106,7 @@ devDependencies:
   '@typescript-eslint/parser': 5.9.1_eslint@8.6.0+typescript@4.5.4
   babel-jest: 27.4.6_@babel+core@7.16.7
   cypress: 9.0.0
-  dotenv: 10.0.0
+  dotenv: 11.0.0
   eslint: 8.6.0
   eslint-config-prettier: 8.3.0_eslint@8.6.0
   eslint-plugin-cypress: 2.12.1_eslint@8.6.0
@@ -5558,6 +5558,11 @@ packages:
   /dotenv/10.0.0:
     resolution: {integrity: sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q==}
     engines: {node: '>=10'}
+
+  /dotenv/11.0.0:
+    resolution: {integrity: sha512-Fp/b504Y5W+e+FpCxTFMUZ7ZEQkQYF0rx+KZtmwixJxGQbLHrhCwo3FjZgNC8vIfrSi29PABNbMoCGD9YoiXbQ==}
+    engines: {node: '>=12'}
+    dev: true
 
   /ecc-jsbn/0.1.2:
     resolution: {integrity: sha1-OoOpBOVDUyh4dMVkt1SThoSamMk=}
