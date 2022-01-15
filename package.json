@@ -38,7 +38,7 @@
     "@nrwl/express": "13.4.5",
     "@nrwl/jest": "13.4.5",
     "@nrwl/linter": "13.4.5",
-    "@nrwl/node": "13.4.4",
+    "@nrwl/node": "13.4.5",
     "@nrwl/react": "13.4.4",
     "@nrwl/tao": "13.4.4",
     "@nrwl/web": "13.4.4",
