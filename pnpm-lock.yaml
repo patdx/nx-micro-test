@@ -13,7 +13,7 @@ specifiers:
   '@nrwl/cypress': 13.4.6
   '@nrwl/eslint-plugin-nx': 13.4.6
   '@nrwl/express': 13.4.6
-  '@nrwl/jest': 13.4.5
+  '@nrwl/jest': 13.4.6
   '@nrwl/linter': 13.4.5
   '@nrwl/next': 13.4.5
   '@nrwl/node': 13.4.5
@@ -88,7 +88,7 @@ devDependencies:
   '@nrwl/cypress': 13.4.6_8997f13b4b2dc54b9994dbe823b752df
   '@nrwl/eslint-plugin-nx': 13.4.6_b52f7c37a5ac1da5d447a80b3b16de03
   '@nrwl/express': 13.4.6_4a529fd9b7c8d37b7115e99b625a1e90
-  '@nrwl/jest': 13.4.5_ts-node@10.4.0
+  '@nrwl/jest': 13.4.6_ts-node@10.4.0
   '@nrwl/linter': 13.4.5_ts-node@10.4.0+typescript@4.5.4
   '@nrwl/node': 13.4.5_prettier@2.5.1+typescript@4.5.4
   '@nrwl/react': 13.4.5_14e8fef55058aa30a1b92d13e796a3e8
