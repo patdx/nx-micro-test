@@ -13,7 +13,7 @@ specifiers:
   '@nrwl/cypress': 13.6.1
   '@nrwl/eslint-plugin-nx': 13.6.1
   '@nrwl/express': 13.6.1
-  '@nrwl/jest': 13.5.3
+  '@nrwl/jest': 13.6.1
   '@nrwl/linter': 13.5.3
   '@nrwl/next': 13.5.3
   '@nrwl/node': 13.5.3
@@ -88,7 +88,7 @@ devDependencies:
   '@nrwl/cypress': 13.6.1_7bb4abd5c09f11d35fda36ffcc3fce8a
   '@nrwl/eslint-plugin-nx': 13.6.1_cbab6ad71fd552e04514280f1167f304
   '@nrwl/express': 13.6.1_77aa66af867b7a7d7364671ca12d39bb
-  '@nrwl/jest': 13.5.3_ts-node@10.4.0
+  '@nrwl/jest': 13.6.1_ts-node@10.4.0
   '@nrwl/linter': 13.5.3_9f8908d7a50baa2e851cfb427cfdafbd
   '@nrwl/node': 13.5.3_a945cf57d5944e875bf896a5a1e53eb0
   '@nrwl/react': 13.5.3_0f207a5ff0809ea1cb5f36c39c3c377a
@@ -10828,7 +10828,7 @@ packages:
     engines: {node: '>=10.0.0'}
     dependencies:
       '@socket.io/component-emitter': 3.0.0
-      debug: 4.3.2
+      debug: 4.3.3
     transitivePeerDependencies:
       - supports-color
     dev: true
