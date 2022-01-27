@@ -33,7 +33,7 @@
     "@babel/preset-react": "7.16.7",
     "@babel/preset-typescript": "7.16.7",
     "@nrwl/cli": "13.6.1",
-    "@nrwl/cypress": "13.5.3",
+    "@nrwl/cypress": "13.6.1",
     "@nrwl/eslint-plugin-nx": "13.5.3",
     "@nrwl/express": "13.5.3",
     "@nrwl/jest": "13.5.3",
