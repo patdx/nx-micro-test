@@ -18,7 +18,7 @@ specifiers:
   '@nrwl/next': 13.7.0
   '@nrwl/node': 13.5.3
   '@nrwl/react': 13.5.3
-  '@nrwl/tao': 13.5.3
+  '@nrwl/tao': 13.7.1
   '@nrwl/web': 13.5.3
   '@nrwl/workspace': 13.5.3
   '@testing-library/react': 12.1.2
@@ -92,7 +92,7 @@ devDependencies:
   '@nrwl/linter': 13.7.0_9f8908d7a50baa2e851cfb427cfdafbd
   '@nrwl/node': 13.5.3_a945cf57d5944e875bf896a5a1e53eb0
   '@nrwl/react': 13.5.3_16e596098373c8f9bfd33e7ea4352c00
-  '@nrwl/tao': 13.5.3
+  '@nrwl/tao': 13.7.1
   '@nrwl/web': 13.5.3_6f62ce47a9b73d648777f5562282b344
   '@nrwl/workspace': 13.5.3_77aa66af867b7a7d7364671ca12d39bb
   '@testing-library/react': 12.1.2_react-dom@17.0.2+react@17.0.2
