@@ -10,7 +10,7 @@ specifiers:
   '@babel/preset-react': 7.16.7
   '@babel/preset-typescript': 7.16.7
   '@nrwl/cli': 13.7.0
-  '@nrwl/cypress': 13.6.1
+  '@nrwl/cypress': 13.7.0
   '@nrwl/eslint-plugin-nx': 13.6.1
   '@nrwl/express': 13.6.1
   '@nrwl/jest': 13.6.1
@@ -85,7 +85,7 @@ devDependencies:
   '@babel/preset-react': 7.16.7_@babel+core@7.16.12
   '@babel/preset-typescript': 7.16.7_@babel+core@7.16.12
   '@nrwl/cli': 13.7.0
-  '@nrwl/cypress': 13.6.1_7bb4abd5c09f11d35fda36ffcc3fce8a
+  '@nrwl/cypress': 13.7.0_7bb4abd5c09f11d35fda36ffcc3fce8a
   '@nrwl/eslint-plugin-nx': 13.6.1_cbab6ad71fd552e04514280f1167f304
   '@nrwl/express': 13.6.1_77aa66af867b7a7d7364671ca12d39bb
   '@nrwl/jest': 13.6.1_ts-node@10.4.0
@@ -2048,8 +2048,8 @@ packages:
       - webpack
     dev: false
 
-  /@nrwl/cypress/13.6.1_7bb4abd5c09f11d35fda36ffcc3fce8a:
-    resolution: {integrity: sha512-luz36D3dal2x5367WK/oURGzObzIwFuGwjlp+L8dq5KzYtRhbzutfHhWCk/JEOsCrLBlI5jKH37x7kbpkH8OKQ==}
+  /@nrwl/cypress/13.7.0_7bb4abd5c09f11d35fda36ffcc3fce8a:
+    resolution: {integrity: sha512-DS54u0jqqBo351L8Q35MqW0grfQyIW5FjWfoUpVVIjrQiUhEHsYyoAMz+wLgnyv6gZ9/sdWieU0aErx2vp30WA==}
     peerDependencies:
       cypress: '>= 3 < 10'
     peerDependenciesMeta:
@@ -2057,9 +2057,9 @@ packages:
         optional: true
     dependencies:
       '@cypress/webpack-preprocessor': 5.9.1_cb7de1e005b8d4aa404a19017c6f684d
-      '@nrwl/devkit': 13.6.1
-      '@nrwl/linter': 13.6.1_9f8908d7a50baa2e851cfb427cfdafbd
-      '@nrwl/workspace': 13.6.1_77aa66af867b7a7d7364671ca12d39bb
+      '@nrwl/devkit': 13.7.0
+      '@nrwl/linter': 13.7.0_9f8908d7a50baa2e851cfb427cfdafbd
+      '@nrwl/workspace': 13.7.0_77aa66af867b7a7d7364671ca12d39bb
       chalk: 4.1.0
       cypress: 9.0.0
       enhanced-resolve: 5.8.3
@@ -2100,6 +2100,17 @@ packages:
     resolution: {integrity: sha512-Y3rfzmBqOVLPEiC7BUqckNLfg0dTgPfRmO1bFmSYclALxzs+mMoZGH/3RjIIrYAG6WLYgO298RIzMJsz2vU4sA==}
     dependencies:
       '@nrwl/tao': 13.6.1
+      ejs: 3.1.6
+      ignore: 5.2.0
+      rxjs: 6.6.7
+      semver: 7.3.4
+      tslib: 2.3.1
+    dev: true
+
+  /@nrwl/devkit/13.7.0:
+    resolution: {integrity: sha512-FmRZ78yL72ewyTw/OSYcIzP8Q96R+jtYDtDga3h75tUhnbAQK7RGtEqMbIwZgJuWOB+CFHw0d3c0KyzUruCpVQ==}
+    dependencies:
+      '@nrwl/tao': 13.7.0
       ejs: 3.1.6
       ignore: 5.2.0
       rxjs: 6.6.7
@@ -2234,6 +2245,29 @@ packages:
       chalk: 4.1.0
       identity-obj-proxy: 3.0.0
       jest-config: 27.2.2_ts-node@9.1.1
+      jest-resolve: 27.2.2
+      jest-util: 27.2.0
+      resolve.exports: 1.1.0
+      rxjs: 6.6.7
+      tslib: 2.3.1
+    transitivePeerDependencies:
+      - bufferutil
+      - canvas
+      - node-notifier
+      - supports-color
+      - ts-node
+      - utf-8-validate
+    dev: true
+
+  /@nrwl/jest/13.7.0_ts-node@10.4.0:
+    resolution: {integrity: sha512-MP8uJu69F6rWrp1TjrKYZG69hl25AQChgZw7ewiF7C6kByQztQrD2rVXIwhZLXklSEkFFh3TSC9qX7nNUF9iBA==}
+    dependencies:
+      '@jest/reporters': 27.2.2
+      '@jest/test-result': 27.2.2
+      '@nrwl/devkit': 13.7.0
+      chalk: 4.1.0
+      identity-obj-proxy: 3.0.0
+      jest-config: 27.2.2_ts-node@10.4.0
       jest-resolve: 27.2.2
       jest-util: 27.2.0
       resolve.exports: 1.1.0
@@ -2388,6 +2422,30 @@ packages:
     dependencies:
       '@nrwl/devkit': 13.6.1
       '@nrwl/jest': 13.6.1_ts-node@10.4.0
+      '@phenomnomnominal/tsquery': 4.1.1_typescript@4.5.5
+      eslint: 8.7.0
+      tmp: 0.2.1
+      tslib: 2.3.1
+    transitivePeerDependencies:
+      - bufferutil
+      - canvas
+      - node-notifier
+      - supports-color
+      - ts-node
+      - typescript
+      - utf-8-validate
+    dev: true
+
+  /@nrwl/linter/13.7.0_9f8908d7a50baa2e851cfb427cfdafbd:
+    resolution: {integrity: sha512-nkuUgxz7AjQYMtbgQ/iFoD5ZrVc22AxMruvBs+p2nQv+AmwICgmmbudBaMRzAhFSPKX8HbvcOlAl4WoQrWHt8w==}
+    peerDependencies:
+      eslint: ^8.0.0
+    peerDependenciesMeta:
+      eslint:
+        optional: true
+    dependencies:
+      '@nrwl/devkit': 13.7.0
+      '@nrwl/jest': 13.7.0_ts-node@10.4.0
       '@phenomnomnominal/tsquery': 4.1.1_typescript@4.5.5
       eslint: 8.7.0
       tmp: 0.2.1
@@ -3058,6 +3116,51 @@ packages:
       minimatch: 3.0.4
       npm-run-path: 4.0.1
       open: 7.4.2
+      prettier: 2.5.1
+      rxjs: 6.6.7
+      semver: 7.3.4
+      tmp: 0.2.1
+      tslib: 2.3.1
+      yargs: 15.4.1
+      yargs-parser: 20.0.0
+    transitivePeerDependencies:
+      - bufferutil
+      - canvas
+      - eslint
+      - node-notifier
+      - supports-color
+      - ts-node
+      - typescript
+      - utf-8-validate
+    dev: true
+
+  /@nrwl/workspace/13.7.0_77aa66af867b7a7d7364671ca12d39bb:
+    resolution: {integrity: sha512-Swh/x3/D5e2dmiFEoPNDJiA2LVitxqcnT3i2nLwSuwjIqnXXFecrcx/igxYMgEQh3q00Hm2TRHlqAelBoJRfig==}
+    peerDependencies:
+      prettier: ^2.5.1
+    peerDependenciesMeta:
+      prettier:
+        optional: true
+    dependencies:
+      '@nrwl/cli': 13.7.0
+      '@nrwl/devkit': 13.7.0
+      '@nrwl/jest': 13.7.0_ts-node@10.4.0
+      '@nrwl/linter': 13.7.0_9f8908d7a50baa2e851cfb427cfdafbd
+      '@parcel/watcher': 2.0.4
+      chalk: 4.1.0
+      chokidar: 3.5.2
+      cli-cursor: 3.1.0
+      cli-spinners: 2.6.1
+      dotenv: 10.0.0
+      enquirer: 2.3.6
+      figures: 3.2.0
+      flat: 5.0.2
+      fs-extra: 9.1.0
+      glob: 7.1.4
+      ignore: 5.2.0
+      minimatch: 3.0.4
+      npm-run-path: 4.0.1
+      open: 8.4.0
       prettier: 2.5.1
       rxjs: 6.6.7
       semver: 7.3.4
@@ -4156,7 +4259,7 @@ packages:
         optional: true
     dependencies:
       '@typescript-eslint/utils': 5.10.1_eslint@8.7.0+typescript@4.5.5
-      debug: 4.3.2
+      debug: 4.3.3
       eslint: 8.7.0
       tsutils: 3.21.0_typescript@4.5.5
       typescript: 4.5.5
@@ -9046,8 +9149,8 @@ packages:
       is-docker: 2.1.1
       is-wsl: 2.2.0
 
-  /open/8.3.0:
-    resolution: {integrity: sha512-7INcPWb1UcOwSQxAXTnBJ+FxVV4MPs/X++FWWBtgY69/J5lc+tCteMt/oFK1MnkyHC4VILLa9ntmwKTwDR4Q9w==}
+  /open/8.4.0:
+    resolution: {integrity: sha512-XgFPPM+B28FtCCgSb9I+s9szOC1vZRSwgWsRUA5ylIxRTgKozqjOCrVOqGsYABPYK5qnfqClxZTFBa8PKt2v6Q==}
     engines: {node: '>=12'}
     dependencies:
       define-lazy-prop: 2.0.0
@@ -11899,7 +12002,7 @@ packages:
       http-proxy-middleware: 2.0.1
       internal-ip: 6.2.0
       ipaddr.js: 2.0.1
-      open: 8.3.0
+      open: 8.4.0
       p-retry: 4.6.1
       portfinder: 1.0.28
       schema-utils: 3.1.1
