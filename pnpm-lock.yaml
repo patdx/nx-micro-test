@@ -13,7 +13,7 @@ specifiers:
   '@nrwl/cypress': 13.7.0
   '@nrwl/eslint-plugin-nx': 13.7.0
   '@nrwl/express': 13.7.0
-  '@nrwl/jest': 13.6.1
+  '@nrwl/jest': 13.7.0
   '@nrwl/linter': 13.5.3
   '@nrwl/next': 13.5.3
   '@nrwl/node': 13.5.3
@@ -88,7 +88,7 @@ devDependencies:
   '@nrwl/cypress': 13.7.0_7bb4abd5c09f11d35fda36ffcc3fce8a
   '@nrwl/eslint-plugin-nx': 13.7.0_cbab6ad71fd552e04514280f1167f304
   '@nrwl/express': 13.7.0_d1f6944c926a4d59b0cdc59b8de5ca59
-  '@nrwl/jest': 13.6.1_ts-node@10.4.0
+  '@nrwl/jest': 13.7.0_ts-node@10.4.0
   '@nrwl/linter': 13.5.3_9f8908d7a50baa2e851cfb427cfdafbd
   '@nrwl/node': 13.5.3_a945cf57d5944e875bf896a5a1e53eb0
   '@nrwl/react': 13.5.3_16e596098373c8f9bfd33e7ea4352c00
@@ -1875,17 +1875,6 @@ packages:
       v8-compile-cache: 2.3.0
       yargs-parser: 20.0.0
 
-  /@nrwl/cli/13.6.1:
-    resolution: {integrity: sha512-e6iEM5CKbwm67MK3daAEYuxX9kXeUBtbV4mEPU0mX6q7cqSMd0PdVVHpdZMkJtbUG+c2CD+IayoVOdJryAh4Vw==}
-    hasBin: true
-    dependencies:
-      '@nrwl/tao': 13.6.1
-      chalk: 4.1.0
-      enquirer: 2.3.6
-      v8-compile-cache: 2.3.0
-      yargs-parser: 20.0.0
-    dev: true
-
   /@nrwl/cli/13.7.0:
     resolution: {integrity: sha512-ItgXH+COfDir4DlRzJeb6jFUZL6qREBXDbV/mGGA1e+gTFdN8is8U7RDgkGF/uTUFwOwjOdHgJE2APuNt+lUxg==}
     hasBin: true
@@ -2096,17 +2085,6 @@ packages:
       semver: 7.3.4
       tslib: 2.3.1
 
-  /@nrwl/devkit/13.6.1:
-    resolution: {integrity: sha512-Y3rfzmBqOVLPEiC7BUqckNLfg0dTgPfRmO1bFmSYclALxzs+mMoZGH/3RjIIrYAG6WLYgO298RIzMJsz2vU4sA==}
-    dependencies:
-      '@nrwl/tao': 13.6.1
-      ejs: 3.1.6
-      ignore: 5.2.0
-      rxjs: 6.6.7
-      semver: 7.3.4
-      tslib: 2.3.1
-    dev: true
-
   /@nrwl/devkit/13.7.0:
     resolution: {integrity: sha512-FmRZ78yL72ewyTw/OSYcIzP8Q96R+jtYDtDga3h75tUhnbAQK7RGtEqMbIwZgJuWOB+CFHw0d3c0KyzUruCpVQ==}
     dependencies:
@@ -2220,29 +2198,6 @@ packages:
       - supports-color
       - ts-node
       - utf-8-validate
-
-  /@nrwl/jest/13.6.1_ts-node@10.4.0:
-    resolution: {integrity: sha512-54qgcKfKdMpafdUmpsgSR9gacO7zvJJWPUFlQ2QHxqg6tm88U05Hb1LWK/21u5hgifpe/BHOklHJwPaHdUnKtw==}
-    dependencies:
-      '@jest/reporters': 27.2.2
-      '@jest/test-result': 27.2.2
-      '@nrwl/devkit': 13.6.1
-      chalk: 4.1.0
-      identity-obj-proxy: 3.0.0
-      jest-config: 27.2.2_ts-node@10.4.0
-      jest-resolve: 27.2.2
-      jest-util: 27.2.0
-      resolve.exports: 1.1.0
-      rxjs: 6.6.7
-      tslib: 2.3.1
-    transitivePeerDependencies:
-      - bufferutil
-      - canvas
-      - node-notifier
-      - supports-color
-      - ts-node
-      - utf-8-validate
-    dev: true
 
   /@nrwl/jest/13.7.0_ts-node@10.4.0:
     resolution: {integrity: sha512-MP8uJu69F6rWrp1TjrKYZG69hl25AQChgZw7ewiF7C6kByQztQrD2rVXIwhZLXklSEkFFh3TSC9qX7nNUF9iBA==}
@@ -2784,25 +2739,6 @@ packages:
       tmp: 0.2.1
       tslib: 2.3.1
       yargs-parser: 20.0.0
-
-  /@nrwl/tao/13.6.1:
-    resolution: {integrity: sha512-F+ldBZjm8CspTs/n6lBcHFGmRumRV5zTeSCD2p8z6kdAzpDQjuIAPU2O5kRSe0/S1WZ74zNA4SjqprA21zDBGg==}
-    hasBin: true
-    dependencies:
-      chalk: 4.1.0
-      enquirer: 2.3.6
-      fast-glob: 3.2.7
-      fs-extra: 9.1.0
-      ignore: 5.2.0
-      jsonc-parser: 3.0.0
-      nx: 13.6.1
-      rxjs: 6.6.7
-      rxjs-for-await: 0.0.2_rxjs@6.6.7
-      semver: 7.3.4
-      tmp: 0.2.1
-      tslib: 2.3.1
-      yargs-parser: 20.0.0
-    dev: true
 
   /@nrwl/tao/13.7.0:
     resolution: {integrity: sha512-B66YVu6EMOutPiHH8T7vyqce9LohcXpjRPYpSL+Zo7FQvulezwt99jpZbwqPMw99gRu37yl06f3WWU34ipigvw==}
@@ -8952,13 +8888,6 @@ packages:
     hasBin: true
     dependencies:
       '@nrwl/cli': 13.5.3
-
-  /nx/13.6.1:
-    resolution: {integrity: sha512-155nM2WJR9TGKXhOdWE07/1nKa4QCSjyoeLPh641U6Bs/6uVtXkJoNJdIeaGDHPIpwQQdhM/1SoZFbVmj5//wQ==}
-    hasBin: true
-    dependencies:
-      '@nrwl/cli': 13.6.1
-    dev: true
 
   /nx/13.7.0:
     resolution: {integrity: sha512-tH9Pa1yIXW7bBzTIMdiPb57eYXptAa3CdTlwMleiARhGknEEDnC1U2wFacKuCjmUCKjWe9SIA9hsPAsXYy8HYA==}
