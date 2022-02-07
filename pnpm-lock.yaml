@@ -41,7 +41,7 @@ specifiers:
   eslint-config-prettier: 8.3.0
   eslint-plugin-cypress: 2.12.1
   express: 4.17.2
-  http-proxy-middleware: 2.0.2
+  http-proxy-middleware: 2.0.3
   jest: 27.5.0
   lodash: 4.17.21
   micri: 4.4.0
@@ -66,7 +66,7 @@ dependencies:
   core-js: 3.21.0
   document-register-element: 1.14.10
   express: 4.17.2
-  http-proxy-middleware: 2.0.2_@types+express@4.17.13
+  http-proxy-middleware: 2.0.3_@types+express@4.17.13
   lodash: 4.17.21
   micri: 4.4.0
   micro: 9.3.4
@@ -6837,11 +6837,14 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /http-proxy-middleware/2.0.2_@types+express@4.17.13:
-    resolution: {integrity: sha512-XtmDN5w+vdFTBZaYhdJAbMqn0DP/EhkUaAeo963mojwpKMMbw6nivtFKw07D7DDOH745L5k0VL0P8KRYNEVF/g==}
+  /http-proxy-middleware/2.0.3_@types+express@4.17.13:
+    resolution: {integrity: sha512-1bloEwnrHMnCoO/Gcwbz7eSVvW50KPES01PecpagI+YLNLci4AcuKJrujW4Mc3sBLpFxMSlsLNHS5Nl/lvrTPA==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       '@types/express': ^4.17.13
+    peerDependenciesMeta:
+      '@types/express':
+        optional: true
     dependencies:
       '@types/express': 4.17.13
       '@types/http-proxy': 1.17.8
@@ -11194,7 +11197,7 @@ packages:
       express: 4.17.2
       graceful-fs: 4.2.9
       html-entities: 2.3.2
-      http-proxy-middleware: 2.0.2_@types+express@4.17.13
+      http-proxy-middleware: 2.0.3_@types+express@4.17.13
       internal-ip: 6.2.0
       ipaddr.js: 2.0.1
       open: 8.4.0
