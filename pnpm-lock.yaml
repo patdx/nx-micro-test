@@ -25,7 +25,7 @@ specifiers:
   '@types/express': 4.17.13
   '@types/jest': 27.4.1
   '@types/lodash': 4.14.179
-  '@types/micro': 7.3.6
+  '@types/micro': 7.3.7
   '@types/node': 17.0.13
   '@types/polka': 0.5.4
   '@types/react': 17.0.39
@@ -98,7 +98,7 @@ devDependencies:
   '@testing-library/react': 12.1.3_react-dom@17.0.2+react@17.0.2
   '@types/express': 4.17.13
   '@types/jest': 27.4.1
-  '@types/micro': 7.3.6
+  '@types/micro': 7.3.7
   '@types/node': 17.0.13
   '@types/react': 17.0.39
   '@types/react-dom': 17.0.11
@@ -3097,10 +3097,6 @@ packages:
     dependencies:
       '@sinonjs/commons': 1.8.3
 
-  /@socket.io/component-emitter/3.0.0:
-    resolution: {integrity: sha512-2pTGuibAXJswAPJjaKisthqS/NOK5ypG4LYT6tEAV0S/mxW0zOIvYvGK0V8w8+SHxAm6vRMSjqSalFXeBAqs+Q==}
-    dev: true
-
   /@storybook/node-logger/6.1.20:
     resolution: {integrity: sha512-Z6337htb1mxIccvCx2Ai0v9LPDlBlmXzeWhap3q2Y6hg8g1p4+0W5Y6bG9RmXqJoXLaT1trO8uAXgGO7AN92yg==}
     dependencies:
@@ -3548,12 +3544,6 @@ packages:
     dependencies:
       '@types/node': 17.0.13
 
-  /@types/engine.io/3.1.7:
-    resolution: {integrity: sha512-qNjVXcrp+1sS8YpRUa714r0pgzOwESdW5UjHL7D/2ZFdBX0BXUXtg1LUrp+ylvqbvMcMWUy73YpRoxPN2VoKAQ==}
-    dependencies:
-      '@types/node': 17.0.13
-    dev: true
-
   /@types/eslint-scope/3.7.1:
     resolution: {integrity: sha512-SCFeogqiptms4Fg29WpOTk5nHIzfpKCemSN63ksBQYKTcXoJEmJagV+DhVmbapZzY4/5YaOV1nZwrsU79fFm1g==}
     dependencies:
@@ -3638,13 +3628,10 @@ packages:
     resolution: {integrity: sha512-uwc1x90yCKqGcIOAT6DwOSuxnrAbpkdPsUOZtwrXb4D/6wZs+6qG7QnIawDuZWg0sWpxl+ltIKCaLoMlna678w==}
     dev: false
 
-  /@types/micro/7.3.6:
-    resolution: {integrity: sha512-rZHvZ3+Ev3cGJJSy/wtSiXZmafU8guI07PHXf4ku9sQLfDuFALHMCiV+LuH4VOaeMMMnRs8nqxU392gxfn661g==}
+  /@types/micro/7.3.7:
+    resolution: {integrity: sha512-MFsX7eCj0Tg3TtphOQvANNvNtFpya+s/rYOCdV6o+DFjOQPFi2EVRbBALjbbgZTXUaJP1Q281MJiJOD40d0UxQ==}
     dependencies:
       '@types/node': 17.0.13
-      '@types/socket.io': 2.1.13
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /@types/mime/1.3.2:
@@ -3729,25 +3716,6 @@ packages:
 
   /@types/sizzle/2.3.2:
     resolution: {integrity: sha512-7EJYyKTL7tFR8+gDbB6Wwz/arpGa0Mywk1TJbNzKzHtzbwVmY4HR9WqS5VV7dsBUKQmPNr192jHr/VpBluj/hg==}
-    dev: true
-
-  /@types/socket.io-parser/3.0.0:
-    resolution: {integrity: sha512-Ry/rbTE6HQNL9eu3LpL1Ocup5VexXu1bSSGlSho/IR5LuRc8YvxwSNJ3JxqTltVJEATLbZkMQETSbxfKNgp4Ew==}
-    deprecated: This is a stub types definition. socket.io-parser provides its own type definitions, so you do not need this installed.
-    dependencies:
-      socket.io-parser: 4.1.1
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
-  /@types/socket.io/2.1.13:
-    resolution: {integrity: sha512-JRgH3nCgsWel4OPANkhH8TelpXvacAJ9VeryjuqCDiaVDMpLysd6sbt0dr6Z15pqH3p2YpOT3T1C5vQ+O/7uyg==}
-    dependencies:
-      '@types/engine.io': 3.1.7
-      '@types/node': 17.0.13
-      '@types/socket.io-parser': 3.0.0
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /@types/stack-utils/2.0.1:
@@ -10074,16 +10042,6 @@ packages:
     resolution: {integrity: sha512-iVICrxOzCynf/SNaBQCw34eM9jROU/s5rzIhpOvzhzuYHfJR/DhZfDkXiZSgKXfgv26HT3Yni3AV/DGw0cGnnw==}
     engines: {node: '>= 6.0.0', npm: '>= 3.0.0'}
     dev: false
-
-  /socket.io-parser/4.1.1:
-    resolution: {integrity: sha512-USQVLSkDWE5nbcY760ExdKaJxCE65kcsG/8k5FDGZVVxpD1pA7hABYXYkCUvxUuYYh/+uQw0N/fvBzfT8o07KA==}
-    engines: {node: '>=10.0.0'}
-    dependencies:
-      '@socket.io/component-emitter': 3.0.0
-      debug: 4.3.3
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
 
   /sockjs/0.3.21:
     resolution: {integrity: sha512-DhbPFGpxjc6Z3I+uX07Id5ZO2XwYsWOrYjaSeieES78cq+JaJvVe5q/m1uvjIQhXinhIeCFRH6JgXe+mvVMyXw==}
