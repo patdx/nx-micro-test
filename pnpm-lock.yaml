@@ -38,7 +38,7 @@ specifiers:
   document-register-element: 1.14.10
   dotenv: 16.0.0
   eslint: 8.10.0
-  eslint-config-prettier: 8.4.0
+  eslint-config-prettier: 8.5.0
   eslint-plugin-cypress: 2.12.1
   express: 4.17.3
   http-proxy-middleware: 2.0.3
@@ -86,7 +86,7 @@ devDependencies:
   '@babel/preset-typescript': 7.16.7_@babel+core@7.17.5
   '@nrwl/cli': 13.8.3
   '@nrwl/cypress': 13.8.3_d865e598b0287177873d55dcaa2c91c6
-  '@nrwl/eslint-plugin-nx': 13.8.3_6666ff43936039f00a82b6a6d8996d50
+  '@nrwl/eslint-plugin-nx': 13.8.3_b55035ec891ecf3d33e8568afd02c2ee
   '@nrwl/express': 13.8.3_02ca85ec58e48f1dfdd344760e9d51ab
   '@nrwl/jest': 13.8.3_ts-node@10.6.0
   '@nrwl/linter': 13.8.3_039d0b0d6278b3188836233771ba24ce
@@ -108,7 +108,7 @@ devDependencies:
   cypress: 9.5.1
   dotenv: 16.0.0
   eslint: 8.10.0
-  eslint-config-prettier: 8.4.0_eslint@8.10.0
+  eslint-config-prettier: 8.5.0_eslint@8.10.0
   eslint-plugin-cypress: 2.12.1_eslint@8.10.0
   jest: 27.5.1_ts-node@10.6.0
   prettier: 2.5.1
@@ -2080,7 +2080,7 @@ packages:
       semver: 7.3.4
       tslib: 2.3.1
 
-  /@nrwl/eslint-plugin-nx/13.8.3_6666ff43936039f00a82b6a6d8996d50:
+  /@nrwl/eslint-plugin-nx/13.8.3_b55035ec891ecf3d33e8568afd02c2ee:
     resolution: {integrity: sha512-fiDGULPfFYFkjIORBCFTkzpUQNlW48/32C3xWVbZlmmnO1KJ5ql3QyQSaDpaentE5nASM8TbgXeVMRqhYkZbOw==}
     peerDependencies:
       '@typescript-eslint/parser': ~5.10.0
@@ -2096,7 +2096,7 @@ packages:
       '@typescript-eslint/parser': 5.13.0_eslint@8.10.0+typescript@4.6.2
       chalk: 4.1.0
       confusing-browser-globals: 1.0.10
-      eslint-config-prettier: 8.4.0_eslint@8.10.0
+      eslint-config-prettier: 8.5.0_eslint@8.10.0
       tsconfig-paths: 3.12.0
     optionalDependencies:
       '@swc/core-linux-arm64-gnu': 1.2.136
@@ -5767,8 +5767,8 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-config-prettier/8.4.0_eslint@8.10.0:
-    resolution: {integrity: sha512-CFotdUcMY18nGRo5KGsnNxpznzhkopOcOo0InID+sgQssPrzjvsyKZPvOgymTFeHrFuC3Tzdf2YndhXtULK9Iw==}
+  /eslint-config-prettier/8.5.0_eslint@8.10.0:
+    resolution: {integrity: sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
