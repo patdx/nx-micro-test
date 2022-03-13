@@ -41,7 +41,7 @@ specifiers:
   eslint-config-prettier: 8.5.0
   eslint-plugin-cypress: 2.12.1
   express: 4.17.3
-  http-proxy-middleware: 2.0.3
+  http-proxy-middleware: 2.0.4
   jest: 27.5.1
   lodash: 4.17.21
   micri: 4.5.0
@@ -66,7 +66,7 @@ dependencies:
   core-js: 3.21.1
   document-register-element: 1.14.10
   express: 4.17.3
-  http-proxy-middleware: 2.0.3_@types+express@4.17.13
+  http-proxy-middleware: 2.0.4_@types+express@4.17.13
   lodash: 4.17.21
   micri: 4.5.0
   micro: 9.3.4
@@ -6252,15 +6252,6 @@ packages:
     resolution: {integrity: sha512-zAoAQiudy+r5SvnSw3KJy5os/oRJYHzrzja/tBDqrZtNhUw8bt6y8OBzMWcjWr+8liV8Eb6yOhw8WZ7VFZ5ZzA==}
     dev: true
 
-  /follow-redirects/1.14.0:
-    resolution: {integrity: sha512-0vRwd7RKQBTt+mgu87mtYeofLFZpTas2S9zY+jIeuLJMNvudIgF52nr19q40HOwH5RrhWIPuj9puybzSJiRrVg==}
-    engines: {node: '>=4.0'}
-    peerDependencies:
-      debug: '*'
-    peerDependenciesMeta:
-      debug:
-        optional: true
-
   /follow-redirects/1.14.8:
     resolution: {integrity: sha512-1x0S9UVJHsQprFcEC/qnNzBLcIxsjAV905f/UkQxbclCsoTWlacCNOpQa/anodLl2uaEKFhfWOvM2Qg77+15zA==}
     engines: {node: '>=4.0'}
@@ -6269,7 +6260,6 @@ packages:
     peerDependenciesMeta:
       debug:
         optional: true
-    dev: false
 
   /forever-agent/0.6.1:
     resolution: {integrity: sha1-+8cfDEGt6zf5bFd60e1C2P2sypE=}
@@ -6660,8 +6650,8 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /http-proxy-middleware/2.0.3_@types+express@4.17.13:
-    resolution: {integrity: sha512-1bloEwnrHMnCoO/Gcwbz7eSVvW50KPES01PecpagI+YLNLci4AcuKJrujW4Mc3sBLpFxMSlsLNHS5Nl/lvrTPA==}
+  /http-proxy-middleware/2.0.4_@types+express@4.17.13:
+    resolution: {integrity: sha512-m/4FxX17SUvz4lJ5WPXOHDUuCwIqXLfLHs1s0uZ3oYjhoXlx9csYxaOa0ElDEJ+h8Q4iJ1s+lTMbiCa4EXIJqg==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       '@types/express': ^4.17.13
@@ -6683,7 +6673,7 @@ packages:
     engines: {node: '>=8.0.0'}
     dependencies:
       eventemitter3: 4.0.7
-      follow-redirects: 1.14.0
+      follow-redirects: 1.14.8
       requires-port: 1.0.0
     transitivePeerDependencies:
       - debug
@@ -10966,7 +10956,7 @@ packages:
       express: 4.17.3
       graceful-fs: 4.2.9
       html-entities: 2.3.2
-      http-proxy-middleware: 2.0.3_@types+express@4.17.13
+      http-proxy-middleware: 2.0.4_@types+express@4.17.13
       internal-ip: 6.2.0
       ipaddr.js: 2.0.1
       open: 8.4.0
