@@ -68,7 +68,7 @@
     "@nrwl/next": "13.8.8",
     "@types/lodash": "4.14.181",
     "@types/polka": "0.5.4",
-    "core-js": "3.21.1",
+    "core-js": "3.22.0",
     "document-register-element": "1.14.10",
     "express": "4.17.3",
     "http-proxy-middleware": "2.0.4",
