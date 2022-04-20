@@ -71,7 +71,7 @@
     "core-js": "3.22.1",
     "document-register-element": "1.14.10",
     "express": "4.17.3",
-    "http-proxy-middleware": "2.0.5",
+    "http-proxy-middleware": "2.0.6",
     "lodash": "4.17.21",
     "micri": "4.5.0",
     "micro": "9.3.4",
