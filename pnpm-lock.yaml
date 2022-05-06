@@ -53,7 +53,7 @@ specifiers:
   prettier: 2.6.2
   react: latest
   react-dom: latest
-  ts-jest: 27.1.4
+  ts-jest: 28.0.1
   ts-node: 10.7.0
   tslib: 2.4.0
   typescript: 4.6.4
@@ -112,7 +112,7 @@ devDependencies:
   eslint-plugin-cypress: 2.12.1_eslint@8.14.0
   jest: 28.1.0_9a354529fcd470f3e4f531da79020827
   prettier: 2.6.2
-  ts-jest: 27.1.4_913c44ab8440320d2c36274e3abff73e
+  ts-jest: 28.0.1_913c44ab8440320d2c36274e3abff73e
   ts-node: 10.7.0_7671365df35849ce00c1fe84d84ea36a
   typescript: 4.6.4
 
@@ -8387,14 +8387,6 @@ packages:
     dependencies:
       minimist: 1.2.6
 
-  /json5/2.2.0:
-    resolution: {integrity: sha512-f+8cldu7X/y7RAJurMEJmdoKXGB/X550w2Nr3tTbezL6RwEE/iMcm+tZnXeoZtKuOq6ft8+CqzEkrIgx1fPoQA==}
-    engines: {node: '>=6'}
-    hasBin: true
-    dependencies:
-      minimist: 1.2.6
-    dev: true
-
   /json5/2.2.1:
     resolution: {integrity: sha512-1hqLFMSrGHRHxav9q9gNjJ5EXznIxGVO09xQRrwplcS8qs28pZ8s8hupZAmqDwZUmVZ2Qb2jnyPOWcDH8m8dlA==}
     engines: {node: '>=6'}
@@ -11097,17 +11089,17 @@ packages:
       matchit: 1.1.0
     dev: false
 
-  /ts-jest/27.1.4_913c44ab8440320d2c36274e3abff73e:
-    resolution: {integrity: sha512-qjkZlVPWVctAezwsOD1OPzbZ+k7zA5z3oxII4dGdZo5ggX/PL7kvwTM0pXTr10fAtbiVpJaL3bWd502zAhpgSQ==}
-    engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
+  /ts-jest/28.0.1_913c44ab8440320d2c36274e3abff73e:
+    resolution: {integrity: sha512-PbkbitaT/9ZYAqqzk3UYTvCq080Seo46T3m/AdwcZ0D8WH2uBhG6PvA8oOAWsZIknzPQU66fYobvFCL8IqIhmg==}
+    engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
     hasBin: true
     peerDependencies:
       '@babel/core': '>=7.0.0-beta.0 <8'
       '@types/jest': ^27.0.0
-      babel-jest: '>=27.0.0 <28'
+      babel-jest: ^28.0.0
       esbuild: '*'
-      jest: ^27.0.0
-      typescript: '>=3.8 <5.0'
+      jest: ^28.0.0
+      typescript: '>=4.3'
     peerDependenciesMeta:
       '@babel/core':
         optional: true
@@ -11124,8 +11116,8 @@ packages:
       bs-logger: 0.2.6
       fast-json-stable-stringify: 2.1.0
       jest: 28.1.0_9a354529fcd470f3e4f531da79020827
-      jest-util: 27.5.1
-      json5: 2.2.0
+      jest-util: 28.1.0
+      json5: 2.2.1
       lodash.memoize: 4.1.2
       make-error: 1.3.6
       semver: 7.3.5
