@@ -21,7 +21,7 @@ specifiers:
   '@nrwl/tao': 13.8.8
   '@nrwl/web': 13.8.8
   '@nrwl/workspace': 13.8.8
-  '@testing-library/react': 13.2.0
+  '@testing-library/react': 13.3.0
   '@types/express': 4.17.13
   '@types/jest': 27.5.1
   '@types/lodash': 4.14.182
@@ -95,7 +95,7 @@ devDependencies:
   '@nrwl/tao': 13.8.8
   '@nrwl/web': 13.8.8_a77b84fc9ec133fc369b74751984aa67
   '@nrwl/workspace': 13.8.8_d20b4d4bce27c56f14af300b8ae6c6dc
-  '@testing-library/react': 13.2.0_react-dom@18.1.0+react@18.1.0
+  '@testing-library/react': 13.3.0_react-dom@18.1.0+react@18.1.0
   '@types/express': 4.17.13
   '@types/jest': 27.5.1
   '@types/micro': 7.3.7
@@ -3617,8 +3617,8 @@ packages:
       pretty-format: 27.5.1
     dev: true
 
-  /@testing-library/react/13.2.0_react-dom@18.1.0+react@18.1.0:
-    resolution: {integrity: sha512-Bprbz/SZVONCJy5f7hcihNCv313IJXdYiv0nSJklIs1SQCIHHNlnGNkosSXnGZTmesyGIcBGNppYhXcc11pb7g==}
+  /@testing-library/react/13.3.0_react-dom@18.1.0+react@18.1.0:
+    resolution: {integrity: sha512-DB79aA426+deFgGSjnf5grczDPiL4taK3hFaa+M5q7q20Kcve9eQottOG5kZ74KEr55v0tU2CQormSSDK87zYQ==}
     engines: {node: '>=12'}
     peerDependencies:
       react: ^18.0.0
