@@ -23,7 +23,7 @@ specifiers:
   '@nrwl/workspace': 13.8.8
   '@testing-library/react': 13.3.0
   '@types/express': 4.17.13
-  '@types/jest': 27.5.2
+  '@types/jest': 28.1.0
   '@types/lodash': 4.14.182
   '@types/micro': 7.3.7
   '@types/node': 17.0.13
@@ -97,7 +97,7 @@ devDependencies:
   '@nrwl/workspace': 13.8.8_d20b4d4bce27c56f14af300b8ae6c6dc
   '@testing-library/react': 13.3.0_react-dom@18.1.0+react@18.1.0
   '@types/express': 4.17.13
-  '@types/jest': 27.5.2
+  '@types/jest': 28.1.0
   '@types/micro': 7.3.7
   '@types/node': 17.0.13
   '@types/react': 18.0.10
@@ -112,7 +112,7 @@ devDependencies:
   eslint-plugin-cypress: 2.12.1_eslint@8.16.0
   jest: 28.1.0_db0749995f8c413513afa383d723b8d5
   prettier: 2.6.2
-  ts-jest: 28.0.3_4e9edef2a40924dbcbf4a67aca41ef62
+  ts-jest: 28.0.3_8addf4035d126fbb68460b97afcb3445
   ts-node: 10.8.0_5cff0bb3a857fb5fc6f0aef409a8febd
   typescript: 4.7.2
 
@@ -3772,8 +3772,8 @@ packages:
     dependencies:
       '@types/istanbul-lib-report': 3.0.0
 
-  /@types/jest/27.5.2:
-    resolution: {integrity: sha512-mpT8LJJ4CMeeahobofYWIjFo0xonRS/HfxnVEPMPFSQdGUt1uHCnoPT7Zhb+sjDU2wz0oKV0OLUR0WzrHNgfeA==}
+  /@types/jest/28.1.0:
+    resolution: {integrity: sha512-ITfF6JJIl9zbEi2k6NmhNE/BiDqfsI/ceqfvdaWaPbcrCpYyyRq4KtDQIWh6vQUru6SqwppODiom/Zhid+np6A==}
     dependencies:
       jest-matcher-utils: 27.5.1
       pretty-format: 27.5.1
@@ -11194,7 +11194,7 @@ packages:
       matchit: 1.1.0
     dev: false
 
-  /ts-jest/28.0.3_4e9edef2a40924dbcbf4a67aca41ef62:
+  /ts-jest/28.0.3_8addf4035d126fbb68460b97afcb3445:
     resolution: {integrity: sha512-HzgbEDQ2KgVtDmpXToqAcKTyGHdHsG23i/iUjfxji92G5eT09S1m9UHZd7csF0Bfgh9txM4JzwHnv7r1waFPlw==}
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
     hasBin: true
@@ -11216,7 +11216,7 @@ packages:
         optional: true
     dependencies:
       '@babel/core': 7.18.2
-      '@types/jest': 27.5.2
+      '@types/jest': 28.1.0
       babel-jest: 28.1.0_@babel+core@7.18.2
       bs-logger: 0.2.6
       fast-json-stable-stringify: 2.1.0
