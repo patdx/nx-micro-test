@@ -1,5 +1,6 @@
-module.exports = {
-  displayName: 'micro-app',
+/* eslint-disable */
+export default {
+  displayName: 'express-app',
   preset: '../../jest.preset.js',
   globals: {
     'ts-jest': { tsconfig: '<rootDir>/tsconfig.spec.json' },
@@ -8,6 +9,6 @@ module.exports = {
     '^.+\\.[tj]s$': 'ts-jest',
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
-  coverageDirectory: '../../coverage/apps/micro-app',
+  coverageDirectory: '../../coverage/apps/express-app',
   testEnvironment: 'node',
 };
