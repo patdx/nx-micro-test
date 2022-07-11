@@ -73,7 +73,7 @@
     "express": "4.18.1",
     "http-proxy-middleware": "2.0.6",
     "lodash": "4.17.21",
-    "micri": "4.5.0",
+    "micri": "4.5.1",
     "micro": "9.3.4",
     "micro-fork": "3.0.0",
     "next": "12.2.0",
