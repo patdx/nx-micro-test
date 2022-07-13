@@ -6,5 +6,6 @@
     "micro-app": "apps/micro-app",
     "next-app": "apps/next-app",
     "next-app-e2e": "apps/next-app-e2e"
-  }
+  },
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json"
 }

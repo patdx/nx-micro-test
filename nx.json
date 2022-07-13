@@ -1,7 +1,7 @@
 {
   "npmScope": "nx-micro-test",
   "affected": {
-    "defaultBase": "master"
+    "defaultBase": "main"
   },
   "implicitDependencies": {
     "workspace.json": "*",
@@ -27,16 +27,7 @@
       }
     }
   },
-  "targetDependencies": {
-    "build": [
-      {
-        "target": "build",
-        "projects": "dependencies"
-      }
-    ]
-  },
   "cli": {
-    "defaultCollection": "@nrwl/express",
     "packageManager": "pnpm"
   },
   "generators": {
@@ -52,5 +43,13 @@
       }
     }
   },
-  "defaultProject": "express-app"
+  "defaultProject": "express-app",
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "targetDefaults": {
+    "build": {
+      "dependsOn": [
+        "^build"
+      ]
+    }
+  }
 }
